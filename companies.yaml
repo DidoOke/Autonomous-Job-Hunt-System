@@ -1,0 +1,4022 @@
+companies:
+- name: Apadmi
+  tier: A
+  hubs:
+  - manchester
+  sector: mobile
+  confidence: high
+  coverage_layer: 1
+  ats_platform: greenhouse
+  feed_url: https://boards-api.greenhouse.io/v1/boards/apadmi/jobs
+  feed_url_verified: true
+  uk_job_count: 6
+  last_verified: '2026-10-25T13:30:13.326411+00:00'
+  ats:
+    type: greenhouse
+    slug: apadmi
+    region: us
+  live:
+    total: 9
+    uk: 5
+    manchester: 5
+    intern: 0
+    intern_uk: 0
+- name: Auto Trader
+  tier: A
+  hubs:
+  - manchester
+  - london
+  sector: marketplace
+  confidence: high
+  coverage_layer: 1
+  ats_platform: greenhouse
+  feed_url: https://boards-api.greenhouse.io/v1/boards/autotrader/jobs
+  feed_url_verified: true
+  uk_job_count: 17
+  last_verified: '2026-10-25T13:30:13.350515+00:00'
+  ats:
+    type: greenhouse
+    slug: autotrader
+    region: us
+  live:
+    total: 17
+    uk: 16
+    manchester: 15
+    intern: 0
+    intern_uk: 0
+- name: Beamery
+  tier: A
+  hubs:
+  - london
+  sector: hrtech
+  confidence: unverified
+  coverage_layer: 1
+  ats_platform: smartrecruiters
+  feed_url: https://api.smartrecruiters.com/v1/companies/beamery/postings
+  feed_url_verified: true
+  uk_job_count: 29
+  last_verified: not_verified_in_phase0
+  ats:
+    type: smartrecruiters
+    slug: beamery
+  live:
+    total: 135
+    uk: 29
+    manchester: 1
+    intern: 0
+    intern_uk: 0
+  note: Active smartrecruiters source since 2026-11-02
+- name: Cera
+  tier: A
+  hubs:
+  - london
+  sector: health
+  confidence: unverified
+  coverage_layer: 1
+  ats_platform: smartrecruiters
+  feed_url: https://api.smartrecruiters.com/v1/companies/ceracare/postings
+  feed_url_verified: true
+  uk_job_count: 100
+  last_verified: not_verified_in_phase0
+  ats:
+    type: smartrecruiters
+    slug: ceracare
+  live:
+    total: 687
+    uk: 100
+    manchester: 1
+    intern: 0
+    intern_uk: 0
+  note: Active smartrecruiters source since 2026-11-02
+- name: Dojo
+  tier: A
+  hubs:
+  - london
+  sector: fintech
+  confidence: high
+  coverage_layer: 1
+  ats_platform: greenhouse
+  feed_url: https://boards-api.greenhouse.io/v1/boards/dojo/jobs
+  feed_url_verified: true
+  uk_job_count: 22
+  last_verified: '2026-10-25T13:30:13.351514+00:00'
+  ats:
+    type: greenhouse
+    slug: dojo
+    region: us
+  live:
+    total: 25
+    uk: 22
+    manchester: 0
+    intern: 0
+    intern_uk: 0
+- name: Ebury
+  tier: A
+  hubs:
+  - london
+  sector: fintech
+  confidence: high
+  coverage_layer: 1
+  ats_platform: greenhouse
+  feed_url: https://boards-api.greenhouse.io/v1/boards/ebury/jobs
+  feed_url_verified: true
+  uk_job_count: 19
+  last_verified: '2026-10-25T13:30:13.351514+00:00'
+  ats:
+    type: greenhouse
+    slug: ebury
+    region: us
+  live:
+    total: 144
+    uk: 20
+    manchester: 0
+    intern: 2
+    intern_uk: 0
+- name: Encord
+  tier: A
+  hubs:
+  - london
+  sector: ai
+  confidence: unverified
+  coverage_layer: 1
+  ats_platform: ashby
+  feed_url: https://api.ashbyhq.com/posting-api/job-board/encord
+  feed_url_verified: true
+  uk_job_count: 20
+  last_verified: not_verified_in_phase0
+  ats:
+    type: ashby
+    slug: encord
+  live:
+    total: 39
+    uk: 27
+    manchester: 0
+    intern: 0
+    intern_uk: 0
+  note: Active ashby source since 2026-11-02
+- name: Equal Experts
+  tier: A
+  hubs:
+  - manchester
+  - london
+  sector: consultancy
+  confidence: unverified
+  coverage_layer: 4
+  note: Audit showed 0 UK jobs in un-faceted feed; requires location-faceted query
+  ats:
+    type: greenhouse
+    slug: equalexperts
+    region: us
+  live:
+    total: 17
+    uk: 0
+    manchester: 0
+    intern: 0
+    intern_uk: 0
+- name: Faculty
+  tier: A
+  hubs:
+  - london
+  sector: ai
+  confidence: unverified
+  coverage_layer: 1
+  ats_platform: ashby
+  feed_url: https://api.ashbyhq.com/posting-api/job-board/faculty
+  feed_url_verified: true
+  uk_job_count: 87
+  last_verified: not_verified_in_phase0
+  ats:
+    type: ashby
+    slug: faculty
+  live:
+    total: 75
+    uk: 75
+    manchester: 0
+    intern: 0
+    intern_uk: 0
+  note: Active ashby source since 2026-11-02
+- name: Farfetch
+  tier: A
+  hubs:
+  - manchester
+  - london
+  sector: ecommerce
+  confidence: unverified
+  coverage_layer: 1
+  ats_platform: lever
+  feed_url: https://api.lever.co/v0/postings/farfetch?mode=json
+  feed_url_verified: true
+  uk_job_count: 14
+  last_verified: not_verified_in_phase0
+  ats:
+    type: lever
+    slug: farfetch
+    region: us
+  live:
+    total: 45
+    uk: 12
+    manchester: 0
+    intern: 0
+    intern_uk: 0
+  note: Active lever source since 2026-11-02
+- name: Freetrade
+  tier: A
+  hubs:
+  - london
+  sector: fintech
+  confidence: unverified
+  coverage_layer: 1
+  ats_platform: ashby
+  feed_url: https://api.ashbyhq.com/posting-api/job-board/freetrade
+  feed_url_verified: true
+  uk_job_count: 3
+  last_verified: not_verified_in_phase0
+  ats:
+    type: ashby
+    slug: freetrade
+  live:
+    total: 3
+    uk: 3
+    manchester: 0
+    intern: 0
+    intern_uk: 0
+  note: Active ashby source since 2026-11-02
+- name: GoCardless
+  tier: A
+  hubs:
+  - london
+  sector: fintech
+  confidence: high
+  coverage_layer: 1
+  ats_platform: greenhouse
+  feed_url: https://boards-api.greenhouse.io/v1/boards/gocardless/jobs
+  feed_url_verified: true
+  uk_job_count: 6
+  last_verified: '2026-10-25T13:30:13.351514+00:00'
+  ats:
+    type: greenhouse
+    slug: gocardless
+    region: us
+  live:
+    total: 33
+    uk: 9
+    manchester: 0
+    intern: 0
+    intern_uk: 0
+- name: Gousto
+  tier: A
+  hubs:
+  - london
+  sector: ecommerce
+  confidence: unverified
+  coverage_layer: 1
+  ats_platform: smartrecruiters
+  feed_url: https://api.smartrecruiters.com/v1/companies/gousto/postings
+  feed_url_verified: true
+  uk_job_count: 7
+  last_verified: not_verified_in_phase0
+  ats:
+    type: smartrecruiters
+    slug: gousto
+  live:
+    total: 7
+    uk: 7
+    manchester: 1
+    intern: 0
+    intern_uk: 0
+  note: Active smartrecruiters source since 2026-11-02
+- name: Improbable
+  tier: A
+  hubs:
+  - london
+  sector: tech
+  confidence: unverified
+  coverage_layer: 1
+  ats_platform: ashby
+  feed_url: https://api.ashbyhq.com/posting-api/job-board/improbable
+  feed_url_verified: true
+  uk_job_count: 4
+  last_verified: not_verified_in_phase0
+  ats:
+    type: ashby
+    slug: improbable
+  live:
+    total: 4
+    uk: 4
+    manchester: 0
+    intern: 0
+    intern_uk: 0
+  note: Active ashby source since 2026-11-02
+- name: Lendable
+  tier: A
+  hubs:
+  - london
+  sector: fintech
+  confidence: unverified
+  coverage_layer: 1
+  ats_platform: ashby
+  feed_url: https://api.ashbyhq.com/posting-api/job-board/lendable
+  feed_url_verified: true
+  uk_job_count: 62
+  last_verified: not_verified_in_phase0
+  ats:
+    type: ashby
+    slug: lendable
+  live:
+    total: 66
+    uk: 61
+    manchester: 0
+    intern: 3
+    intern_uk: 3
+  note: Active ashby source since 2026-11-02
+- name: Marshmallow
+  tier: A
+  hubs:
+  - london
+  sector: fintech
+  confidence: unverified
+  coverage_layer: 1
+  ats_platform: ashby
+  feed_url: https://api.ashbyhq.com/posting-api/job-board/marshmallow
+  feed_url_verified: true
+  uk_job_count: 12
+  last_verified: not_verified_in_phase0
+  ats:
+    type: ashby
+    slug: marshmallow
+  live:
+    total: 15
+    uk: 14
+    manchester: 0
+    intern: 0
+    intern_uk: 0
+  note: Active ashby source since 2026-11-02
+- name: Matillion
+  tier: A
+  hubs:
+  - manchester
+  sector: data
+  confidence: unverified
+  coverage_layer: 1
+  ats_platform: lever
+  feed_url: https://api.lever.co/v0/postings/matillion?mode=json
+  feed_url_verified: true
+  uk_job_count: 7
+  last_verified: not_verified_in_phase0
+  ats:
+    type: lever
+    slug: matillion
+    region: us
+  live:
+    total: 23
+    uk: 8
+    manchester: 7
+    intern: 0
+    intern_uk: 0
+  note: Active lever source since 2026-11-02
+- name: Moneybox
+  tier: A
+  hubs:
+  - london
+  - manchester
+  sector: fintech
+  confidence: unverified
+  coverage_layer: 1
+  ats_platform: ashby
+  feed_url: https://api.ashbyhq.com/posting-api/job-board/moneybox
+  feed_url_verified: true
+  uk_job_count: 19
+  last_verified: not_verified_in_phase0
+  ats:
+    type: ashby
+    slug: moneybox
+  live:
+    total: 21
+    uk: 15
+    manchester: 0
+    intern: 0
+    intern_uk: 0
+  note: Active ashby source since 2026-11-02
+- name: Multiverse
+  tier: A
+  hubs:
+  - london
+  sector: edtech
+  confidence: unverified
+  coverage_layer: 1
+  ats_platform: ashby
+  feed_url: https://api.ashbyhq.com/posting-api/job-board/multiverse
+  feed_url_verified: true
+  uk_job_count: 27
+  last_verified: not_verified_in_phase0
+  ats:
+    type: ashby
+    slug: multiverse
+  live:
+    total: 29
+    uk: 29
+    manchester: 0
+    intern: 0
+    intern_uk: 0
+  note: Active ashby source since 2026-11-02
+- name: OakNorth
+  tier: A
+  hubs:
+  - london
+  - manchester
+  sector: fintech
+  confidence: unverified
+  coverage_layer: 1
+  ats_platform: ashby
+  feed_url: https://api.ashbyhq.com/posting-api/job-board/oaknorth
+  feed_url_verified: true
+  uk_job_count: 11
+  last_verified: not_verified_in_phase0
+  ats:
+    type: ashby
+    slug: oaknorth
+  live:
+    total: 24
+    uk: 10
+    manchester: 2
+    intern: 1
+    intern_uk: 0
+  note: Active ashby source since 2026-11-02
+- name: Paddle
+  tier: A
+  hubs:
+  - london
+  - manchester
+  sector: fintech
+  confidence: unverified
+  coverage_layer: 1
+  ats_platform: ashby
+  feed_url: https://api.ashbyhq.com/posting-api/job-board/paddle
+  feed_url_verified: true
+  uk_job_count: 1
+  last_verified: not_verified_in_phase0
+  ats:
+    type: ashby
+    slug: paddle
+  live:
+    total: 15
+    uk: 13
+    manchester: 0
+    intern: 0
+    intern_uk: 0
+  note: Active ashby source since 2026-11-02
+- name: PhysicsX
+  tier: A
+  hubs:
+  - london
+  sector: ai
+  confidence: high
+  coverage_layer: 1
+  ats_platform: greenhouse
+  feed_url: https://boards-api.greenhouse.io/v1/boards/physicsx/jobs
+  feed_url_verified: true
+  uk_job_count: 16
+  last_verified: '2026-10-25T13:30:13.351514+00:00'
+  ats:
+    type: greenhouse
+    slug: physicsx
+    region: us
+  live:
+    total: 40
+    uk: 15
+    manchester: 0
+    intern: 0
+    intern_uk: 0
+- name: Primer
+  tier: A
+  hubs:
+  - london
+  sector: fintech
+  confidence: unverified
+  coverage_layer: 1
+  ats_platform: ashby
+  feed_url: https://api.ashbyhq.com/posting-api/job-board/primer
+  feed_url_verified: true
+  uk_job_count: 3
+  last_verified: not_verified_in_phase0
+  ats:
+    type: ashby
+    slug: primer
+  live:
+    total: 25
+    uk: 3
+    manchester: 0
+    intern: 1
+    intern_uk: 0
+  note: Active ashby source since 2026-11-02
+- name: Quantexa
+  tier: A
+  hubs:
+  - london
+  sector: data
+  confidence: unverified
+  coverage_layer: 1
+  ats_platform: ashby
+  feed_url: https://api.ashbyhq.com/posting-api/job-board/quantexa
+  feed_url_verified: true
+  uk_job_count: 16
+  last_verified: not_verified_in_phase0
+  ats:
+    type: ashby
+    slug: quantexa
+  live:
+    total: 31
+    uk: 15
+    manchester: 0
+    intern: 0
+    intern_uk: 0
+  note: Active ashby source since 2026-11-02
+- name: Scott Logic
+  tier: A
+  hubs:
+  - london
+  - uk
+  sector: consultancy
+  confidence: unverified
+  coverage_layer: 1
+  ats_platform: lever
+  feed_url: https://api.lever.co/v0/postings/scottlogic?mode=json
+  feed_url_verified: true
+  uk_job_count: 28
+  last_verified: not_verified_in_phase0
+  ats:
+    type: lever
+    slug: scottlogic
+    region: us
+  live:
+    total: 43
+    uk: 43
+    manchester: 0
+    intern: 0
+    intern_uk: 0
+  note: Active lever source since 2026-11-02
+- name: Snyk
+  tier: A
+  hubs:
+  - london
+  sector: security
+  confidence: unverified
+  coverage_layer: 1
+  ats_platform: ashby
+  feed_url: https://api.ashbyhq.com/posting-api/job-board/snyk
+  feed_url_verified: true
+  uk_job_count: 14
+  last_verified: not_verified_in_phase0
+  ats:
+    type: ashby
+    slug: snyk
+  live:
+    total: 27
+    uk: 3
+    manchester: 0
+    intern: 0
+    intern_uk: 0
+  note: Active ashby source since 2026-11-02
+- name: THG
+  tier: A
+  hubs:
+  - manchester
+  sector: ecommerce
+  confidence: high
+  coverage_layer: 1
+  ats_platform: greenhouse
+  feed_url: https://boards-api.greenhouse.io/v1/boards/thehutgroup/jobs
+  feed_url_verified: true
+  uk_job_count: 79
+  last_verified: '2026-10-25T13:30:13.351514+00:00'
+  ats:
+    type: greenhouse
+    slug: thehutgroup
+    region: us
+  live:
+    total: 104
+    uk: 87
+    manchester: 68
+    intern: 0
+    intern_uk: 0
+- name: Thought Machine
+  tier: A
+  hubs:
+  - london
+  sector: fintech
+  confidence: unverified
+  coverage_layer: 1
+  ats_platform: ashby
+  feed_url: https://api.ashbyhq.com/posting-api/job-board/thought-machine
+  feed_url_verified: true
+  uk_job_count: 14
+  last_verified: not_verified_in_phase0
+  ats:
+    type: ashby
+    slug: thought-machine
+  live:
+    total: 40
+    uk: 17
+    manchester: 0
+    intern: 0
+    intern_uk: 0
+  note: Active ashby source since 2026-11-02
+- name: Thoughtworks
+  tier: A
+  hubs:
+  - manchester
+  - london
+  sector: consultancy
+  confidence: high
+  coverage_layer: 1
+  ats_platform: greenhouse
+  feed_url: https://boards-api.greenhouse.io/v1/boards/thoughtworks/jobs
+  feed_url_verified: true
+  uk_job_count: 5
+  last_verified: '2026-10-25T13:30:13.351514+00:00'
+  ats:
+    type: greenhouse
+    slug: thoughtworks
+    region: us
+  live:
+    total: 45
+    uk: 6
+    manchester: 1
+    intern: 1
+    intern_uk: 0
+- name: Tide
+  tier: A
+  hubs:
+  - london
+  sector: fintech
+  confidence: high
+  coverage_layer: 1
+  ats_platform: greenhouse
+  feed_url: https://boards-api.greenhouse.io/v1/boards/tide/jobs
+  feed_url_verified: true
+  uk_job_count: 22
+  last_verified: '2026-10-25T13:30:13.351514+00:00'
+  ats:
+    type: greenhouse
+    slug: tide
+    region: us
+  live:
+    total: 108
+    uk: 24
+    manchester: 0
+    intern: 0
+    intern_uk: 0
+- name: Tractable
+  tier: A
+  hubs:
+  - london
+  sector: ai
+  confidence: unverified
+  coverage_layer: 1
+  ats_platform: ashby
+  feed_url: https://api.ashbyhq.com/posting-api/job-board/tractable
+  feed_url_verified: true
+  uk_job_count: 1
+  last_verified: not_verified_in_phase0
+  ats:
+    type: ashby
+    slug: tractable
+  live:
+    total: 5
+    uk: 1
+    manchester: 0
+    intern: 0
+    intern_uk: 0
+  note: Active ashby source since 2026-11-02
+- name: Trading 212
+  tier: A
+  hubs:
+  - london
+  sector: fintech
+  confidence: unverified
+  coverage_layer: 1
+  ats_platform: ashby
+  feed_url: https://api.ashbyhq.com/posting-api/job-board/trading212
+  feed_url_verified: true
+  uk_job_count: 11
+  last_verified: not_verified_in_phase0
+  ats:
+    type: ashby
+    slug: trading212
+  live:
+    total: 56
+    uk: 10
+    manchester: 0
+    intern: 2
+    intern_uk: 0
+  note: Active ashby source since 2026-11-02
+- name: Trainline
+  tier: A
+  hubs:
+  - london
+  - uk
+  sector: travel
+  confidence: unverified
+  coverage_layer: 1
+  ats_platform: ashby
+  feed_url: https://api.ashbyhq.com/posting-api/job-board/trainline
+  feed_url_verified: true
+  uk_job_count: 37
+  last_verified: not_verified_in_phase0
+  ats:
+    type: ashby
+    slug: trainline
+  live:
+    total: 34
+    uk: 34
+    manchester: 0
+    intern: 0
+    intern_uk: 0
+  note: Active ashby source since 2026-11-02
+- name: TrueLayer
+  tier: A
+  hubs:
+  - london
+  sector: fintech
+  confidence: high
+  coverage_layer: 1
+  ats_platform: greenhouse
+  feed_url: https://boards-api.greenhouse.io/v1/boards/truelayer/jobs
+  feed_url_verified: true
+  uk_job_count: 1
+  last_verified: '2026-10-25T13:30:13.351514+00:00'
+  ats:
+    type: greenhouse
+    slug: truelayer
+    region: us
+  live:
+    total: 3
+    uk: 1
+    manchester: 0
+    intern: 0
+    intern_uk: 0
+- name: Zego
+  tier: A
+  hubs:
+  - london
+  sector: insurtech
+  confidence: unverified
+  coverage_layer: 1
+  ats_platform: ashby
+  feed_url: https://api.ashbyhq.com/posting-api/job-board/zego
+  feed_url_verified: true
+  uk_job_count: 22
+  last_verified: not_verified_in_phase0
+  ats:
+    type: ashby
+    slug: zego
+  live:
+    total: 41
+    uk: 30
+    manchester: 0
+    intern: 0
+    intern_uk: 0
+  note: Active ashby source since 2026-11-02
+- name: Zopa
+  tier: A
+  hubs:
+  - london
+  sector: fintech
+  confidence: unverified
+  coverage_layer: 1
+  ats_platform: lever
+  feed_url: https://api.lever.co/v0/postings/zopa?mode=json
+  feed_url_verified: true
+  uk_job_count: 34
+  last_verified: not_verified_in_phase0
+  ats:
+    type: lever
+    slug: zopa
+    region: us
+  live:
+    total: 34
+    uk: 34
+    manchester: 4
+    intern: 0
+    intern_uk: 0
+  note: Active lever source since 2026-11-02
+- name: causaLens
+  tier: A
+  hubs:
+  - london
+  sector: ai
+  confidence: unverified
+  coverage_layer: 1
+  ats_platform: recruitee
+  feed_url: https://causalens.recruitee.com/api/offers
+  feed_url_verified: true
+  uk_job_count: 2
+  last_verified: not_verified_in_phase0
+  ats:
+    type: recruitee
+    slug: causalens
+  live:
+    total: 3
+    uk: 3
+    manchester: 0
+    intern: 0
+    intern_uk: 0
+  note: Active recruitee source since 2026-11-02
+- name: ASOS
+  tier: B
+  hubs:
+  - london
+  - uk
+  sector: ecommerce
+  confidence: unverified
+  coverage_layer: 1
+  ats_platform: smartrecruiters
+  feed_url: https://api.smartrecruiters.com/v1/companies/asos/postings
+  feed_url_verified: true
+  uk_job_count: 59
+  last_verified: not_verified_in_phase0
+  ats:
+    type: smartrecruiters
+    slug: asos
+  live:
+    total: 69
+    uk: 69
+    manchester: 0
+    intern: 0
+    intern_uk: 0
+  note: Active smartrecruiters source since 2026-11-02
+- name: Canonical
+  tier: B
+  hubs:
+  - remote
+  - london
+  sector: software
+  confidence: high
+  coverage_layer: 1
+  ats_platform: greenhouse
+  feed_url: https://boards-api.greenhouse.io/v1/boards/canonical/jobs
+  feed_url_verified: true
+  uk_job_count: 18
+  last_verified: '2026-10-25T13:30:13.351514+00:00'
+  ats:
+    type: greenhouse
+    slug: canonical
+    region: us
+  live:
+    total: 309
+    uk: 15
+    manchester: 0
+    intern: 2
+    intern_uk: 0
+- name: Celonis
+  tier: B
+  hubs:
+  - eu
+  - london
+  sector: data
+  confidence: high
+  coverage_layer: 1
+  ats_platform: greenhouse
+  feed_url: https://boards-api.greenhouse.io/v1/boards/celonis/jobs
+  feed_url_verified: true
+  uk_job_count: 37
+  last_verified: '2026-10-25T13:30:13.351514+00:00'
+  ats:
+    type: greenhouse
+    slug: celonis
+    region: us
+  live:
+    total: 201
+    uk: 18
+    manchester: 0
+    intern: 5
+    intern_uk: 2
+- name: Deliveroo
+  tier: B
+  hubs:
+  - london
+  sector: ecommerce
+  confidence: high
+  coverage_layer: 1
+  ats_platform: greenhouse
+  feed_url: https://boards-api.greenhouse.io/v1/boards/deliveroo/jobs
+  feed_url_verified: true
+  uk_job_count: 131
+  last_verified: '2026-10-25T13:30:13.351514+00:00'
+  ats:
+    type: greenhouse
+    slug: deliveroo
+    region: us
+  live:
+    total: 228
+    uk: 149
+    manchester: 15
+    intern: 2
+    intern_uk: 0
+- name: Delivery Hero
+  tier: B
+  hubs:
+  - eu
+  sector: ecommerce
+  confidence: unverified
+  coverage_layer: 4
+  note: Audit showed 0 UK jobs in un-faceted feed; requires location-faceted query
+  ats:
+    type: smartrecruiters
+    slug: deliveryhero
+  live:
+    total: 914
+    uk: 0
+    manchester: 0
+    intern: 3
+    intern_uk: 0
+- name: Endava
+  tier: B
+  hubs:
+  - uk
+  sector: consulting
+  confidence: unverified
+  coverage_layer: 1
+  ats_platform: smartrecruiters
+  feed_url: https://api.smartrecruiters.com/v1/companies/endava/postings
+  feed_url_verified: true
+  uk_job_count: 5
+  last_verified: not_verified_in_phase0
+  ats:
+    type: smartrecruiters
+    slug: endava
+  live:
+    total: 114
+    uk: 8
+    manchester: 0
+    intern: 0
+    intern_uk: 0
+  note: Active smartrecruiters source since 2026-11-02
+- name: Experian
+  tier: B
+  hubs:
+  - uk
+  - london
+  sector: data
+  confidence: unverified
+  coverage_layer: 1
+  ats_platform: smartrecruiters
+  feed_url: https://api.smartrecruiters.com/v1/companies/experian/postings
+  feed_url_verified: true
+  uk_job_count: 1
+  last_verified: not_verified_in_phase0
+  ats:
+    type: smartrecruiters
+    slug: experian
+  live:
+    total: 383
+    uk: 12
+    manchester: 0
+    intern: 2
+    intern_uk: 0
+  note: Active smartrecruiters source since 2026-11-02
+- name: Frontier Developments
+  tier: B
+  hubs:
+  - uk
+  sector: gaming
+  confidence: unverified
+  coverage_layer: 4
+  ats_platform: lever
+  feed_url: https://api.lever.co/v0/postings/frontier?mode=json
+  feed_url_verified: false
+  note: Not verified in Phase 1; verify when adapter is built
+  uk_job_count: 0
+  last_verified: not_verified_in_phase0
+  ats:
+    type: lever
+    slug: frontier
+    region: eu
+  live:
+    total: 6
+    uk: 6
+    manchester: 0
+    intern: 0
+    intern_uk: 0
+- name: Graphcore
+  tier: B
+  hubs:
+  - uk
+  - london
+  sector: ai
+  confidence: high
+  coverage_layer: 1
+  ats_platform: greenhouse
+  feed_url: https://boards-api.greenhouse.io/v1/boards/graphcore/jobs
+  feed_url_verified: true
+  uk_job_count: 116
+  last_verified: '2026-10-25T13:30:13.351514+00:00'
+  ats:
+    type: greenhouse
+    slug: graphcore
+    region: us
+  live:
+    total: 177
+    uk: 85
+    manchester: 0
+    intern: 1
+    intern_uk: 0
+- name: Gymshark
+  tier: B
+  hubs:
+  - uk
+  sector: ecommerce
+  confidence: high
+  coverage_layer: 1
+  ats_platform: greenhouse
+  feed_url: https://boards-api.greenhouse.io/v1/boards/gymshark/jobs
+  feed_url_verified: true
+  uk_job_count: 9
+  last_verified: '2026-10-25T13:30:13.351514+00:00'
+  ats:
+    type: greenhouse
+    slug: gymshark
+    region: us
+  live:
+    total: 10
+    uk: 6
+    manchester: 0
+    intern: 0
+    intern_uk: 0
+- name: JetBrains
+  tier: B
+  hubs:
+  - eu
+  sector: devtools
+  confidence: high
+  coverage_layer: 1
+  ats_platform: greenhouse
+  feed_url: https://boards-api.greenhouse.io/v1/boards/jetbrains/jobs
+  feed_url_verified: true
+  uk_job_count: 21
+  last_verified: '2026-10-25T13:30:13.351514+00:00'
+  ats:
+    type: greenhouse
+    slug: jetbrains
+    region: us
+  live:
+    total: 54
+    uk: 14
+    manchester: 0
+    intern: 0
+    intern_uk: 0
+- name: Legal & General
+  tier: B
+  hubs:
+  - uk
+  - london
+  sector: insurance
+  confidence: unverified
+  coverage_layer: 1
+  ats_platform: smartrecruiters
+  feed_url: https://api.smartrecruiters.com/v1/companies/legalandgeneral/postings
+  feed_url_verified: true
+  uk_job_count: 39
+  last_verified: not_verified_in_phase0
+  ats:
+    type: smartrecruiters
+    slug: legalandgeneral
+  live:
+    total: 37
+    uk: 24
+    manchester: 0
+    intern: 0
+    intern_uk: 0
+  note: Active smartrecruiters source since 2026-11-02
+- name: Mollie
+  tier: B
+  hubs:
+  - eu
+  sector: fintech
+  confidence: unverified
+  coverage_layer: 1
+  ats_platform: ashby
+  feed_url: https://api.ashbyhq.com/posting-api/job-board/mollie
+  feed_url_verified: true
+  uk_job_count: 6
+  last_verified: not_verified_in_phase0
+  ats:
+    type: ashby
+    slug: mollie
+  live:
+    total: 45
+    uk: 4
+    manchester: 0
+    intern: 1
+    intern_uk: 0
+  note: Active ashby source since 2026-11-02
+- name: Monzo
+  tier: B
+  hubs:
+  - london
+  - remote
+  sector: fintech
+  confidence: high
+  coverage_layer: 1
+  ats_platform: greenhouse
+  feed_url: https://boards-api.greenhouse.io/v1/boards/monzo/jobs
+  feed_url_verified: true
+  uk_job_count: 56
+  last_verified: '2026-10-25T13:30:13.351514+00:00'
+  ats:
+    type: greenhouse
+    slug: monzo
+    region: us
+  live:
+    total: 72
+    uk: 59
+    manchester: 0
+    intern: 2
+    intern_uk: 2
+- name: N26
+  tier: B
+  hubs:
+  - eu
+  sector: fintech
+  confidence: unverified
+  coverage_layer: 4
+  note: Audit showed 0 UK jobs in un-faceted feed; requires location-faceted query
+  ats:
+    type: greenhouse
+    slug: n26
+    region: us
+  live:
+    total: 34
+    uk: 0
+    manchester: 0
+    intern: 0
+    intern_uk: 0
+- name: Ocado Technology
+  tier: B
+  hubs:
+  - uk
+  sector: ecommerce
+  confidence: high
+  coverage_layer: 1
+  ats_platform: greenhouse
+  feed_url: https://boards-api.greenhouse.io/v1/boards/ocadogroup/jobs
+  feed_url_verified: true
+  uk_job_count: 28
+  last_verified: '2026-10-25T13:30:13.351514+00:00'
+  ats:
+    type: greenhouse
+    slug: ocadogroup
+    region: us
+  live:
+    total: 49
+    uk: 21
+    manchester: 0
+    intern: 0
+    intern_uk: 0
+- name: Rockstar Games
+  tier: B
+  hubs:
+  - uk
+  sector: gaming
+  confidence: high
+  coverage_layer: 1
+  ats_platform: greenhouse
+  feed_url: https://boards-api.greenhouse.io/v1/boards/rockstargames/jobs
+  feed_url_verified: true
+  uk_job_count: 9
+  last_verified: '2026-10-25T13:30:13.351514+00:00'
+  ats:
+    type: greenhouse
+    slug: rockstargames
+    region: us
+  live:
+    total: 25
+    uk: 11
+    manchester: 0
+    intern: 0
+    intern_uk: 0
+- name: Synthesia
+  tier: B
+  hubs:
+  - london
+  sector: ai
+  confidence: unverified
+  coverage_layer: 1
+  ats_platform: ashby
+  feed_url: https://api.ashbyhq.com/posting-api/job-board/synthesia
+  feed_url_verified: true
+  uk_job_count: 13
+  last_verified: not_verified_in_phase0
+  ats:
+    type: ashby
+    slug: synthesia
+  live:
+    total: 44
+    uk: 30
+    manchester: 0
+    intern: 0
+    intern_uk: 0
+  note: Active ashby source since 2026-11-02
+- name: Wise
+  tier: B
+  hubs:
+  - london
+  sector: fintech
+  confidence: unverified
+  coverage_layer: 1
+  ats_platform: smartrecruiters
+  feed_url: https://api.smartrecruiters.com/v1/companies/wise/postings
+  feed_url_verified: true
+  uk_job_count: 40
+  last_verified: not_verified_in_phase0
+  ats:
+    type: smartrecruiters
+    slug: wise
+  live:
+    total: 430
+    uk: 47
+    manchester: 0
+    intern: 3
+    intern_uk: 3
+  note: Active smartrecruiters source since 2026-11-02
+- name: Adyen
+  tier: C
+  hubs:
+  - eu
+  - london
+  sector: fintech
+  confidence: high
+  coverage_layer: 1
+  ats_platform: greenhouse
+  feed_url: https://boards-api.greenhouse.io/v1/boards/adyen/jobs
+  feed_url_verified: true
+  uk_job_count: 10
+  last_verified: '2026-10-25T13:30:13.351514+00:00'
+  ats:
+    type: greenhouse
+    slug: adyen
+    region: us
+  live:
+    total: 249
+    uk: 9
+    manchester: 0
+    intern: 0
+    intern_uk: 0
+- name: Cloudflare
+  tier: C
+  hubs:
+  - london
+  - eu
+  sector: infra
+  confidence: unverified
+  coverage_layer: 4
+  note: Job seen via simplify_github; candidate for Layer 1 upgrade.
+  ats:
+    type: greenhouse
+    slug: cloudflare
+    region: us
+  live:
+    total: 436
+    uk: 0
+    manchester: 0
+    intern: 3
+    intern_uk: 0
+- name: Cohere
+  tier: C
+  hubs:
+  - london
+  sector: ai
+  confidence: unverified
+  coverage_layer: 1
+  ats_platform: ashby
+  feed_url: https://api.ashbyhq.com/posting-api/job-board/cohere
+  feed_url_verified: true
+  uk_job_count: 16
+  last_verified: not_verified_in_phase0
+  ats:
+    type: ashby
+    slug: cohere
+  live:
+    total: 115
+    uk: 36
+    manchester: 0
+    intern: 3
+    intern_uk: 3
+  note: Active ashby source since 2026-11-02
+- name: Databricks
+  tier: C
+  hubs:
+  - london
+  - eu
+  sector: data
+  confidence: high
+  coverage_layer: 1
+  ats_platform: greenhouse
+  feed_url: https://boards-api.greenhouse.io/v1/boards/databricks/jobs
+  feed_url_verified: true
+  uk_job_count: 123
+  last_verified: '2026-10-25T13:30:13.351514+00:00'
+  ats:
+    type: greenhouse
+    slug: databricks
+    region: us
+  live:
+    total: 901
+    uk: 50
+    manchester: 0
+    intern: 16
+    intern_uk: 1
+- name: Datadog
+  tier: C
+  hubs:
+  - london
+  - eu
+  sector: infra
+  confidence: high
+  coverage_layer: 1
+  ats_platform: greenhouse
+  feed_url: https://boards-api.greenhouse.io/v1/boards/datadog/jobs
+  feed_url_verified: true
+  uk_job_count: 75
+  last_verified: '2026-10-25T13:30:13.351514+00:00'
+  ats:
+    type: greenhouse
+    slug: datadog
+    region: us
+  live:
+    total: 429
+    uk: 20
+    manchester: 0
+    intern: 8
+    intern_uk: 0
+- name: Elastic
+  tier: C
+  hubs:
+  - remote
+  sector: data
+  confidence: high
+  coverage_layer: 1
+  ats_platform: greenhouse
+  feed_url: https://boards-api.greenhouse.io/v1/boards/elastic/jobs
+  feed_url_verified: true
+  uk_job_count: 28
+  last_verified: '2026-10-25T13:30:13.351514+00:00'
+  ats:
+    type: greenhouse
+    slug: elastic
+    region: us
+  live:
+    total: 377
+    uk: 24
+    manchester: 0
+    intern: 0
+    intern_uk: 0
+- name: ElevenLabs
+  tier: C
+  hubs:
+  - london
+  - remote
+  sector: ai
+  confidence: unverified
+  coverage_layer: 1
+  ats_platform: ashby
+  feed_url: https://api.ashbyhq.com/posting-api/job-board/elevenlabs
+  feed_url_verified: true
+  uk_job_count: 59
+  last_verified: not_verified_in_phase0
+  ats:
+    type: ashby
+    slug: elevenlabs
+  live:
+    total: 154
+    uk: 53
+    manchester: 0
+    intern: 0
+    intern_uk: 0
+  note: Active ashby source since 2026-11-02
+- name: Flow Traders
+  tier: C
+  hubs:
+  - london
+  - eu
+  sector: quant
+  confidence: high
+  coverage_layer: 1
+  ats_platform: greenhouse
+  feed_url: https://boards-api.greenhouse.io/v1/boards/flowtraders/jobs
+  feed_url_verified: true
+  uk_job_count: 4
+  last_verified: '2026-10-25T13:30:13.351514+00:00'
+  ats:
+    type: greenhouse
+    slug: flowtraders
+    region: us
+  live:
+    total: 45
+    uk: 4
+    manchester: 0
+    intern: 2
+    intern_uk: 0
+- name: GitLab
+  tier: C
+  hubs:
+  - remote
+  sector: devtools
+  confidence: high
+  coverage_layer: 1
+  ats_platform: greenhouse
+  feed_url: https://boards-api.greenhouse.io/v1/boards/gitlab/jobs
+  feed_url_verified: true
+  uk_job_count: 218
+  last_verified: '2026-10-25T13:30:13.351514+00:00'
+  ats:
+    type: greenhouse
+    slug: gitlab
+    region: us
+  live:
+    total: 228
+    uk: 49
+    manchester: 0
+    intern: 0
+    intern_uk: 0
+- name: Grafana Labs
+  tier: C
+  hubs:
+  - remote
+  sector: infra
+  confidence: high
+  coverage_layer: 1
+  ats_platform: greenhouse
+  feed_url: https://boards-api.greenhouse.io/v1/boards/grafanalabs/jobs
+  feed_url_verified: true
+  uk_job_count: 145
+  last_verified: '2026-10-25T13:30:13.351514+00:00'
+  ats:
+    type: greenhouse
+    slug: grafanalabs
+    region: us
+  live:
+    total: 137
+    uk: 13
+    manchester: 0
+    intern: 0
+    intern_uk: 0
+- name: Helsing
+  tier: C
+  hubs:
+  - london
+  - eu
+  sector: defence
+  confidence: high
+  coverage_layer: 1
+  ats_platform: greenhouse
+  feed_url: https://boards-api.greenhouse.io/v1/boards/helsing/jobs
+  feed_url_verified: true
+  uk_job_count: 34
+  last_verified: '2026-10-25T13:30:13.351514+00:00'
+  ats:
+    type: greenhouse
+    slug: helsing
+    region: us
+  live:
+    total: 155
+    uk: 34
+    manchester: 0
+    intern: 3
+    intern_uk: 1
+- name: Hudson River Trading
+  tier: C
+  hubs:
+  - london
+  sector: quant
+  confidence: high
+  coverage_layer: 1
+  ats_platform: greenhouse
+  feed_url: https://boards-api.greenhouse.io/v1/boards/wehrtyou/jobs
+  feed_url_verified: true
+  uk_job_count: 32
+  last_verified: '2026-10-25T13:30:13.351514+00:00'
+  ats:
+    type: greenhouse
+    slug: wehrtyou
+    region: us
+  live:
+    total: 86
+    uk: 30
+    manchester: 0
+    intern: 6
+    intern_uk: 4
+- name: IMC Trading
+  tier: C
+  hubs:
+  - london
+  - eu
+  sector: quant
+  confidence: high
+  coverage_layer: 1
+  ats_platform: greenhouse
+  feed_url: https://boards-api.greenhouse.io/v1/boards/imc/jobs
+  feed_url_verified: true
+  uk_job_count: 11
+  last_verified: '2026-10-25T13:30:13.351514+00:00'
+  ats:
+    type: greenhouse
+    slug: imc
+    region: us
+  live:
+    total: 171
+    uk: 10
+    manchester: 0
+    intern: 19
+    intern_uk: 0
+- name: Isomorphic Labs
+  tier: C
+  hubs:
+  - london
+  sector: ai
+  confidence: high
+  coverage_layer: 1
+  ats_platform: greenhouse
+  feed_url: https://boards-api.greenhouse.io/v1/boards/isomorphiclabs/jobs
+  feed_url_verified: true
+  uk_job_count: 30
+  last_verified: '2026-10-25T13:30:13.351514+00:00'
+  ats:
+    type: greenhouse
+    slug: isomorphiclabs
+    region: us
+  live:
+    total: 29
+    uk: 29
+    manchester: 0
+    intern: 0
+    intern_uk: 0
+- name: Jane Street
+  tier: C
+  hubs:
+  - london
+  sector: quant
+  confidence: high
+  coverage_layer: 1
+  ats_platform: greenhouse
+  feed_url: https://boards-api.greenhouse.io/v1/boards/janestreet/jobs
+  feed_url_verified: true
+  uk_job_count: 58
+  last_verified: '2026-10-25T13:30:13.351514+00:00'
+  ats:
+    type: greenhouse
+    slug: janestreet
+    region: us
+  live:
+    total: 221
+    uk: 57
+    manchester: 0
+    intern: 0
+    intern_uk: 0
+- name: Jump Trading
+  tier: C
+  hubs:
+  - london
+  sector: quant
+  confidence: high
+  coverage_layer: 1
+  ats_platform: greenhouse
+  feed_url: https://boards-api.greenhouse.io/v1/boards/jumptrading/jobs
+  feed_url_verified: true
+  uk_job_count: 27
+  last_verified: '2026-10-25T13:30:13.351514+00:00'
+  ats:
+    type: greenhouse
+    slug: jumptrading
+    region: us
+  live:
+    total: 101
+    uk: 28
+    manchester: 0
+    intern: 31
+    intern_uk: 10
+- name: Man Group
+  tier: C
+  hubs:
+  - london
+  sector: quant
+  confidence: high
+  coverage_layer: 1
+  ats_platform: greenhouse
+  feed_url: https://boards-api.greenhouse.io/v1/boards/mangroup/jobs
+  feed_url_verified: true
+  uk_job_count: 23
+  last_verified: '2026-10-25T13:30:13.351514+00:00'
+  ats:
+    type: greenhouse
+    slug: mangroup
+    region: us
+  live:
+    total: 58
+    uk: 24
+    manchester: 0
+    intern: 2
+    intern_uk: 0
+- name: MongoDB
+  tier: C
+  hubs:
+  - london
+  - eu
+  sector: data
+  confidence: high
+  coverage_layer: 1
+  ats_platform: greenhouse
+  feed_url: https://boards-api.greenhouse.io/v1/boards/mongodb/jobs
+  feed_url_verified: true
+  uk_job_count: 11
+  last_verified: '2026-10-25T13:30:13.351514+00:00'
+  ats:
+    type: greenhouse
+    slug: mongodb
+    region: us
+  live:
+    total: 396
+    uk: 13
+    manchester: 0
+    intern: 1
+    intern_uk: 0
+- name: Palantir
+  tier: C
+  hubs:
+  - london
+  sector: data
+  confidence: unverified
+  coverage_layer: 1
+  ats_platform: lever
+  feed_url: https://api.lever.co/v0/postings/palantir?mode=json
+  feed_url_verified: true
+  uk_job_count: 45
+  last_verified: not_verified_in_phase0
+  ats:
+    type: lever
+    slug: palantir
+    region: us
+  live:
+    total: 306
+    uk: 42
+    manchester: 0
+    intern: 41
+    intern_uk: 5
+  note: Active lever source since 2026-11-02
+- name: Point72
+  tier: C
+  hubs:
+  - london
+  sector: quant
+  confidence: high
+  coverage_layer: 1
+  ats_platform: greenhouse
+  feed_url: https://boards-api.greenhouse.io/v1/boards/point72/jobs
+  feed_url_verified: true
+  uk_job_count: 25
+  last_verified: '2026-10-25T13:30:13.351514+00:00'
+  ats:
+    type: greenhouse
+    slug: point72
+    region: us
+  live:
+    total: 215
+    uk: 25
+    manchester: 0
+    intern: 19
+    intern_uk: 3
+- name: Quadrature Capital
+  tier: C
+  hubs:
+  - london
+  sector: quant
+  confidence: high
+  coverage_layer: 1
+  ats_platform: greenhouse
+  feed_url: https://boards-api.greenhouse.io/v1/boards/quadraturecapital/jobs
+  feed_url_verified: true
+  uk_job_count: 3
+  last_verified: '2026-10-25T13:30:13.351514+00:00'
+  ats:
+    type: greenhouse
+    slug: quadraturecapital
+    region: us
+  live:
+    total: 3
+    uk: 3
+    manchester: 0
+    intern: 1
+    intern_uk: 1
+- name: Qube Research & Technologies
+  tier: C
+  hubs:
+  - london
+  sector: quant
+  confidence: high
+  coverage_layer: 1
+  ats_platform: greenhouse
+  feed_url: https://boards-api.greenhouse.io/v1/boards/quberesearchandtechnologies/jobs
+  feed_url_verified: true
+  uk_job_count: 69
+  last_verified: '2026-10-25T13:30:13.351514+00:00'
+  ats:
+    type: greenhouse
+    slug: quberesearchandtechnologies
+    region: us
+  live:
+    total: 202
+    uk: 69
+    manchester: 0
+    intern: 12
+    intern_uk: 6
+- name: Snowflake
+  tier: C
+  hubs:
+  - london
+  sector: data
+  confidence: unverified
+  coverage_layer: 1
+  ats_platform: ashby
+  feed_url: https://api.ashbyhq.com/posting-api/job-board/snowflake
+  feed_url_verified: true
+  uk_job_count: 67
+  last_verified: not_verified_in_phase0
+  ats:
+    type: ashby
+    slug: snowflake
+  live:
+    total: 360
+    uk: 28
+    manchester: 0
+    intern: 6
+    intern_uk: 1
+  note: Active ashby source since 2026-11-02
+- name: Spotify
+  tier: C
+  hubs:
+  - london
+  - eu
+  sector: tech
+  confidence: unverified
+  coverage_layer: 1
+  ats_platform: lever
+  feed_url: https://api.lever.co/v0/postings/spotify?mode=json
+  feed_url_verified: true
+  uk_job_count: 37
+  last_verified: not_verified_in_phase0
+  ats:
+    type: lever
+    slug: spotify
+    region: us
+  live:
+    total: 82
+    uk: 35
+    manchester: 0
+    intern: 0
+    intern_uk: 0
+  note: Active lever source since 2026-11-02
+- name: Squarepoint Capital
+  tier: C
+  hubs:
+  - london
+  sector: quant
+  confidence: high
+  coverage_layer: 1
+  ats_platform: greenhouse
+  feed_url: https://boards-api.greenhouse.io/v1/boards/squarepointcapital/jobs
+  feed_url_verified: true
+  uk_job_count: 67
+  last_verified: '2026-10-25T13:30:13.351514+00:00'
+  ats:
+    type: greenhouse
+    slug: squarepointcapital
+    region: us
+  live:
+    total: 91
+    uk: 69
+    manchester: 0
+    intern: 5
+    intern_uk: 2
+- name: Stripe
+  tier: C
+  hubs:
+  - london
+  - eu
+  sector: fintech
+  confidence: high
+  coverage_layer: 1
+  ats_platform: greenhouse
+  feed_url: https://boards-api.greenhouse.io/v1/boards/stripe/jobs
+  feed_url_verified: true
+  uk_job_count: 163
+  last_verified: '2026-10-25T13:30:13.351514+00:00'
+  ats:
+    type: greenhouse
+    slug: stripe
+    region: us
+  live:
+    total: 726
+    uk: 52
+    manchester: 0
+    intern: 15
+    intern_uk: 1
+- name: Tower Research Capital
+  tier: C
+  hubs:
+  - london
+  sector: quant
+  confidence: high
+  coverage_layer: 1
+  ats_platform: greenhouse
+  feed_url: https://boards-api.greenhouse.io/v1/boards/towerresearchcapital/jobs
+  feed_url_verified: true
+  uk_job_count: 8
+  last_verified: '2026-10-25T13:30:13.351514+00:00'
+  ats:
+    type: greenhouse
+    slug: towerresearchcapital
+    region: us
+  live:
+    total: 97
+    uk: 9
+    manchester: 0
+    intern: 16
+    intern_uk: 2
+- name: Wayve
+  tier: C
+  hubs:
+  - london
+  sector: ai
+  confidence: unverified
+  coverage_layer: 1
+  ats_platform: ashby
+  feed_url: https://api.ashbyhq.com/posting-api/job-board/wayve
+  feed_url_verified: true
+  uk_job_count: 51
+  last_verified: not_verified_in_phase0
+  ats:
+    type: ashby
+    slug: wayve
+  live:
+    total: 175
+    uk: 64
+    manchester: 0
+    intern: 0
+    intern_uk: 0
+  note: Active ashby source since 2026-11-02
+- name: XTX Markets
+  tier: C
+  hubs:
+  - london
+  sector: quant
+  confidence: high
+  coverage_layer: 1
+  ats_platform: greenhouse
+  feed_url: https://boards-api.greenhouse.io/v1/boards/xtxmarketstechnologies/jobs
+  feed_url_verified: true
+  uk_job_count: 3
+  last_verified: '2026-10-25T13:30:13.351514+00:00'
+  ats:
+    type: greenhouse
+    slug: xtxmarketstechnologies
+    region: us
+  live:
+    total: 7
+    uk: 3
+    manchester: 0
+    intern: 0
+    intern_uk: 0
+- name: ANS Group
+  tier: A
+  hubs:
+  - manchester
+  sector: cloud
+  confidence: unverified
+  coverage_layer: 4
+  ats:
+    type: lever
+    slug: ans
+    region: us
+  live:
+    total: 31
+    uk: 0
+    manchester: 0
+    intern: 4
+    intern_uk: 0
+- name: Cleo
+  tier: A
+  hubs:
+  - london
+  sector: fintech
+  confidence: unverified
+  coverage_layer: 4
+  note: Audit showed 0 UK jobs in un-faceted feed; requires location-faceted query
+  ats:
+    type: greenhouse
+    slug: cleo
+    region: us
+    board_name: 'Cleo (US) '
+  live:
+    total: 6
+    uk: 0
+    manchester: 0
+    intern: 0
+    intern_uk: 0
+    sample:
+    - 'Product Manager '
+    - Sales Development Representative
+    - Senior Project Manager
+- name: PolyAI
+  tier: A
+  hubs:
+  - london
+  sector: ai
+  confidence: high
+  coverage_layer: 1
+  ats_platform: greenhouse
+  feed_url: https://boards-api.greenhouse.io/v1/boards/polyai/jobs
+  feed_url_verified: true
+  uk_job_count: 1
+  last_verified: '2026-10-25T13:30:13.351514+00:00'
+  ats:
+    type: greenhouse
+    slug: polyai
+    region: us
+    board_name: PolyAI
+  live:
+    total: 3
+    uk: 1
+    manchester: 0
+    intern: 0
+    intern_uk: 0
+    sample:
+    - 'Field Marketing Manager (6 month contract) '
+    - 'Senior Manager, Business Development '
+    - Senior Marketing Manager, EMEA
+- name: Signal AI
+  tier: A
+  hubs:
+  - london
+  sector: ai
+  confidence: unverified
+  coverage_layer: 4
+  ats:
+    type: ashby
+    slug: signal-ai
+  live:
+    total: 2
+    uk: 0
+    manchester: 0
+    intern: 0
+    intern_uk: 0
+- name: John Lewis Partnership
+  tier: B
+  hubs:
+  - london
+  - uk
+  sector: retail
+  confidence: unverified
+  coverage_layer: 4
+  ats:
+    type: smartrecruiters
+    slug: johnlewispartnership
+  live:
+    total: 1
+    uk: 0
+    manchester: 0
+    intern: 0
+    intern_uk: 0
+- name: Picnic
+  tier: B
+  hubs:
+  - eu
+  sector: ecommerce
+  confidence: unverified
+  coverage_layer: 4
+  ats:
+    type: smartrecruiters
+    slug: picnic
+  live:
+    total: 2
+    uk: 0
+    manchester: 0
+    intern: 0
+    intern_uk: 0
+- name: Stability AI
+  tier: B
+  hubs:
+  - london
+  sector: ai
+  confidence: unverified
+  coverage_layer: 4
+  note: Audit showed 0 UK jobs in un-faceted feed; requires location-faceted query
+  ats:
+    type: greenhouse
+    slug: stabilityai
+    region: us
+    board_name: Stability AI
+  live:
+    total: 6
+    uk: 0
+    manchester: 0
+    intern: 0
+    intern_uk: 0
+    sample:
+    - 'Forward Deployed Engineer '
+    - IT Support Engineer
+    - Junior IT Support Engineer
+- name: Thales UK
+  tier: B
+  hubs:
+  - uk
+  sector: defence
+  confidence: unverified
+  coverage_layer: 4
+  note: Audit showed 0 UK jobs in un-faceted feed; requires location-faceted query
+  ats:
+    type: workday
+    tenant: thales
+    wd: wd3
+    site: Careers
+  live:
+    total: 2000
+    uk: 0
+    manchester: 0
+    intern: 2000
+    intern_uk: 0
+    sample:
+    - Intern
+    - Finance Intern
+    - DevOps Intern
+- name: Marshall Wace
+  tier: C
+  hubs:
+  - london
+  sector: quant
+  confidence: high
+  coverage_layer: 1
+  ats_platform: greenhouse
+  feed_url: https://boards-api.greenhouse.io/v1/boards/mwinternshipprogram/jobs
+  feed_url_verified: true
+  uk_job_count: 4
+  last_verified: '2026-10-25T13:30:13.351514+00:00'
+  ats:
+    type: greenhouse
+    slug: mwinternshipprogram
+    region: us
+  live:
+    total: 8
+    uk: 4
+    manchester: 0
+    intern: 8
+    intern_uk: 4
+    sample:
+    - AI Placement - 2027 (Imperial 6 month placement, April - September 2027)
+    - Human Capital Placement Year
+    - Quant Developer Intern - Hong Kong 2027
+- name: BJSS
+  tier: A
+  hubs:
+  - manchester
+  - uk
+  sector: consultancy
+  confidence: unverified
+  coverage_layer: 4
+  note: 'Sitemap discovery failed: no sitemap; needs Layer 3 (Playwright) in Phase
+    5'
+- name: Bloom & Wild
+  tier: A
+  hubs:
+  - london
+  sector: ecommerce
+  confidence: unverified
+  coverage_layer: 4
+- name: Chip
+  tier: A
+  hubs:
+  - london
+  sector: fintech
+  confidence: unverified
+  coverage_layer: 4
+- name: Cloud Imperium Games
+  tier: A
+  hubs:
+  - manchester
+  sector: gaming
+  confidence: unverified
+  coverage_layer: 1
+  ats_platform: workday
+  feed_url: https://cloudimperiumgames.wd503.myworkdayjobs.com/wday/cxs/cloudimperiumgames/CIG_Global_Careers/jobs
+  feed_url_verified: true
+  uk_job_count: 40
+  last_verified: not_verified_in_phase0
+  ats:
+    type: workday
+    tenant: cloudimperiumgames
+    slug: cloudimperiumgames
+    wd: wd503
+    site: CIG_Global_Careers
+  live:
+    total: 54
+    uk: 26
+    manchester: 26
+    intern: 25
+    intern_uk: 0
+    sample:
+    - Audio Producer
+    - Platform Content Specialist
+    - Senior Programmer (ML Editor Engine Tools integration)
+  note: facet fallback; count may be incomplete
+- name: Code Computerlove
+  tier: A
+  hubs:
+  - manchester
+  sector: agency
+  confidence: unverified
+  coverage_layer: 4
+- name: Curve
+  tier: A
+  hubs:
+  - london
+  sector: fintech
+  confidence: unverified
+  coverage_layer: 4
+- name: Cuvva
+  tier: A
+  hubs:
+  - london
+  sector: insurtech
+  confidence: unverified
+  coverage_layer: 4
+- name: Depop
+  tier: A
+  hubs:
+  - manchester
+  - london
+  sector: marketplace
+  confidence: unverified
+  coverage_layer: 4
+  note: 'Sitemap discovery failed: no sitemap; needs Layer 3 (Playwright) in Phase
+    5'
+- name: Featurespace
+  tier: A
+  hubs:
+  - uk
+  sector: ai
+  confidence: unverified
+  coverage_layer: 4
+- name: Flutter UK&I
+  tier: A
+  hubs:
+  - uk
+  sector: gaming
+  confidence: unverified
+  coverage_layer: 4
+- name: Hippo Digital
+  tier: A
+  hubs:
+  - manchester
+  - uk
+  sector: govtech
+  confidence: unverified
+  coverage_layer: 4
+  note: 'Sitemap discovery failed: sitemap HTTP 502; needs Layer 3 (Playwright) in
+    Phase 5'
+- name: Huma
+  tier: A
+  hubs:
+  - london
+  sector: health
+  confidence: unverified
+  coverage_layer: 4
+- name: Kainos
+  tier: A
+  hubs:
+  - uk
+  - london
+  sector: consultancy
+  confidence: unverified
+  coverage_layer: 1
+  ats_platform: workday
+  feed_url: https://kainos.wd3.myworkdayjobs.com/wday/cxs/kainos/Kainos/jobs
+  feed_url_verified: true
+  uk_job_count: 7
+  last_verified: not_verified_in_phase0
+  ats:
+    type: workday
+    tenant: kainos
+    slug: kainos
+    wd: wd3
+    site: Kainos
+  live:
+    total: 119
+    uk: 5
+    manchester: 0
+    intern: 36
+    intern_uk: 2
+    sample:
+    - Placement Product Consultant (Belfast) - August 2027 Start Date
+    - Placement Product Consultant (Birmingham) - August 2027 Start Date
+  note: facet fallback; count may be incomplete
+- name: Kin + Carta
+  tier: A
+  hubs:
+  - manchester
+  - london
+  sector: consultancy
+  confidence: unverified
+  coverage_layer: 4
+  note: 'Sitemap discovery failed: no sitemap; needs Layer 3 (Playwright) in Phase
+    5'
+- name: Liberty IT
+  tier: A
+  hubs:
+  - uk
+  sector: tech
+  confidence: unverified
+  coverage_layer: 4
+- name: Lindus Health
+  tier: A
+  hubs:
+  - london
+  sector: health
+  confidence: unverified
+  coverage_layer: 1
+  ats_platform: ashby
+  feed_url: https://api.ashbyhq.com/posting-api/job-board/lindus
+  feed_url_verified: true
+  uk_job_count: 1
+  last_verified: not_verified_in_phase0
+  ats:
+    type: ashby
+    slug: lindus
+  live:
+    total: 4
+    uk: 1
+    manchester: 0
+    intern: 0
+    intern_uk: 0
+    sample:
+    - 'Senior Director of Clinical Operations '
+    - Clinical Systems Engineer
+    - 'Senior Director of Biostatistics '
+  note: Active ashby source since 2026-11-02
+- name: Luminance
+  tier: A
+  hubs:
+  - uk
+  - london
+  sector: ai
+  confidence: unverified
+  coverage_layer: 4
+- name: MONY Group
+  tier: A
+  hubs:
+  - uk
+  sector: fintech
+  confidence: unverified
+  coverage_layer: 4
+- name: Made Tech
+  tier: A
+  hubs:
+  - manchester
+  - london
+  - remote
+  sector: govtech
+  confidence: unverified
+  coverage_layer: 4
+  note: 'Sitemap discovery failed: no job URLs; needs Layer 3 (Playwright) in Phase
+    5'
+- name: N Brown
+  tier: A
+  hubs:
+  - manchester
+  sector: ecommerce
+  confidence: unverified
+  coverage_layer: 4
+  note: 'Sitemap discovery failed: no sitemap; needs Layer 3 (Playwright) in Phase
+    5'
+- name: NCC Group
+  tier: A
+  hubs:
+  - manchester
+  sector: security
+  confidence: unverified
+  coverage_layer: 4
+- name: Netcompany UK
+  tier: A
+  hubs:
+  - manchester
+  - london
+  sector: consultancy
+  confidence: unverified
+  coverage_layer: 4
+  note: 'Sitemap discovery failed: no structured data; needs Layer 3 (Playwright)
+    in Phase 5'
+- name: On the Beach
+  tier: A
+  hubs:
+  - manchester
+  sector: travel
+  confidence: unverified
+  coverage_layer: 1
+  ats_platform: teamtailor
+  feed_url: https://onthebeach.teamtailor.com/jobs.rss
+  feed_url_verified: true
+  uk_job_count: 8
+  last_verified: not_verified_in_phase0
+  ats:
+    type: teamtailor
+    slug: onthebeach
+    feed_url: https://onthebeach.teamtailor.com/jobs.rss
+  live:
+    total: 10
+    uk: 10
+    manchester: 0
+    intern: 0
+    intern_uk: 0
+    sample:
+    - CRM and Social Media Executive
+    - Senior Platform Engineer (DevEx and Cloud Ops)
+    - Senior Software Engineer (Based in Dublin)
+  note: Active teamtailor source since 2026-11-02
+- name: Onfido
+  tier: A
+  hubs:
+  - london
+  sector: security
+  confidence: unverified
+  coverage_layer: 4
+- name: Peak AI
+  tier: A
+  hubs:
+  - manchester
+  sector: ai
+  confidence: unverified
+  coverage_layer: 4
+- name: Plum
+  tier: A
+  hubs:
+  - london
+  sector: fintech
+  confidence: unverified
+  coverage_layer: 4
+- name: Raspberry Pi
+  tier: A
+  hubs:
+  - uk
+  sector: hardware
+  confidence: unverified
+  coverage_layer: 4
+- name: Rightmove
+  tier: A
+  hubs:
+  - london
+  - uk
+  sector: marketplace
+  confidence: high
+  coverage_layer: 1
+  ats_platform: greenhouse
+  feed_url: https://boards-api.greenhouse.io/v1/boards/rightmovecareers/jobs
+  feed_url_verified: true
+  uk_job_count: 35
+  last_verified: '2026-10-25T13:30:13.351514+00:00'
+  ats:
+    type: greenhouse
+    slug: rightmovecareers
+    region: us
+    board_name: Rightmove Careers
+  live:
+    total: 35
+    uk: 35
+    manchester: 0
+    intern: 0
+    intern_uk: 0
+    sample:
+    - Account Manager
+    - Account Manager
+    - Account Manager
+- name: Robin AI
+  tier: A
+  hubs:
+  - london
+  sector: ai
+  confidence: unverified
+  coverage_layer: 4
+- name: Softwire
+  tier: A
+  hubs:
+  - manchester
+  - london
+  sector: consultancy
+  confidence: unverified
+  coverage_layer: 4
+  note: 'Sitemap discovery failed: no structured data; needs Layer 3 (Playwright)
+    in Phase 5'
+- name: Starling Bank
+  tier: A
+  hubs:
+  - manchester
+  - london
+  - uk
+  sector: fintech
+  confidence: unverified
+  coverage_layer: 4
+  note: 'Demoted in Phase 0 audit: unverified endpoint or placeholder stats'
+  ats:
+    type: workable
+    slug: starling-bank
+    custom_url: https://apply.workable.com/starling-bank/
+- name: The Very Group
+  tier: A
+  hubs:
+  - uk
+  sector: ecommerce
+  confidence: unverified
+  coverage_layer: 4
+  note: 'Sitemap discovery failed: no structured data; needs Layer 3 (Playwright)
+    in Phase 5'
+- name: Ultraleap
+  tier: A
+  hubs:
+  - uk
+  sector: hardware
+  confidence: unverified
+  coverage_layer: 4
+- name: Unitary
+  tier: A
+  hubs:
+  - london
+  sector: ai
+  confidence: unverified
+  coverage_layer: 4
+- name: V7
+  tier: A
+  hubs:
+  - london
+  sector: ai
+  confidence: unverified
+  coverage_layer: 4
+- name: Yapily
+  tier: A
+  hubs:
+  - london
+  sector: fintech
+  confidence: unverified
+  coverage_layer: 4
+- name: Zen Internet
+  tier: A
+  hubs:
+  - manchester
+  sector: telecom
+  confidence: unverified
+  coverage_layer: 4
+- name: Zoopla
+  tier: A
+  hubs:
+  - london
+  - manchester
+  sector: marketplace
+  confidence: unverified
+  coverage_layer: 4
+- name: Zuto
+  tier: A
+  hubs:
+  - uk
+  sector: fintech
+  confidence: unverified
+  coverage_layer: 4
+- name: bet365
+  tier: A
+  hubs:
+  - manchester
+  - uk
+  sector: gaming
+  confidence: unverified
+  coverage_layer: 4
+  note: 'Sitemap discovery failed: no sitemap; needs Layer 3 (Playwright) in Phase
+    5'
+- name: boohoo
+  tier: A
+  hubs:
+  - manchester
+  sector: ecommerce
+  confidence: unverified
+  coverage_layer: 4
+  note: 'Sitemap discovery failed: no job URLs; needs Layer 3 (Playwright) in Phase
+    5'
+- name: AMD
+  tier: B
+  hubs:
+  - uk
+  sector: semiconductors
+  confidence: unverified
+  coverage_layer: 4
+  note: 'Demoted in Phase 0 audit: unverified endpoint or placeholder stats'
+  ats:
+    type: icims
+    slug: internal-amd
+- name: Accenture
+  tier: B
+  hubs:
+  - manchester
+  - london
+  sector: consulting
+  confidence: unverified
+  coverage_layer: 4
+- name: Admiral Group
+  tier: B
+  hubs:
+  - uk
+  sector: insurance
+  confidence: unverified
+  coverage_layer: 4
+- name: Airbus UK
+  tier: B
+  hubs:
+  - uk
+  sector: aerospace
+  confidence: unverified
+  coverage_layer: 4
+  note: Audit showed 0 UK jobs in un-faceted feed; requires location-faceted query
+  ats:
+    type: workday
+    tenant: ag
+    wd: wd3
+    site: Airbus
+  live:
+    total: 2000
+    uk: 0
+    manchester: 0
+    intern: 2000
+    intern_uk: 0
+    sample:
+    - STAGE 2027 - Support salon et activités Union Européennes (H/F)
+    - System Safety Engineer (d/f/m)
+    - Operational and Multisystems Simulator Test Leader
+- name: Arm
+  tier: B
+  hubs:
+  - manchester
+  - uk
+  sector: semiconductors
+  confidence: unverified
+  coverage_layer: 4
+- name: AstraZeneca
+  tier: B
+  hubs:
+  - uk
+  sector: pharma
+  confidence: unverified
+  coverage_layer: 1
+  ats_platform: workday
+  feed_url: https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/jobs
+  feed_url_verified: true
+  uk_job_count: 6
+  last_verified: not_verified_in_phase0
+  ats:
+    type: workday
+    tenant: astrazeneca
+    slug: astrazeneca
+    wd: wd3
+    site: Careers
+  live:
+    total: 1197
+    uk: 1
+    manchester: 0
+    intern: 670
+    intern_uk: 0
+    sample:
+    - Senior Statistical Programmer
+    - Regional Liaison Director, Renal
+    - Director, Channel Accounts
+  note: facet fallback; count may be incomplete
+- name: Autodesk
+  tier: B
+  hubs:
+  - london
+  sector: software
+  confidence: unverified
+  coverage_layer: 4
+  ats_platform: workday
+  feed_url: https://autodesk.wd1.myworkdayjobs.com/wday/cxs/autodesk/Ext/jobs
+  feed_url_verified: false
+  uk_job_count: 0
+  last_verified: not_verified_in_phase0
+  ats:
+    type: workday
+    tenant: autodesk
+    slug: autodesk
+    wd: wd1
+    site: Ext
+  live:
+    total: 197
+    uk: 1
+    manchester: 0
+    intern: 150
+    intern_uk: 0
+    sample:
+    - Test Position - do not apply
+    - Fusion Account Executive - Expansion Dutch speaker
+    - Principal Engineer (Java, AWS)
+  note: 0 UK jobs in feed
+- name: Aviva
+  tier: B
+  hubs:
+  - uk
+  - london
+  sector: insurance
+  confidence: unverified
+  coverage_layer: 1
+  ats_platform: workday
+  feed_url: https://aviva.wd1.myworkdayjobs.com/wday/cxs/aviva/External/jobs
+  feed_url_verified: true
+  uk_job_count: 5
+  last_verified: not_verified_in_phase0
+  ats:
+    type: workday
+    tenant: aviva
+    slug: aviva
+    wd: wd1
+    site: External
+  live:
+    total: 132
+    uk: 1
+    manchester: 1
+    intern: 122
+    intern_uk: 0
+    sample:
+    - Finance Intern
+    - Finance Intern
+  note: facet Location_Country
+- name: BAE Systems
+  tier: B
+  hubs:
+  - manchester
+  - uk
+  sector: defence
+  confidence: high
+  coverage_layer: 1
+  feed_url_verified: true
+  ats:
+    type: sitemap_jsonld
+    slug: baesystems
+    sitemap_url: https://jobsearch.baesystems.com/jobs-sitemap.xml
+    url_filter: /job/
+    max_first_run: 500
+- name: BBC
+  tier: B
+  hubs:
+  - manchester
+  - london
+  sector: media
+  confidence: high
+  coverage_layer: 1
+  feed_url_verified: true
+  ats:
+    type: sitemap_jsonld
+    slug: bbc
+    sitemap_url: https://careers.bbc.co.uk/sitemap.xml
+    url_filter: /job/
+    max_first_run: 200
+- name: BNY
+  tier: B
+  hubs:
+  - manchester
+  - london
+  sector: bank
+  confidence: high
+  coverage_layer: 1
+  feed_url_verified: true
+  uk_job_count: 173
+  note: facet locationId 300000000378281
+  ats:
+    type: oracle
+    slug: eofe
+    tenant: eofe.fa.us2.oraclecloud.com
+    site: CX_1001
+    custom_url: https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/
+- name: BT Group
+  tier: B
+  hubs:
+  - manchester
+  - uk
+  sector: telecom
+  confidence: unverified
+  coverage_layer: 4
+- name: Barclays
+  tier: B
+  hubs:
+  - manchester
+  - london
+  - uk
+  sector: bank
+  confidence: unverified
+  coverage_layer: 1
+  ats_platform: workday
+  feed_url: https://barclays.wd3.myworkdayjobs.com/wday/cxs/barclays/External_Career_Site_Barclays/jobs
+  feed_url_verified: true
+  uk_job_count: 6
+  last_verified: not_verified_in_phase0
+  ats:
+    type: workday
+    tenant: barclays
+    slug: barclays
+    wd: wd3
+    site: External_Career_Site_Barclays
+  live:
+    total: 717
+    uk: 9
+    manchester: 2
+    intern: 625
+    intern_uk: 0
+    sample:
+    - Physical Security Incident Manager – UK/EMEA
+    - Banking & Payments Operations Transaction Monitoring Analyst - 12 month Fixed
+      Term Contract
+    - Cash Management Sales DACH and Nordics
+  note: facet fallback; count may be incomplete
+- name: Bentley Motors
+  tier: B
+  hubs:
+  - uk
+  sector: automotive
+  confidence: unverified
+  coverage_layer: 4
+- name: Booking.com
+  tier: B
+  hubs:
+  - manchester
+  - eu
+  sector: travel
+  confidence: unverified
+  coverage_layer: 4
+- name: CGI
+  tier: B
+  hubs:
+  - uk
+  sector: consulting
+  confidence: unverified
+  coverage_layer: 4
+- name: Cambridge Consultants
+  tier: B
+  hubs:
+  - uk
+  sector: engineering
+  confidence: unverified
+  coverage_layer: 4
+  note: Job seen via simplify_github; candidate for Layer 1 upgrade.
+- name: Capgemini
+  tier: B
+  hubs:
+  - manchester
+  - uk
+  sector: consulting
+  confidence: unverified
+  coverage_layer: 4
+- name: Capital One UK
+  tier: B
+  hubs:
+  - uk
+  - london
+  sector: bank
+  confidence: unverified
+  coverage_layer: 1
+  ats_platform: workday
+  feed_url: https://capitalone.wd12.myworkdayjobs.com/wday/cxs/capitalone/Capital_One/jobs
+  feed_url_verified: true
+  uk_job_count: 2
+  last_verified: not_verified_in_phase0
+  ats:
+    type: workday
+    tenant: capitalone
+    slug: capitalone
+    wd: wd12
+    site: Capital_One
+  live:
+    total: 1996
+    uk: 6
+    manchester: 0
+    intern: 1200
+    intern_uk: 0
+    sample:
+    - Full-stack Engineer 4
+    - Senior Director, Technical Program Management
+    - Principal Associate, Associate Experience/Events - Global Enterprise Affairs
+  note: facet fallback; count may be incomplete
+- name: Channel 4
+  tier: B
+  hubs:
+  - uk
+  - london
+  sector: media
+  confidence: unverified
+  coverage_layer: 4
+  note: 'Sitemap discovery failed: no job URLs; needs Layer 3 (Playwright) in Phase
+    5'
+- name: Checkout.com
+  tier: B
+  hubs:
+  - london
+  sector: fintech
+  confidence: unverified
+  coverage_layer: 4
+- name: Cisco
+  tier: B
+  hubs:
+  - uk
+  - london
+  sector: networking
+  confidence: unverified
+  coverage_layer: 4
+- name: Co-op
+  tier: B
+  hubs:
+  - manchester
+  sector: retail
+  confidence: unverified
+  coverage_layer: 4
+- name: Criteo
+  tier: B
+  hubs:
+  - eu
+  sector: adtech
+  confidence: unverified
+  coverage_layer: 4
+- name: DWP Digital
+  tier: B
+  hubs:
+  - manchester
+  - uk
+  sector: gov
+  confidence: unverified
+  coverage_layer: 4
+- name: Darktrace
+  tier: B
+  hubs:
+  - uk
+  - london
+  sector: security
+  confidence: unverified
+  coverage_layer: 4
+- name: Deloitte
+  tier: B
+  hubs:
+  - manchester
+  - london
+  sector: consulting
+  confidence: unverified
+  coverage_layer: 4
+- name: Direct Line Group
+  tier: B
+  hubs:
+  - uk
+  - london
+  sector: insurance
+  confidence: unverified
+  coverage_layer: 4
+- name: Dyson
+  tier: B
+  hubs:
+  - uk
+  sector: hardware
+  confidence: unverified
+  coverage_layer: 4
+- name: EY
+  tier: B
+  hubs:
+  - manchester
+  - london
+  sector: consulting
+  confidence: unverified
+  coverage_layer: 4
+- name: Expedia Group
+  tier: B
+  hubs:
+  - london
+  sector: travel
+  confidence: unverified
+  coverage_layer: 1
+  ats_platform: workday
+  feed_url: https://expedia.wd108.myworkdayjobs.com/wday/cxs/expedia/private/jobs
+  feed_url_verified: true
+  uk_job_count: 8
+  last_verified: not_verified_in_phase0
+  ats:
+    type: workday
+    tenant: expedia
+    slug: expedia
+    wd: wd108
+    site: private
+  live:
+    total: 136
+    uk: 6
+    manchester: 0
+    intern: 125
+    intern_uk: 6
+    sample:
+    - Software Development Engineering Intern - 2027 - London
+    - Mobile Engineering Intern - 2027 - London
+    - Applied Science Intern - Masters - 2027 - London
+  note: facet fallback; count may be incomplete
+- name: Fujitsu UK
+  tier: B
+  hubs:
+  - manchester
+  - uk
+  sector: tech
+  confidence: unverified
+  coverage_layer: 4
+- name: GCHQ
+  tier: B
+  hubs:
+  - manchester
+  - uk
+  sector: gov
+  confidence: unverified
+  coverage_layer: 4
+- name: Government Digital Service
+  tier: B
+  hubs:
+  - manchester
+  - london
+  sector: gov
+  confidence: unverified
+  coverage_layer: 4
+- name: HMRC
+  tier: B
+  hubs:
+  - manchester
+  - uk
+  sector: gov
+  confidence: unverified
+  coverage_layer: 4
+- name: HSBC
+  tier: B
+  hubs:
+  - london
+  - uk
+  sector: bank
+  confidence: unverified
+  coverage_layer: 4
+  note: 'Sitemap discovery failed: no sitemap; needs Layer 3 (Playwright) in Phase
+    5'
+- name: Hargreaves Lansdown
+  tier: B
+  hubs:
+  - uk
+  sector: fintech
+  confidence: unverified
+  coverage_layer: 4
+- name: IBM
+  tier: B
+  hubs:
+  - uk
+  - london
+  sector: tech
+  confidence: unverified
+  coverage_layer: 4
+- name: ITV
+  tier: B
+  hubs:
+  - manchester
+  - london
+  sector: media
+  confidence: unverified
+  coverage_layer: 4
+  note: 'Sitemap discovery failed: no structured data; needs Layer 3 (Playwright)
+    in Phase 5'
+- name: Imagination Technologies
+  tier: B
+  hubs:
+  - uk
+  sector: semiconductors
+  confidence: unverified
+  coverage_layer: 4
+- name: Jagex
+  tier: B
+  hubs:
+  - uk
+  sector: gaming
+  confidence: unverified
+  coverage_layer: 4
+- name: Jaguar Land Rover
+  tier: B
+  hubs:
+  - manchester
+  - uk
+  sector: automotive
+  confidence: unverified
+  coverage_layer: 4
+- name: Just Eat Takeaway
+  tier: B
+  hubs:
+  - london
+  - uk
+  sector: ecommerce
+  confidence: unverified
+  coverage_layer: 4
+- name: KPMG
+  tier: B
+  hubs:
+  - manchester
+  - london
+  sector: consulting
+  confidence: unverified
+  coverage_layer: 4
+- name: King
+  tier: B
+  hubs:
+  - london
+  sector: gaming
+  confidence: unverified
+  coverage_layer: 4
+- name: Klarna
+  tier: B
+  hubs:
+  - eu
+  - london
+  sector: fintech
+  confidence: unverified
+  coverage_layer: 4
+- name: Leonardo UK
+  tier: B
+  hubs:
+  - uk
+  sector: defence
+  confidence: unverified
+  coverage_layer: 1
+  ats_platform: workday
+  feed_url: https://leonardocompany.wd3.myworkdayjobs.com/wday/cxs/leonardocompany/LeonardoCareerSite/jobs
+  feed_url_verified: true
+  uk_job_count: 402
+  last_verified: not_verified_in_phase0
+  ats:
+    type: workday
+    tenant: leonardocompany
+    slug: leonardocompany
+    wd: wd3
+    site: LeonardoCareerSite
+  live:
+    total: 872
+    uk: 9
+    manchester: 0
+    intern: 757
+    intern_uk: 0
+    sample:
+    - ELI - Sales Engineering Specialist
+    - Senior Mechanical Engineer
+    - Senior / Principal Wireless Communications Systems Engineer
+  note: facet locationCountry
+- name: Lloyds Banking Group
+  tier: B
+  hubs:
+  - manchester
+  - london
+  - uk
+  sector: bank
+  confidence: unverified
+  coverage_layer: 1
+  ats_platform: workday
+  feed_url: https://lbg.wd3.myworkdayjobs.com/wday/cxs/lbg/LBG_Careers/jobs
+  feed_url_verified: true
+  uk_job_count: 23
+  last_verified: not_verified_in_phase0
+  ats:
+    type: workday
+    tenant: lbg
+    slug: lbg
+    wd: wd3
+    site: LBG_Careers
+  live:
+    total: 78
+    uk: 16
+    manchester: 3
+    intern: 33
+    intern_uk: 0
+    sample:
+    - Head of People - Lloyds Bank Corporate Markets
+    - Credit Controller - Lloyds Living
+    - Complex Loss Claims Handler - Insurance Division - Home Insurance Claims
+  note: facet fallback; count may be incomplete
+- name: MI5
+  tier: B
+  hubs:
+  - london
+  - manchester
+  sector: gov
+  confidence: unverified
+  coverage_layer: 4
+- name: Marks & Spencer
+  tier: B
+  hubs:
+  - london
+  - manchester
+  sector: retail
+  confidence: unverified
+  coverage_layer: 4
+- name: Met Office
+  tier: B
+  hubs:
+  - uk
+  sector: gov
+  confidence: unverified
+  coverage_layer: 4
+- name: NHS England
+  tier: B
+  hubs:
+  - uk
+  sector: health
+  confidence: unverified
+  coverage_layer: 4
+- name: NatWest Group
+  tier: B
+  hubs:
+  - manchester
+  - london
+  - uk
+  sector: bank
+  confidence: unverified
+  coverage_layer: 4
+  note: 'Sitemap discovery failed: no job URLs; needs Layer 3 (Playwright) in Phase
+    5'
+- name: Nationwide Building Society
+  tier: B
+  hubs:
+  - uk
+  sector: bank
+  confidence: unverified
+  coverage_layer: 4
+  note: 'Sitemap discovery failed: no job URLs; needs Layer 3 (Playwright) in Phase
+    5'
+- name: Oracle
+  tier: B
+  hubs:
+  - uk
+  - london
+  sector: software
+  confidence: unverified
+  coverage_layer: 4
+  feed_url_verified: false
+  uk_job_count: 0
+  note: 0 UK jobs in tenant eeho.fa.us2; possibly different UK site
+- name: Playground Games
+  tier: B
+  hubs:
+  - uk
+  sector: gaming
+  confidence: unverified
+  coverage_layer: 4
+- name: PwC
+  tier: B
+  hubs:
+  - manchester
+  - london
+  sector: consulting
+  confidence: unverified
+  coverage_layer: 4
+  note: 'Wrong feed: pointed to Global_Experienced_Careers; requires PwC UK student/graduate
+    feed'
+  ats:
+    type: workday
+    tenant: pwc
+    wd: wd3
+    site: Global_Experienced_Careers
+- name: QinetiQ
+  tier: B
+  hubs:
+  - uk
+  sector: defence
+  confidence: unverified
+  coverage_layer: 4
+- name: Qualcomm
+  tier: B
+  hubs:
+  - uk
+  sector: semiconductors
+  confidence: unverified
+  coverage_layer: 4
+  note: 'Demoted in Phase 0 audit: unverified endpoint or placeholder stats'
+  ats:
+    type: eightfold
+    slug: qualcomm
+    custom_url: https://qualcomm.eightfold.ai/careers/
+- name: Red Hat
+  tier: B
+  hubs:
+  - uk
+  - remote
+  sector: software
+  confidence: unverified
+  coverage_layer: 4
+- name: Revolut
+  tier: B
+  hubs:
+  - london
+  sector: fintech
+  confidence: unverified
+  coverage_layer: 4
+- name: Rolls-Royce
+  tier: B
+  hubs:
+  - uk
+  sector: engineering
+  confidence: unverified
+  coverage_layer: 4
+- name: Royal London
+  tier: B
+  hubs:
+  - uk
+  sector: insurance
+  confidence: unverified
+  coverage_layer: 4
+- name: SAP
+  tier: B
+  hubs:
+  - uk
+  - london
+  sector: software
+  confidence: unverified
+  coverage_layer: 4
+- name: Sage
+  tier: B
+  hubs:
+  - uk
+  sector: software
+  confidence: unverified
+  coverage_layer: 4
+- name: Sainsbury's
+  tier: B
+  hubs:
+  - london
+  - manchester
+  - uk
+  sector: retail
+  confidence: unverified
+  coverage_layer: 4
+- name: Santander UK
+  tier: B
+  hubs:
+  - uk
+  - london
+  sector: bank
+  confidence: unverified
+  coverage_layer: 4
+  note: 'Sitemap discovery failed: server disconnected; needs Layer 3 (Playwright)
+    in Phase 5'
+- name: Siemens
+  tier: B
+  hubs:
+  - manchester
+  - uk
+  sector: engineering
+  confidence: unverified
+  coverage_layer: 4
+- name: Sky
+  tier: B
+  hubs:
+  - uk
+  - london
+  sector: media
+  confidence: unverified
+  coverage_layer: 4
+  note: 'Sitemap discovery failed: no structured data; needs Layer 3 (Playwright)
+    in Phase 5'
+  ats:
+    type: workday
+    tenant: sky
+    wd: wd3
+    site: Sky_Careers
+- name: Skyscanner
+  tier: B
+  hubs:
+  - uk
+  - london
+  sector: travel
+  confidence: unverified
+  coverage_layer: 4
+- name: Sopra Steria
+  tier: B
+  hubs:
+  - uk
+  sector: consulting
+  confidence: unverified
+  coverage_layer: 4
+- name: Sumo Digital
+  tier: B
+  hubs:
+  - uk
+  sector: gaming
+  confidence: unverified
+  coverage_layer: 4
+- name: TalkTalk
+  tier: B
+  hubs:
+  - manchester
+  sector: telecom
+  confidence: unverified
+  coverage_layer: 4
+- name: Tesco
+  tier: B
+  hubs:
+  - london
+  - uk
+  sector: retail
+  confidence: unverified
+  coverage_layer: 4
+- name: Ubisoft Reflections
+  tier: B
+  hubs:
+  - uk
+  sector: gaming
+  confidence: unverified
+  coverage_layer: 4
+- name: Unilever
+  tier: B
+  hubs:
+  - uk
+  - london
+  sector: fmcg
+  confidence: high
+  coverage_layer: 1
+  feed_url_verified: true
+  ats:
+    type: sitemap_jsonld
+    slug: unilever
+    sitemap_url: https://careers.unilever.com/sitemap.xml
+    url_filter: /job/
+    max_first_run: 300
+- name: Virgin Media O2
+  tier: B
+  hubs:
+  - uk
+  sector: telecom
+  confidence: unverified
+  coverage_layer: 4
+- name: Vodafone
+  tier: B
+  hubs:
+  - uk
+  sector: telecom
+  confidence: unverified
+  coverage_layer: 4
+  note: 'Sitemap discovery failed: no structured data; needs Layer 3 (Playwright)
+    in Phase 5'
+- name: Yelp
+  tier: B
+  hubs:
+  - london
+  sector: tech
+  confidence: unverified
+  coverage_layer: 4
+- name: Zalando
+  tier: B
+  hubs:
+  - eu
+  sector: ecommerce
+  confidence: unverified
+  coverage_layer: 4
+- name: bunq
+  tier: B
+  hubs:
+  - eu
+  sector: fintech
+  confidence: unverified
+  coverage_layer: 4
+- name: Adobe
+  tier: C
+  hubs:
+  - london
+  sector: software
+  confidence: unverified
+  coverage_layer: 1
+  ats_platform: workday
+  feed_url: https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/external_experienced/jobs
+  feed_url_verified: true
+  uk_job_count: 10
+  last_verified: not_verified_in_phase0
+  ats:
+    type: workday
+    tenant: adobe
+    slug: adobe
+    wd: wd5
+    site: external_experienced
+  live:
+    total: 305
+    uk: 1
+    manchester: 0
+    intern: 132
+    intern_uk: 0
+    sample:
+    - 2027 Intern - Research PhD Intern
+    - 2027 Intern - Software Engineer
+    - 2027 Intern- Software Engineer
+  note: facet locationCountry
+- name: Amazon
+  tier: C
+  hubs:
+  - london
+  - manchester
+  - uk
+  sector: bigtech
+  confidence: high
+  coverage_layer: 1
+  ats:
+    type: amazon
+    slug: amazon
+    url: https://www.amazon.jobs/en/search.json?base_query=&country[]=GBR&normalized_country_code[]=GBR
+- name: Apple
+  tier: C
+  hubs:
+  - london
+  - uk
+  sector: bigtech
+  confidence: unverified
+  coverage_layer: 4
+  note: Job seen via simplify_github; candidate for Layer 1 upgrade.
+  ats:
+    type: custom
+    url: https://jobs.apple.com/en-us/search?search=intern&location=united-kingdom-WBR
+- name: Balyasny
+  tier: C
+  hubs:
+  - london
+  sector: quant
+  confidence: unverified
+  coverage_layer: 4
+- name: Bank of America
+  tier: C
+  hubs:
+  - london
+  sector: bank
+  confidence: unverified
+  coverage_layer: 4
+- name: Bloomberg
+  tier: C
+  hubs:
+  - london
+  sector: finance
+  confidence: unverified
+  coverage_layer: 4
+- name: Citadel
+  tier: C
+  hubs:
+  - london
+  sector: quant
+  confidence: unverified
+  coverage_layer: 4
+- name: Citadel Securities
+  tier: C
+  hubs:
+  - london
+  sector: quant
+  confidence: unverified
+  coverage_layer: 4
+- name: Citi
+  tier: C
+  hubs:
+  - london
+  - uk
+  sector: bank
+  confidence: unverified
+  coverage_layer: 4
+  feed_url_verified: false
+  uk_job_count: 0
+  note: Job seen via simplify_github; candidate for Layer 1 upgrade.
+- name: D. E. Shaw
+  tier: C
+  hubs:
+  - london
+  sector: quant
+  confidence: unverified
+  coverage_layer: 4
+- name: DRW
+  tier: C
+  hubs:
+  - london
+  sector: quant
+  confidence: unverified
+  coverage_layer: 4
+- name: Deutsche Bank
+  tier: C
+  hubs:
+  - london
+  - uk
+  sector: bank
+  confidence: unverified
+  coverage_layer: 4
+  note: 'Sitemap discovery failed: no job URLs; needs Layer 3 (Playwright) in Phase
+    5'
+  ats:
+    type: custom
+    url: https://db.recsolu.com/external/requisitions/
+- name: Five Rings
+  tier: C
+  hubs:
+  - london
+  sector: quant
+  confidence: high
+  coverage_layer: 1
+  ats_platform: greenhouse
+  feed_url: https://boards-api.greenhouse.io/v1/boards/fiveringsllc/jobs
+  feed_url_verified: true
+  uk_job_count: 3
+  last_verified: '2026-10-25T13:30:13.351514+00:00'
+  ats:
+    type: greenhouse
+    slug: fiveringsllc
+    region: us
+  live:
+    total: 17
+    uk: 3
+    manchester: 0
+    intern: 4
+    intern_uk: 0
+    sample:
+    - Summer 2027 - Trading Operations Engineer Intern
+    - Summer Intern 2027 - Quantitative Researcher (PhD)
+    - Summer Intern 2027 - Quantitative Trader
+- name: G-Research
+  tier: C
+  hubs:
+  - london
+  sector: quant
+  confidence: unverified
+  coverage_layer: 1
+  ats_platform: workday
+  feed_url: https://gresearch.wd103.myworkdayjobs.com/wday/cxs/gresearch/G-Research/jobs
+  feed_url_verified: true
+  uk_job_count: 65
+  last_verified: not_verified_in_phase0
+  ats:
+    type: workday
+    tenant: gresearch
+    slug: gresearch
+    wd: wd103
+    site: G-Research
+  live:
+    total: 65
+    uk: 40
+    manchester: 0
+    intern: 24
+    intern_uk: 12
+    sample:
+    - Security Operations Placement Year
+    - Software Engineering Internship
+    - Machine Learning Engineer Internship
+  note: facet locationCountry
+- name: Goldman Sachs
+  tier: C
+  hubs:
+  - london
+  - uk
+  sector: bank
+  confidence: unverified
+  coverage_layer: 4
+- name: Google
+  tier: C
+  hubs:
+  - london
+  - manchester
+  sector: bigtech
+  confidence: unverified
+  coverage_layer: 4
+  note: Job seen via simplify_github; candidate for Layer 1 upgrade.
+  ats:
+    type: custom
+    url: https://www.google.com/about/careers/applications/jobs/results/
+- name: Google DeepMind
+  tier: C
+  hubs:
+  - london
+  sector: ai
+  confidence: unverified
+  coverage_layer: 4
+- name: Hugging Face
+  tier: C
+  hubs:
+  - remote
+  - eu
+  sector: ai
+  confidence: unverified
+  coverage_layer: 4
+- name: JPMorgan Chase
+  tier: C
+  hubs:
+  - london
+  - uk
+  sector: bank
+  confidence: high
+  coverage_layer: 1
+  feed_url_verified: true
+  uk_job_count: 638
+  note: facet locationId 300000000289276
+  ats:
+    type: oracle
+    slug: jpmc
+    tenant: jpmc.fa.oraclecloud.com
+    site: CX_1001
+    custom_url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/
+- name: Maven Securities
+  tier: C
+  hubs:
+  - london
+  sector: quant
+  confidence: unverified
+  coverage_layer: 4
+- name: Meta
+  tier: C
+  hubs:
+  - london
+  sector: bigtech
+  confidence: unverified
+  coverage_layer: 4
+- name: Microsoft
+  tier: C
+  hubs:
+  - london
+  - uk
+  sector: bigtech
+  confidence: unverified
+  coverage_layer: 4
+- name: Millennium
+  tier: C
+  hubs:
+  - london
+  sector: quant
+  confidence: unverified
+  coverage_layer: 4
+- name: Mistral AI
+  tier: C
+  hubs:
+  - eu
+  - london
+  sector: ai
+  confidence: unverified
+  coverage_layer: 4
+- name: Morgan Stanley
+  tier: C
+  hubs:
+  - london
+  - uk
+  sector: bank
+  confidence: unverified
+  coverage_layer: 4
+- name: NVIDIA
+  tier: C
+  hubs:
+  - uk
+  sector: semiconductors
+  confidence: unverified
+  coverage_layer: 1
+  ats_platform: workday
+  feed_url: https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs
+  feed_url_verified: true
+  uk_job_count: 32
+  last_verified: not_verified_in_phase0
+  ats:
+    type: workday
+    tenant: nvidia
+    slug: nvidia
+    wd: wd5
+    site: NVIDIAExternalCareerSite
+  live:
+    total: 2000
+    uk: 3
+    manchester: 0
+    intern: 1086
+    intern_uk: 1
+    sample:
+    - Electro Optics Student
+    - GPU Computing Software Engineering Intern, Autonomous Driving - 2027
+    - Software Intern - Embedded Systems 2027
+  note: facet locationHierarchy1
+- name: Optiver
+  tier: C
+  hubs:
+  - london
+  - eu
+  sector: quant
+  confidence: unverified
+  coverage_layer: 4
+- name: Salesforce
+  tier: C
+  hubs:
+  - london
+  sector: software
+  confidence: unverified
+  coverage_layer: 1
+  ats_platform: workday
+  feed_url: https://salesforce.wd12.myworkdayjobs.com/wday/cxs/salesforce/External_Career_Site/jobs
+  feed_url_verified: true
+  uk_job_count: 102
+  last_verified: not_verified_in_phase0
+  ats:
+    type: workday
+    tenant: salesforce
+    slug: salesforce
+    wd: wd12
+    site: External_Career_Site
+  live:
+    total: 1587
+    uk: 4
+    manchester: 0
+    intern: 823
+    intern_uk: 0
+    sample:
+    - Account Executive Marketing Cloud
+    - Software Engineering, SMTS/MTS (Backend + Kubernetes/Docker/Helm)
+    - Senior Manager, Engagement Delivery
+  note: facet CF_-_REC_-_LRV_-_Job_Posting_Anchor_-_Country_from_Job_Posting_Location_Extended
+- name: Shopify
+  tier: C
+  hubs:
+  - remote
+  - london
+  sector: ecommerce
+  confidence: unverified
+  coverage_layer: 4
+- name: Susquehanna (SIG)
+  tier: C
+  hubs:
+  - london
+  - eu
+  sector: quant
+  confidence: unverified
+  coverage_layer: 4
+- name: TikTok
+  tier: C
+  hubs:
+  - london
+  sector: bigtech
+  confidence: unverified
+  coverage_layer: 4
+  note: 'Demoted in Phase 0 audit: unverified endpoint or placeholder stats'
+  ats:
+    type: custom
+    url: https://lifeattiktok.com/
+- name: Two Sigma
+  tier: C
+  hubs:
+  - london
+  sector: quant
+  confidence: unverified
+  coverage_layer: 4
+  note: 'Demoted in Phase 0 audit: unverified endpoint or placeholder stats'
+  ats:
+    type: custom
+    url: https://twosigma.avature.net/careers/
+- name: UBS
+  tier: C
+  hubs:
+  - london
+  sector: bank
+  confidence: unverified
+  coverage_layer: 4
+- name: Uber
+  tier: C
+  hubs:
+  - london
+  - eu
+  sector: tech
+  confidence: unverified
+  coverage_layer: 4
+- name: Workday
+  tier: C
+  hubs:
+  - eu
+  sector: software
+  confidence: unverified
+  coverage_layer: 4
+  note: Audit showed 0 UK jobs in un-faceted feed; requires location-faceted query
+  ats:
+    type: workday
+    tenant: workday
+    wd: wd5
+    site: Workday_Early_Career
+  live:
+    total: 12
+    uk: 0
+    manchester: 0
+    intern: 12
+    intern_uk: 0
+    sample:
+    - Product Manager Intern (Canada)
+    - Software Development Engineer Intern (Canada)
+    - Machine Learning Engineer Intern (Canada)
+- name: LSEG
+  tier: A
+  hubs:
+  - uk
+  sector: tech
+  confidence: unverified
+  coverage_layer: 1
+  ats_platform: workday
+  feed_url: https://lseg.wd3.myworkdayjobs.com/wday/cxs/lseg/Graduate_Careers/jobs
+  feed_url_verified: true
+  uk_job_count: 11
+  last_verified: not_verified_in_phase0
+  ats:
+    type: workday
+    tenant: lseg
+    slug: lseg
+    wd: wd3
+    site: Graduate_Careers
+  live:
+    total: 33
+    uk: 17
+    manchester: 0
+    intern: 30
+    intern_uk: 10
+    sample:
+    - Sales and Account Management Internship
+    - Sales and Account Management Internship
+    - Intern - Software Engineer
+  note: facet locationCountry
+- name: BP
+  tier: A
+  hubs:
+  - uk
+  sector: tech
+  confidence: unverified
+  coverage_layer: 1
+  ats_platform: workday
+  feed_url: https://bpinternational.wd3.myworkdayjobs.com/wday/cxs/bpinternational/bpEarlyCareers/jobs
+  feed_url_verified: true
+  uk_job_count: 6
+  last_verified: not_verified_in_phase0
+  ats:
+    type: workday
+    tenant: bpinternational
+    slug: bpinternational
+    wd: wd3
+    site: bpEarlyCareers
+  live:
+    total: 19
+    uk: 18
+    manchester: 0
+    intern: 17
+    intern_uk: 14
+    sample:
+    - Summer Internship – Upstream R&D – Imaging Geophysics PhD - UK
+    - Kerja Praktek Internship - Tangguh Future - Indonesia
+    - Tugas Akhir Internship - Tangguh Future - Indonesia
+  note: facet locationCountry
+- name: Roche
+  tier: A
+  hubs:
+  - uk
+  sector: tech
+  confidence: unverified
+  coverage_layer: 4
+  note: Audit showed 0 UK jobs in un-faceted feed; requires location-faceted query
+  ats:
+    type: workday
+    tenant: roche
+    wd: wd3
+    site: roche-ext
+  live:
+    total: 1267
+    uk: 0
+    manchester: 0
+    intern: 719
+    intern_uk: 0
+    sample:
+    - Student Internship in Device Development and Verification Engineering (Basel,
+      9-12 months)
+    - Internship in tDMPK-PD Drug Disposition and Bioanalysis (DDB), PS, pRED (as
+      of 1 February 2027 for 12 months in Basel)
+    - Industrial Placement Student CS CoE DDC Data Capability
+- name: PIMCO
+  tier: A
+  hubs:
+  - uk
+  sector: tech
+  confidence: unverified
+  coverage_layer: 1
+  ats_platform: workday
+  feed_url: https://pimco.wd1.myworkdayjobs.com/wday/cxs/pimco/pimco-careers/jobs
+  feed_url_verified: true
+  uk_job_count: 21
+  last_verified: not_verified_in_phase0
+  ats:
+    type: workday
+    tenant: pimco
+    slug: pimco
+    wd: wd1
+    site: pimco-careers
+  live:
+    total: 179
+    uk: 4
+    manchester: 0
+    intern: 163
+    intern_uk: 1
+    sample:
+    - 2027 Summer Intern – Product Analyst, EMEA
+    - 2027 Summer Intern - Alternatives Investment Operations Intern
+    - 2027 Summer Internship – Account Analyst, Tokyo
+  note: facet locationCountry
+- name: Redgate
+  tier: A
+  hubs:
+  - uk
+  sector: tech
+  confidence: unverified
+  coverage_layer: 1
+  ats_platform: ashby
+  feed_url: https://api.ashbyhq.com/posting-api/job-board/red-gate
+  feed_url_verified: true
+  uk_job_count: 10
+  last_verified: not_verified_in_phase0
+  ats:
+    type: ashby
+    slug: red-gate
+  live:
+    total: 11
+    uk: 9
+    manchester: 0
+    intern: 1
+    intern_uk: 1
+    sample:
+    - Software Engineer Intern
+  note: Active ashby source since 2026-11-02
+- name: Schonfeld
+  tier: A
+  hubs:
+  - uk
+  sector: tech
+  confidence: high
+  coverage_layer: 1
+  ats_platform: greenhouse
+  feed_url: https://boards-api.greenhouse.io/v1/boards/schonfeld/jobs
+  feed_url_verified: true
+  uk_job_count: 13
+  last_verified: '2026-10-25T13:30:13.351514+00:00'
+  ats:
+    type: greenhouse
+    slug: schonfeld
+    region: us
+  live:
+    total: 70
+    uk: 15
+    manchester: 0
+    intern: 14
+    intern_uk: 3
+    sample:
+    - 2027 Business Analytics Intern
+    - 2027 Core Operations Intern
+    - 2027 Corporate Strategy & Transformation Intern
+- name: Capstone Investment Advisors
+  tier: A
+  hubs:
+  - uk
+  sector: tech
+  confidence: high
+  coverage_layer: 1
+  ats_platform: greenhouse
+  feed_url: https://boards-api.greenhouse.io/v1/boards/capstoneinvestmentadvisors/jobs
+  feed_url_verified: true
+  uk_job_count: 10
+  last_verified: '2026-10-25T13:30:13.351514+00:00'
+  ats:
+    type: greenhouse
+    slug: capstoneinvestmentadvisors
+    region: us
+  live:
+    total: 15
+    uk: 11
+    manchester: 0
+    intern: 8
+    intern_uk: 5
+    sample:
+    - 'Summer 2027 - Execution Tech Internship '
+    - Summer 2027 - Investment Internship LDN
+    - Summer 2027 - Investment Internship NYC
+- name: Capula
+  tier: A
+  hubs:
+  - uk
+  sector: tech
+  confidence: unverified
+  coverage_layer: 4
+  note: Job seen via simplify_github; candidate for Layer 1 upgrade.
+  ats:
+    type: workable
+    slug: api
+    custom_url: https://apply.workable.com/api/v1/widget/accounts/capula-investment-management-ltd
+- name: American Express
+  tier: A
+  hubs:
+  - uk
+  sector: tech
+  confidence: high
+  coverage_layer: 1
+  feed_url_verified: true
+  uk_job_count: 32
+  note: facet locationId 300000000228702
+  ats:
+    type: oracle
+    slug: egug
+    tenant: egug.fa.us2.oraclecloud.com
+    site: CX_1
+    custom_url: https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/

@@ -1,0 +1,66 @@
+services:
+  db:
+    image: postgres:16
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: jobhunt
+    ports:
+      - "5432:5432"
+    volumes:
+      - jobhunt_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d jobhunt"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  worker:
+    build:
+      context: ./app
+      dockerfile: Dockerfile
+    command: jobhunt run-scheduler
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      - DATABASE_URL=postgresql+asyncpg://postgres:postgres@db:5432/jobhunt
+      - ALEMBIC_DATABASE_URL=postgresql://postgres:postgres@db:5432/jobhunt
+      - LOG_LEVEL=INFO
+      - TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN:-}
+      - TELEGRAM_CHAT_ID=${TELEGRAM_CHAT_ID:-}
+      - NOTIFY_ENABLED=${NOTIFY_ENABLED:-true}
+    env_file:
+      - path: .env
+        required: false
+    volumes:
+      - ./companies.yaml:/app/companies.yaml:ro
+
+  api:
+    build:
+      context: ./app
+      dockerfile: Dockerfile
+    command: uvicorn jobhunt.api.main:app --host 0.0.0.0 --port 8000
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      - DATABASE_URL=postgresql+asyncpg://postgres:postgres@db:5432/jobhunt
+      - ALEMBIC_DATABASE_URL=postgresql://postgres:postgres@db:5432/jobhunt
+      - LOG_LEVEL=INFO
+      - TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN:-}
+      - TELEGRAM_CHAT_ID=${TELEGRAM_CHAT_ID:-}
+    env_file:
+      - path: .env
+        required: false
+    volumes:
+      - ./companies.yaml:/app/companies.yaml:ro
+
+volumes:
+  jobhunt_pgdata:
+

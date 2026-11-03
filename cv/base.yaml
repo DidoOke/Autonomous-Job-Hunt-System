@@ -1,0 +1,97 @@
+# =============================================================================
+# CV TEMPLATE: Single source of truth.
+#
+# Edit this file with your personal details, education, skills, experience, and
+# projects. The Typst template (template.typ) renders this directly into an
+# ATS-optimized PDF via:
+#     python cv/build.py
+# =============================================================================
+
+meta:
+  name: "Alex Smith"
+  phone: "+44 7000 000000"
+  email: "alex.smith@example.com"
+  linkedin: "linkedin.com/in/alexsmith"
+  github: "github.com/alexsmith"
+  location: "London, UK"
+
+education:
+  - institution: "University of Example"
+    location: "London, UK"
+    degree: "BSc (Hons) Computer Science"
+    dates: "Sept 2024 – Expected 2027"
+    note: "Undergraduate"
+    coursework:
+      - "Data Structures & Algorithms"
+      - "Object-Oriented Programming"
+      - "Machine Learning & AI"
+      - "Distributed Systems"
+      - "Database Systems"
+
+skills:
+  - category: "Languages"
+    items: ["Python", "Java", "TypeScript", "JavaScript", "C++", "SQL", "Bash", "HTML/CSS"]
+  - category: "Frameworks & Libraries"
+    items: ["FastAPI", "React", "Node.js", "Express", "PyTorch", "Flask", "TailwindCSS"]
+  - category: "Cloud & DevOps"
+    items: ["Docker", "Docker Compose", "Linux (Ubuntu/Debian)", "Git", "GitHub Actions", "AWS (EC2, S3)"]
+  - category: "Databases & Storage"
+    items: ["PostgreSQL", "Redis", "SQLite", "Vector Search"]
+  - category: "Core Practices"
+    items: ["RESTful API Design", "Microservices", "Unit & Integration Testing", "Agile/Scrum", "CI/CD"]
+
+experience:
+  - id: swe-intern
+    org: "Example Tech Company"
+    location: "London, UK"
+    role: "Software Engineering Intern"
+    dates: "June 2025 – August 2025"
+    bullets:
+      - id: exp-api
+        tags: [backend, python, api]
+        text: "Designed and implemented high-throughput REST APIs using FastAPI and PostgreSQL, serving 10,000+ daily requests with sub-100ms response times."
+      - id: exp-perf
+        tags: [backend, redis, performance]
+        text: "Integrated Redis caching layer for frequent database queries, reducing overall database load by 35% during peak traffic hours."
+      - id: exp-cicd
+        tags: [devops, docker, ci-cd]
+        text: "Containerized backend microservices using Docker and automated test execution across pull requests via GitHub Actions."
+
+  - id: project-lead
+    org: "University Computing Society"
+    location: "London, UK"
+    role: "Technical Lead"
+    dates: "October 2024 – Present"
+    bullets:
+      - id: soc-lead
+        tags: [leadership, fullstack]
+        text: "Led a team of 5 student developers to build an open-source student portal web application used by 500+ active members."
+      - id: soc-mentor
+        tags: [mentorship, git]
+        text: "Conducted weekly technical workshops on Git workflows, test-driven development, and modern full-stack web architectures."
+
+projects:
+  - id: job-search-engine
+    name: "Automated Job Intelligence & Tracking Platform"
+    tech: ["Python", "FastAPI", "PostgreSQL", "Docker", "Telegram API"]
+    dates: "2025 – 2026"
+    bullets:
+      - id: proj-scraper
+        tags: [backend, scraping]
+        text: "Engineered an automated aggregation system parsing job feeds from 100+ company ATS APIs (Greenhouse, Lever, Ashby, Workday) with cross-source deduplication."
+      - id: proj-notify
+        tags: [async, telegram]
+        text: "Implemented an asynchronous worker with priority interval polling and instant Telegram alerts for high-signal opportunities."
+
+  - id: distributed-kv
+    name: "Distributed Key-Value Store"
+    tech: ["Python", "AsyncIO", "Raft", "Docker"]
+    dates: "2025"
+    bullets:
+      - id: proj-raft
+        tags: [distributed, consensus]
+        text: "Implemented a distributed, fault-tolerant key-value store using the Raft consensus algorithm with leader election and log replication."
+      - id: proj-bench
+        tags: [performance, testing]
+        text: "Benchmarked node failure scenarios and simulated network partitions to verify data consistency and zero data loss under split-brain conditions."
+

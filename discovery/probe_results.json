@@ -1,0 +1,5206 @@
+{
+ "Auto Trader": {
+  "seed": {
+   "name": "Auto Trader",
+   "tier": "A",
+   "hubs": [
+    "manchester",
+    "london"
+   ],
+   "sector": "marketplace",
+   "slugs": [
+    "autotrader",
+    "autotraderuk"
+   ]
+  },
+  "hits": [
+   {
+    "type": "greenhouse",
+    "slug": "autotrader",
+    "region": "us",
+    "board_name": "Autotrader",
+    "total": 17,
+    "uk": 16,
+    "manchester": 15,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "Account Manager (Brand Partnerships)",
+     "Account Manager (Field based) ",
+     "Data Analyst "
+    ]
+   },
+   {
+    "type": "workable",
+    "slug": "autotrader",
+    "board_name": "Autotrader",
+    "total": 0,
+    "uk": 0,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": []
+   }
+  ]
+ },
+ "Matillion": {
+  "seed": {
+   "name": "Matillion",
+   "tier": "A",
+   "hubs": [
+    "manchester"
+   ],
+   "sector": "data"
+  },
+  "hits": [
+   {
+    "type": "lever",
+    "slug": "matillion",
+    "region": "us",
+    "total": 23,
+    "uk": 8,
+    "manchester": 7,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "Cloud Operations Analyst",
+     "Director of Engineering Productivity and Operations",
+     "Director, Product Management"
+    ]
+   }
+  ]
+ },
+ "THG": {
+  "seed": {
+   "name": "THG",
+   "tier": "A",
+   "hubs": [
+    "manchester"
+   ],
+   "sector": "ecommerce",
+   "slugs": [
+    "thg",
+    "thehutgroup",
+    "thgingenuity"
+   ]
+  },
+  "hits": [
+   {
+    "type": "workable",
+    "slug": "thg",
+    "board_name": "The Halal Guys",
+    "total": 0,
+    "uk": 0,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": []
+   },
+   {
+    "type": "greenhouse",
+    "slug": "thehutgroup",
+    "region": "us",
+    "board_name": "THG",
+    "total": 104,
+    "uk": 87,
+    "manchester": 68,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "Account Executive | ESPA International, The Americas",
+     "Account Liaison Officer | THG Manufacturing",
+     "Account Manager - THG Nutrition | Brand Hub "
+    ]
+   },
+   {
+    "type": "workable",
+    "slug": "thehutgroup",
+    "board_name": "The Hut Group",
+    "total": 0,
+    "uk": 0,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": []
+   },
+   {
+    "type": "greenhouse",
+    "slug": "thgingenuity",
+    "region": "us",
+    "board_name": "THG Ingenuity",
+    "total": 47,
+    "uk": 43,
+    "manchester": 37,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "Assistant Management Accountant - THG Fulfil ",
+     "Assistant Restaurant Manager",
+     "Audio Visual (AV) Engineer"
+    ]
+   }
+  ]
+ },
+ "Peak AI": {
+  "seed": {
+   "name": "Peak AI",
+   "tier": "A",
+   "hubs": [
+    "manchester"
+   ],
+   "sector": "ai",
+   "slugs": [
+    "peak",
+    "peakai",
+    "peak-ai"
+   ],
+   "reject": [
+    "greenhouse:peak"
+   ]
+  },
+  "hits": [
+   {
+    "type": "greenhouse",
+    "slug": "peak",
+    "region": "us",
+    "board_name": "Peak Physical Therapy - Upstream",
+    "total": 53,
+    "uk": 0,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "Clinic Director - Physical Therapist",
+     "Clinic Director - Physical Therapist",
+     "Clinic Director - Physical Therapist"
+    ]
+   },
+   {
+    "type": "workable",
+    "slug": "peak",
+    "board_name": "Peak",
+    "total": 0,
+    "uk": 0,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": []
+   },
+   {
+    "type": "recruitee",
+    "slug": "peak",
+    "total": 0,
+    "uk": 0,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": []
+   }
+  ]
+ },
+ "On the Beach": {
+  "seed": {
+   "name": "On the Beach",
+   "tier": "A",
+   "hubs": [
+    "manchester"
+   ],
+   "sector": "travel",
+   "slugs": [
+    "onthebeach"
+   ]
+  },
+  "hits": []
+ },
+ "Softwire": {
+  "seed": {
+   "name": "Softwire",
+   "tier": "A",
+   "hubs": [
+    "manchester",
+    "london"
+   ],
+   "sector": "consultancy"
+  },
+  "hits": []
+ },
+ "Thoughtworks": {
+  "seed": {
+   "name": "Thoughtworks",
+   "tier": "A",
+   "hubs": [
+    "manchester",
+    "london"
+   ],
+   "sector": "consultancy"
+  },
+  "hits": [
+   {
+    "type": "greenhouse",
+    "slug": "thoughtworks",
+    "region": "us",
+    "board_name": "Thoughtworks",
+    "total": 45,
+    "uk": 6,
+    "manchester": 1,
+    "intern": 1,
+    "intern_uk": 0,
+    "sample": [
+     "Software Procurement Intern"
+    ]
+   }
+  ]
+ },
+ "Made Tech": {
+  "seed": {
+   "name": "Made Tech",
+   "tier": "A",
+   "hubs": [
+    "manchester",
+    "london",
+    "remote"
+   ],
+   "sector": "govtech",
+   "slugs": [
+    "madetech"
+   ]
+  },
+  "hits": []
+ },
+ "BJSS": {
+  "seed": {
+   "name": "BJSS",
+   "tier": "A",
+   "hubs": [
+    "manchester",
+    "uk"
+   ],
+   "sector": "consultancy"
+  },
+  "hits": []
+ },
+ "Kin + Carta": {
+  "seed": {
+   "name": "Kin + Carta",
+   "tier": "A",
+   "hubs": [
+    "manchester",
+    "london"
+   ],
+   "sector": "consultancy",
+   "slugs": [
+    "kincarta"
+   ]
+  },
+  "hits": []
+ },
+ "Hippo Digital": {
+  "seed": {
+   "name": "Hippo Digital",
+   "tier": "A",
+   "hubs": [
+    "manchester",
+    "uk"
+   ],
+   "sector": "govtech",
+   "slugs": [
+    "hippodigital",
+    "hippo"
+   ]
+  },
+  "hits": []
+ },
+ "NCC Group": {
+  "seed": {
+   "name": "NCC Group",
+   "tier": "A",
+   "hubs": [
+    "manchester"
+   ],
+   "sector": "security",
+   "slugs": [
+    "nccgroup"
+   ],
+   "reject": [
+    "smartrecruiters:ncc"
+   ]
+  },
+  "hits": [
+   {
+    "type": "smartrecruiters",
+    "slug": "ncc",
+    "board_name": "NCC",
+    "total": 132,
+    "uk": 0,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "Projektchef G\u00e4vle/Dala",
+     "Projektkommunikat\u00f6r Kriminalv\u00e5rdsanl\u00e4ggning",
+     "Supplier Data Analyst"
+    ]
+   }
+  ]
+ },
+ "ANS Group": {
+  "seed": {
+   "name": "ANS Group",
+   "tier": "A",
+   "hubs": [
+    "manchester"
+   ],
+   "sector": "cloud",
+   "slugs": [
+    "ansgroup",
+    "ans"
+   ]
+  },
+  "hits": [
+   {
+    "type": "lever",
+    "slug": "ans",
+    "region": "us",
+    "total": 31,
+    "uk": 0,
+    "manchester": 0,
+    "intern": 4,
+    "intern_uk": 0,
+    "sample": [
+     "Lab Engineer (Intern)",
+     "Lab Engineer (Intern)",
+     "Lab Engineer (Intern)"
+    ]
+   },
+   {
+    "type": "recruitee",
+    "slug": "ans",
+    "total": 19,
+    "uk": 0,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "Stagiaire Charg\u00e9 de mission \u2013 Accompagnement au changement & formation du SAS H/F",
+     "Stagiaire en d\u00e9veloppement logiciel : automatisation des tests & IA H/F",
+     "Stagiaire Charg\u00e9 de mission \u2013 Gouvernance des donn\u00e9es H/F"
+    ]
+   }
+  ]
+ },
+ "Cloud Imperium Games": {
+  "seed": {
+   "name": "Cloud Imperium Games",
+   "tier": "A",
+   "hubs": [
+    "manchester"
+   ],
+   "sector": "gaming",
+   "slugs": [
+    "cloudimperiumgames",
+    "cig"
+   ]
+  },
+  "hits": []
+ },
+ "The Very Group": {
+  "seed": {
+   "name": "The Very Group",
+   "tier": "A",
+   "hubs": [
+    "uk"
+   ],
+   "sector": "ecommerce",
+   "slugs": [
+    "theverygroup",
+    "verygroup"
+   ]
+  },
+  "hits": []
+ },
+ "N Brown": {
+  "seed": {
+   "name": "N Brown",
+   "tier": "A",
+   "hubs": [
+    "manchester"
+   ],
+   "sector": "ecommerce",
+   "slugs": [
+    "nbrown",
+    "nbrowngroup"
+   ]
+  },
+  "hits": []
+ },
+ "boohoo": {
+  "seed": {
+   "name": "boohoo",
+   "tier": "A",
+   "hubs": [
+    "manchester"
+   ],
+   "sector": "ecommerce",
+   "slugs": [
+    "boohoo",
+    "boohoogroup"
+   ]
+  },
+  "hits": []
+ },
+ "MONY Group": {
+  "seed": {
+   "name": "MONY Group",
+   "tier": "A",
+   "hubs": [
+    "uk"
+   ],
+   "sector": "fintech",
+   "slugs": [
+    "monygroup",
+    "moneysupermarket"
+   ]
+  },
+  "hits": []
+ },
+ "Zuto": {
+  "seed": {
+   "name": "Zuto",
+   "tier": "A",
+   "hubs": [
+    "uk"
+   ],
+   "sector": "fintech"
+  },
+  "hits": []
+ },
+ "bet365": {
+  "seed": {
+   "name": "bet365",
+   "tier": "A",
+   "hubs": [
+    "manchester",
+    "uk"
+   ],
+   "sector": "gaming",
+   "slugs": [
+    "bet365"
+   ]
+  },
+  "hits": []
+ },
+ "Flutter UK&I": {
+  "seed": {
+   "name": "Flutter UK&I",
+   "tier": "A",
+   "hubs": [
+    "uk"
+   ],
+   "sector": "gaming",
+   "slugs": [
+    "flutter",
+    "flutteruki",
+    "skybettingandgaming"
+   ]
+  },
+  "hits": []
+ },
+ "Zen Internet": {
+  "seed": {
+   "name": "Zen Internet",
+   "tier": "A",
+   "hubs": [
+    "manchester"
+   ],
+   "sector": "telecom",
+   "slugs": [
+    "zeninternet"
+   ]
+  },
+  "hits": []
+ },
+ "Apadmi": {
+  "seed": {
+   "name": "Apadmi",
+   "tier": "A",
+   "hubs": [
+    "manchester"
+   ],
+   "sector": "mobile"
+  },
+  "hits": [
+   {
+    "type": "greenhouse",
+    "slug": "apadmi",
+    "region": "us",
+    "board_name": "Apadmi",
+    "total": 9,
+    "uk": 5,
+    "manchester": 5,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "Flutter Developer",
+     "Management Accountant FTC",
+     "Product Manager"
+    ]
+   }
+  ]
+ },
+ "Code Computerlove": {
+  "seed": {
+   "name": "Code Computerlove",
+   "tier": "A",
+   "hubs": [
+    "manchester"
+   ],
+   "sector": "agency",
+   "slugs": [
+    "codecomputerlove"
+   ]
+  },
+  "hits": []
+ },
+ "Farfetch": {
+  "seed": {
+   "name": "Farfetch",
+   "tier": "A",
+   "hubs": [
+    "manchester",
+    "london"
+   ],
+   "sector": "ecommerce"
+  },
+  "hits": [
+   {
+    "type": "lever",
+    "slug": "farfetch",
+    "region": "us",
+    "total": 45,
+    "uk": 12,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "AI & Automation Engineer",
+     "B2B Operations Specialist",
+     "Business Operations Principal, Catalogue and Selection"
+    ]
+   },
+   {
+    "type": "ashby",
+    "slug": "farfetch",
+    "total": 0,
+    "uk": 0,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": []
+   }
+  ]
+ },
+ "Depop": {
+  "seed": {
+   "name": "Depop",
+   "tier": "A",
+   "hubs": [
+    "manchester",
+    "london"
+   ],
+   "sector": "marketplace"
+  },
+  "hits": []
+ },
+ "Starling Bank": {
+  "seed": {
+   "name": "Starling Bank",
+   "tier": "A",
+   "hubs": [
+    "manchester",
+    "london",
+    "uk"
+   ],
+   "sector": "fintech",
+   "slugs": [
+    "starlingbank",
+    "starling"
+   ]
+  },
+  "hits": []
+ },
+ "Moneybox": {
+  "seed": {
+   "name": "Moneybox",
+   "tier": "A",
+   "hubs": [
+    "london",
+    "manchester"
+   ],
+   "sector": "fintech"
+  },
+  "hits": [
+   {
+    "type": "ashby",
+    "slug": "moneybox",
+    "total": 21,
+    "uk": 15,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "Transfer Process Lead (6-month FTC)",
+     "Senior Data Engineer",
+     "Head of AI Platforms & Deployment"
+    ]
+   }
+  ]
+ },
+ "Equal Experts": {
+  "seed": {
+   "name": "Equal Experts",
+   "tier": "A",
+   "hubs": [
+    "manchester",
+    "london"
+   ],
+   "sector": "consultancy",
+   "slugs": [
+    "equalexperts"
+   ]
+  },
+  "hits": [
+   {
+    "type": "greenhouse",
+    "slug": "equalexperts",
+    "region": "us",
+    "board_name": "Equal Experts",
+    "total": 17,
+    "uk": 0,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "Business Analyst",
+     "Lead Gen-AI Engineer",
+     "Product Owner"
+    ]
+   }
+  ]
+ },
+ "Netcompany UK": {
+  "seed": {
+   "name": "Netcompany UK",
+   "tier": "A",
+   "hubs": [
+    "manchester",
+    "london"
+   ],
+   "sector": "consultancy",
+   "slugs": [
+    "netcompany"
+   ]
+  },
+  "hits": []
+ },
+ "Kainos": {
+  "seed": {
+   "name": "Kainos",
+   "tier": "A",
+   "hubs": [
+    "uk",
+    "london"
+   ],
+   "sector": "consultancy"
+  },
+  "hits": []
+ },
+ "Liberty IT": {
+  "seed": {
+   "name": "Liberty IT",
+   "tier": "A",
+   "hubs": [
+    "uk"
+   ],
+   "sector": "tech",
+   "slugs": [
+    "libertyit"
+   ]
+  },
+  "hits": []
+ },
+ "Scott Logic": {
+  "seed": {
+   "name": "Scott Logic",
+   "tier": "A",
+   "hubs": [
+    "london",
+    "uk"
+   ],
+   "sector": "consultancy",
+   "slugs": [
+    "scottlogic"
+   ]
+  },
+  "hits": [
+   {
+    "type": "lever",
+    "slug": "scottlogic",
+    "region": "us",
+    "total": 43,
+    "uk": 43,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "Data Engineer",
+     "HR Advisor",
+     "Lead Agentic Software Engineer"
+    ]
+   }
+  ]
+ },
+ "Trainline": {
+  "seed": {
+   "name": "Trainline",
+   "tier": "A",
+   "hubs": [
+    "london",
+    "uk"
+   ],
+   "sector": "travel"
+  },
+  "hits": [
+   {
+    "type": "ashby",
+    "slug": "trainline",
+    "total": 34,
+    "uk": 34,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "Senior Product Security Engineer",
+     "IT Support Analyst",
+     "Senior Data Scientist"
+    ]
+   }
+  ]
+ },
+ "Gousto": {
+  "seed": {
+   "name": "Gousto",
+   "tier": "A",
+   "hubs": [
+    "london"
+   ],
+   "sector": "ecommerce"
+  },
+  "hits": [
+   {
+    "type": "smartrecruiters",
+    "slug": "gousto",
+    "board_name": "Gousto",
+    "total": 7,
+    "uk": 7,
+    "manchester": 1,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "Software Engineer",
+     "Registered Nurse",
+     "Executive"
+    ]
+   }
+  ]
+ },
+ "Bloom & Wild": {
+  "seed": {
+   "name": "Bloom & Wild",
+   "tier": "A",
+   "hubs": [
+    "london"
+   ],
+   "sector": "ecommerce",
+   "slugs": [
+    "bloomandwild"
+   ]
+  },
+  "hits": []
+ },
+ "Zoopla": {
+  "seed": {
+   "name": "Zoopla",
+   "tier": "A",
+   "hubs": [
+    "london",
+    "manchester"
+   ],
+   "sector": "marketplace"
+  },
+  "hits": []
+ },
+ "Rightmove": {
+  "seed": {
+   "name": "Rightmove",
+   "tier": "A",
+   "hubs": [
+    "london",
+    "uk"
+   ],
+   "sector": "marketplace"
+  },
+  "hits": []
+ },
+ "Onfido": {
+  "seed": {
+   "name": "Onfido",
+   "tier": "A",
+   "hubs": [
+    "london"
+   ],
+   "sector": "security"
+  },
+  "hits": []
+ },
+ "Tide": {
+  "seed": {
+   "name": "Tide",
+   "tier": "A",
+   "hubs": [
+    "london"
+   ],
+   "sector": "fintech"
+  },
+  "hits": [
+   {
+    "type": "greenhouse",
+    "slug": "tide",
+    "region": "us",
+    "board_name": "Careers at Tide",
+    "total": 108,
+    "uk": 24,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "Account Manager",
+     " AML & Prohibited Activities (Investigations) Analyst (6 months contract)",
+     "Analyst, Acquiring AR&I, Preventive Fraud (6 months contract)"
+    ]
+   }
+  ]
+ },
+ "Zopa": {
+  "seed": {
+   "name": "Zopa",
+   "tier": "A",
+   "hubs": [
+    "london"
+   ],
+   "sector": "fintech"
+  },
+  "hits": [
+   {
+    "type": "lever",
+    "slug": "zopa",
+    "region": "us",
+    "total": 34,
+    "uk": 34,
+    "manchester": 4,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "2027 Graduate Analyst",
+     "Analytics Engineering Manager",
+     "Android Engineer"
+    ]
+   }
+  ]
+ },
+ "OakNorth": {
+  "seed": {
+   "name": "OakNorth",
+   "tier": "A",
+   "hubs": [
+    "london",
+    "manchester"
+   ],
+   "sector": "fintech"
+  },
+  "hits": [
+   {
+    "type": "ashby",
+    "slug": "oaknorth",
+    "total": 24,
+    "uk": 10,
+    "manchester": 2,
+    "intern": 1,
+    "intern_uk": 0,
+    "sample": [
+     "Industrial Training - Finance (Regulatory Reporting)"
+    ]
+   }
+  ]
+ },
+ "Cleo": {
+  "seed": {
+   "name": "Cleo",
+   "tier": "A",
+   "hubs": [
+    "london"
+   ],
+   "sector": "fintech",
+   "slugs": [
+    "cleo",
+    "meetcleo",
+    "cleoai"
+   ]
+  },
+  "hits": [
+   {
+    "type": "greenhouse",
+    "slug": "cleo",
+    "region": "us",
+    "board_name": "Cleo (US) ",
+    "total": 6,
+    "uk": 0,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "Product Manager ",
+     "Sales Development Representative",
+     "Senior Project Manager"
+    ]
+   }
+  ]
+ },
+ "GoCardless": {
+  "seed": {
+   "name": "GoCardless",
+   "tier": "A",
+   "hubs": [
+    "london"
+   ],
+   "sector": "fintech"
+  },
+  "hits": [
+   {
+    "type": "greenhouse",
+    "slug": "gocardless",
+    "region": "us",
+    "board_name": "GoCardless",
+    "total": 33,
+    "uk": 9,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "Associate Legal Counsel",
+     "Controls Specialist",
+     "Credit Controller"
+    ]
+   }
+  ]
+ },
+ "Thought Machine": {
+  "seed": {
+   "name": "Thought Machine",
+   "tier": "A",
+   "hubs": [
+    "london"
+   ],
+   "sector": "fintech",
+   "slugs": [
+    "thoughtmachine"
+   ]
+  },
+  "hits": [
+   {
+    "type": "ashby",
+    "slug": "thought-machine",
+    "total": 40,
+    "uk": 17,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "Cloud Support Engineer",
+     "Cloud Support Engineer",
+     "Technical Programme Manager"
+    ]
+   }
+  ]
+ },
+ "TrueLayer": {
+  "seed": {
+   "name": "TrueLayer",
+   "tier": "A",
+   "hubs": [
+    "london"
+   ],
+   "sector": "fintech"
+  },
+  "hits": [
+   {
+    "type": "greenhouse",
+    "slug": "truelayer",
+    "region": "us",
+    "board_name": "TrueLayer",
+    "total": 3,
+    "uk": 1,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "Customer Success Manager - iGaming",
+     "Financial Accountant (Remote - Poland)",
+     "Head of Finance (PCF 11) & Head of Safeguarding (PCF 56)"
+    ]
+   },
+   {
+    "type": "ashby",
+    "slug": "truelayer",
+    "total": 0,
+    "uk": 0,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": []
+   }
+  ]
+ },
+ "Paddle": {
+  "seed": {
+   "name": "Paddle",
+   "tier": "A",
+   "hubs": [
+    "london",
+    "manchester"
+   ],
+   "sector": "fintech"
+  },
+  "hits": [
+   {
+    "type": "ashby",
+    "slug": "paddle",
+    "total": 15,
+    "uk": 13,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "Engineering Manager (Internal Developer Experience & AI Tooling)",
+     "Senior Software Engineer - Go",
+     "Staff Product Manager"
+    ]
+   }
+  ]
+ },
+ "Curve": {
+  "seed": {
+   "name": "Curve",
+   "tier": "A",
+   "hubs": [
+    "london"
+   ],
+   "sector": "fintech",
+   "slugs": [
+    "curve",
+    "imaginecurve"
+   ]
+  },
+  "hits": []
+ },
+ "Marshmallow": {
+  "seed": {
+   "name": "Marshmallow",
+   "tier": "A",
+   "hubs": [
+    "london"
+   ],
+   "sector": "fintech"
+  },
+  "hits": [
+   {
+    "type": "ashby",
+    "slug": "marshmallow",
+    "total": 15,
+    "uk": 14,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "Pricing Data Scientist",
+     "Principal Data Scientist",
+     "Customer Care Executive"
+    ]
+   }
+  ]
+ },
+ "Lendable": {
+  "seed": {
+   "name": "Lendable",
+   "tier": "A",
+   "hubs": [
+    "london"
+   ],
+   "sector": "fintech"
+  },
+  "hits": [
+   {
+    "type": "ashby",
+    "slug": "lendable",
+    "total": 66,
+    "uk": 61,
+    "manchester": 0,
+    "intern": 3,
+    "intern_uk": 3,
+    "sample": [
+     "Credit Analyst Intern (June 2027)",
+     "Summer Intern 2027",
+     "Credit Analyst Intern (Jan 2027)"
+    ]
+   }
+  ]
+ },
+ "Ebury": {
+  "seed": {
+   "name": "Ebury",
+   "tier": "A",
+   "hubs": [
+    "london"
+   ],
+   "sector": "fintech"
+  },
+  "hits": [
+   {
+    "type": "greenhouse",
+    "slug": "ebury",
+    "region": "us",
+    "board_name": "Ebury",
+    "total": 144,
+    "uk": 20,
+    "manchester": 0,
+    "intern": 2,
+    "intern_uk": 0,
+    "sample": [
+     "Financial Accountant Intern",
+     "Treasury Intern"
+    ]
+   }
+  ]
+ },
+ "Primer": {
+  "seed": {
+   "name": "Primer",
+   "tier": "A",
+   "hubs": [
+    "london"
+   ],
+   "sector": "fintech",
+   "slugs": [
+    "primer",
+    "primerapi"
+   ]
+  },
+  "hits": [
+   {
+    "type": "ashby",
+    "slug": "primer",
+    "total": 25,
+    "uk": 3,
+    "manchester": 0,
+    "intern": 1,
+    "intern_uk": 0,
+    "sample": [
+     "Spring/Summer 2027 Engineering Intern"
+    ]
+   }
+  ]
+ },
+ "Yapily": {
+  "seed": {
+   "name": "Yapily",
+   "tier": "A",
+   "hubs": [
+    "london"
+   ],
+   "sector": "fintech"
+  },
+  "hits": []
+ },
+ "Chip": {
+  "seed": {
+   "name": "Chip",
+   "tier": "A",
+   "hubs": [
+    "london"
+   ],
+   "sector": "fintech",
+   "slugs": [
+    "chip",
+    "getchip"
+   ]
+  },
+  "hits": []
+ },
+ "Plum": {
+  "seed": {
+   "name": "Plum",
+   "tier": "A",
+   "hubs": [
+    "london"
+   ],
+   "sector": "fintech",
+   "slugs": [
+    "plum",
+    "withplum"
+   ]
+  },
+  "hits": []
+ },
+ "Freetrade": {
+  "seed": {
+   "name": "Freetrade",
+   "tier": "A",
+   "hubs": [
+    "london"
+   ],
+   "sector": "fintech"
+  },
+  "hits": [
+   {
+    "type": "ashby",
+    "slug": "freetrade",
+    "total": 3,
+    "uk": 3,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "Senior Backend Software Engineer",
+     "Senior iOS Engineer",
+     "Head of Security, Privacy & IT "
+    ]
+   }
+  ]
+ },
+ "Trading 212": {
+  "seed": {
+   "name": "Trading 212",
+   "tier": "A",
+   "hubs": [
+    "london"
+   ],
+   "sector": "fintech",
+   "slugs": [
+    "trading212"
+   ]
+  },
+  "hits": [
+   {
+    "type": "ashby",
+    "slug": "trading212",
+    "total": 56,
+    "uk": 10,
+    "manchester": 0,
+    "intern": 2,
+    "intern_uk": 0,
+    "sample": [
+     "AML Oversight Working Student",
+     "Social Media Intern"
+    ]
+   }
+  ]
+ },
+ "Dojo": {
+  "seed": {
+   "name": "Dojo",
+   "tier": "A",
+   "hubs": [
+    "london"
+   ],
+   "sector": "fintech",
+   "slugs": [
+    "dojo",
+    "dojotech"
+   ]
+  },
+  "hits": [
+   {
+    "type": "greenhouse",
+    "slug": "dojo",
+    "region": "us",
+    "board_name": "Dojo",
+    "total": 25,
+    "uk": 22,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "Account Manager",
+     "Analytics Engineer",
+     "Brand & Motion Designer"
+    ]
+   },
+   {
+    "type": "lever",
+    "slug": "dojotech",
+    "region": "us",
+    "total": 0,
+    "uk": 0,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": []
+   }
+  ]
+ },
+ "Snyk": {
+  "seed": {
+   "name": "Snyk",
+   "tier": "A",
+   "hubs": [
+    "london"
+   ],
+   "sector": "security"
+  },
+  "hits": [
+   {
+    "type": "ashby",
+    "slug": "snyk",
+    "total": 27,
+    "uk": 3,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "Senior Product Security Engineer",
+     "Senior Revenue Accountant",
+     "Technical Success Manager"
+    ]
+   }
+  ]
+ },
+ "Quantexa": {
+  "seed": {
+   "name": "Quantexa",
+   "tier": "A",
+   "hubs": [
+    "london"
+   ],
+   "sector": "data"
+  },
+  "hits": [
+   {
+    "type": "ashby",
+    "slug": "quantexa",
+    "total": 31,
+    "uk": 15,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "Sales APAC",
+     "Solution Engineer - DACH ",
+     "Software Engineer"
+    ]
+   }
+  ]
+ },
+ "Featurespace": {
+  "seed": {
+   "name": "Featurespace",
+   "tier": "A",
+   "hubs": [
+    "uk"
+   ],
+   "sector": "ai"
+  },
+  "hits": []
+ },
+ "Raspberry Pi": {
+  "seed": {
+   "name": "Raspberry Pi",
+   "tier": "A",
+   "hubs": [
+    "uk"
+   ],
+   "sector": "hardware",
+   "slugs": [
+    "raspberrypi",
+    "raspberrypifoundation"
+   ]
+  },
+  "hits": []
+ },
+ "Ultraleap": {
+  "seed": {
+   "name": "Ultraleap",
+   "tier": "A",
+   "hubs": [
+    "uk"
+   ],
+   "sector": "hardware"
+  },
+  "hits": []
+ },
+ "Improbable": {
+  "seed": {
+   "name": "Improbable",
+   "tier": "A",
+   "hubs": [
+    "london"
+   ],
+   "sector": "tech"
+  },
+  "hits": [
+   {
+    "type": "ashby",
+    "slug": "improbable",
+    "total": 4,
+    "uk": 4,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "Head of Marketing ",
+     "General Application",
+     "Product Marketing Manager, DEX "
+    ]
+   }
+  ]
+ },
+ "Multiverse": {
+  "seed": {
+   "name": "Multiverse",
+   "tier": "A",
+   "hubs": [
+    "london"
+   ],
+   "sector": "edtech",
+   "slugs": [
+    "multiverse",
+    "wearemultiverse"
+   ]
+  },
+  "hits": [
+   {
+    "type": "ashby",
+    "slug": "multiverse",
+    "total": 29,
+    "uk": 29,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "Enterprise Account Executive, UK",
+     "Mid Market Account Executive, UK",
+     "Senior Product Marketing Manager"
+    ]
+   }
+  ]
+ },
+ "Beamery": {
+  "seed": {
+   "name": "Beamery",
+   "tier": "A",
+   "hubs": [
+    "london"
+   ],
+   "sector": "hrtech"
+  },
+  "hits": [
+   {
+    "type": "ashby",
+    "slug": "beamery",
+    "total": 6,
+    "uk": 4,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "Product BI & Ops Analyst",
+     "Senior Data Scientist",
+     "Engagement Manager - U.S."
+    ]
+   },
+   {
+    "type": "smartrecruiters",
+    "slug": "beamery",
+    "board_name": "Beamery",
+    "total": 135,
+    "uk": 29,
+    "manchester": 1,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "YVasiliy Test job2",
+     "Delivery boy - Cycle2Work",
+     "1809pr-edit"
+    ]
+   }
+  ]
+ },
+ "Signal AI": {
+  "seed": {
+   "name": "Signal AI",
+   "tier": "A",
+   "hubs": [
+    "london"
+   ],
+   "sector": "ai",
+   "slugs": [
+    "signalai"
+   ]
+  },
+  "hits": [
+   {
+    "type": "ashby",
+    "slug": "signal-ai",
+    "total": 2,
+    "uk": 0,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "Enterprise Account Executive",
+     "Analytics Engineer "
+    ]
+   }
+  ]
+ },
+ "Tractable": {
+  "seed": {
+   "name": "Tractable",
+   "tier": "A",
+   "hubs": [
+    "london"
+   ],
+   "sector": "ai"
+  },
+  "hits": [
+   {
+    "type": "ashby",
+    "slug": "tractable",
+    "total": 5,
+    "uk": 1,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "Manufacturing Technician",
+     "Embedded Systems Engineer",
+     "Senior Embedded Systems Engineer"
+    ]
+   }
+  ]
+ },
+ "Cera": {
+  "seed": {
+   "name": "Cera",
+   "tier": "A",
+   "hubs": [
+    "london"
+   ],
+   "sector": "health",
+   "slugs": [
+    "cera",
+    "ceracare"
+   ]
+  },
+  "hits": [
+   {
+    "type": "smartrecruiters",
+    "slug": "ceracare",
+    "board_name": "Cera Care",
+    "total": 687,
+    "uk": 100,
+    "manchester": 1,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "Care Assistant",
+     "Care Assistant",
+     "Female Weekend Care Staff"
+    ]
+   }
+  ]
+ },
+ "Huma": {
+  "seed": {
+   "name": "Huma",
+   "tier": "A",
+   "hubs": [
+    "london"
+   ],
+   "sector": "health"
+  },
+  "hits": []
+ },
+ "Zego": {
+  "seed": {
+   "name": "Zego",
+   "tier": "A",
+   "hubs": [
+    "london"
+   ],
+   "sector": "insurtech"
+  },
+  "hits": [
+   {
+    "type": "ashby",
+    "slug": "zego",
+    "total": 41,
+    "uk": 30,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "Lead AI Product Manager - Telematics",
+     "Lead AI Product Manager - Telematics, Portugal",
+     "Senior AI Product Manager - Mobile Experience"
+    ]
+   }
+  ]
+ },
+ "Cuvva": {
+  "seed": {
+   "name": "Cuvva",
+   "tier": "A",
+   "hubs": [
+    "london"
+   ],
+   "sector": "insurtech"
+  },
+  "hits": []
+ },
+ "Lindus Health": {
+  "seed": {
+   "name": "Lindus Health",
+   "tier": "A",
+   "hubs": [
+    "london"
+   ],
+   "sector": "health",
+   "slugs": [
+    "lindushealth"
+   ]
+  },
+  "hits": []
+ },
+ "Faculty": {
+  "seed": {
+   "name": "Faculty",
+   "tier": "A",
+   "hubs": [
+    "london"
+   ],
+   "sector": "ai",
+   "slugs": [
+    "faculty",
+    "facultyai"
+   ]
+  },
+  "hits": [
+   {
+    "type": "ashby",
+    "slug": "faculty",
+    "total": 75,
+    "uk": 75,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "Senior Machine Learning Engineer ",
+     "UK Defence Veterans - Civilian Work Attachment",
+     "Senior Research Scientist - AI Safety"
+    ]
+   }
+  ]
+ },
+ "causaLens": {
+  "seed": {
+   "name": "causaLens",
+   "tier": "A",
+   "hubs": [
+    "london"
+   ],
+   "sector": "ai",
+   "slugs": [
+    "causalens"
+   ]
+  },
+  "hits": [
+   {
+    "type": "recruitee",
+    "slug": "causalens",
+    "total": 3,
+    "uk": 3,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "FinOps Lead",
+     "Lead AI Engineer",
+     "AI Engineer"
+    ]
+   }
+  ]
+ },
+ "Robin AI": {
+  "seed": {
+   "name": "Robin AI",
+   "tier": "A",
+   "hubs": [
+    "london"
+   ],
+   "sector": "ai",
+   "slugs": [
+    "robinai"
+   ]
+  },
+  "hits": []
+ },
+ "V7": {
+  "seed": {
+   "name": "V7",
+   "tier": "A",
+   "hubs": [
+    "london"
+   ],
+   "sector": "ai",
+   "slugs": [
+    "v7",
+    "v7labs"
+   ]
+  },
+  "hits": []
+ },
+ "Encord": {
+  "seed": {
+   "name": "Encord",
+   "tier": "A",
+   "hubs": [
+    "london"
+   ],
+   "sector": "ai"
+  },
+  "hits": [
+   {
+    "type": "ashby",
+    "slug": "encord",
+    "total": 39,
+    "uk": 27,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "GTM Recruiter",
+     "Former Technical Founders",
+     "Deployment Strategist"
+    ]
+   }
+  ]
+ },
+ "PhysicsX": {
+  "seed": {
+   "name": "PhysicsX",
+   "tier": "A",
+   "hubs": [
+    "london"
+   ],
+   "sector": "ai"
+  },
+  "hits": [
+   {
+    "type": "greenhouse",
+    "slug": "physicsx",
+    "region": "us",
+    "board_name": "PhysicsX",
+    "total": 40,
+    "uk": 15,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "Applied Scientist - All Levels",
+     "CFD Engineer",
+     "CFD Engineer"
+    ]
+   }
+  ]
+ },
+ "Unitary": {
+  "seed": {
+   "name": "Unitary",
+   "tier": "A",
+   "hubs": [
+    "london"
+   ],
+   "sector": "ai",
+   "slugs": [
+    "unitary",
+    "unitaryai"
+   ]
+  },
+  "hits": []
+ },
+ "PolyAI": {
+  "seed": {
+   "name": "PolyAI",
+   "tier": "A",
+   "hubs": [
+    "london"
+   ],
+   "sector": "ai"
+  },
+  "hits": [
+   {
+    "type": "greenhouse",
+    "slug": "polyai",
+    "region": "us",
+    "board_name": "PolyAI",
+    "total": 2,
+    "uk": 0,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "Field Marketing Manager (6 month contract) ",
+     "Senior Manager, Business Development "
+    ]
+   }
+  ]
+ },
+ "Luminance": {
+  "seed": {
+   "name": "Luminance",
+   "tier": "A",
+   "hubs": [
+    "uk",
+    "london"
+   ],
+   "sector": "ai"
+  },
+  "hits": []
+ },
+ "BBC": {
+  "seed": {
+   "name": "BBC",
+   "tier": "B",
+   "hubs": [
+    "manchester",
+    "london"
+   ],
+   "sector": "media",
+   "reject": [
+    "recruitee:bbc"
+   ]
+  },
+  "hits": []
+ },
+ "ITV": {
+  "seed": {
+   "name": "ITV",
+   "tier": "B",
+   "hubs": [
+    "manchester",
+    "london"
+   ],
+   "sector": "media"
+  },
+  "hits": []
+ },
+ "Channel 4": {
+  "seed": {
+   "name": "Channel 4",
+   "tier": "B",
+   "hubs": [
+    "uk",
+    "london"
+   ],
+   "sector": "media",
+   "slugs": [
+    "channel4"
+   ]
+  },
+  "hits": []
+ },
+ "Co-op": {
+  "seed": {
+   "name": "Co-op",
+   "tier": "B",
+   "hubs": [
+    "manchester"
+   ],
+   "sector": "retail",
+   "slugs": [
+    "coop",
+    "cooperative",
+    "coopdigital"
+   ]
+  },
+  "hits": [
+   {
+    "type": "greenhouse",
+    "slug": "coop",
+    "region": "us",
+    "board_name": "Early Talent Job Board - Penn Interactive ",
+    "total": 0,
+    "uk": 0,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": []
+   }
+  ]
+ },
+ "TalkTalk": {
+  "seed": {
+   "name": "TalkTalk",
+   "tier": "B",
+   "hubs": [
+    "manchester"
+   ],
+   "sector": "telecom"
+  },
+  "hits": []
+ },
+ "Booking.com": {
+  "seed": {
+   "name": "Booking.com",
+   "tier": "B",
+   "hubs": [
+    "manchester",
+    "eu"
+   ],
+   "sector": "travel",
+   "slugs": [
+    "bookingcom",
+    "booking"
+   ]
+  },
+  "hits": []
+ },
+ "Jaguar Land Rover": {
+  "seed": {
+   "name": "Jaguar Land Rover",
+   "tier": "B",
+   "hubs": [
+    "manchester",
+    "uk"
+   ],
+   "sector": "automotive",
+   "slugs": [
+    "jlr",
+    "jaguarlandrover"
+   ]
+  },
+  "hits": []
+ },
+ "Bentley Motors": {
+  "seed": {
+   "name": "Bentley Motors",
+   "tier": "B",
+   "hubs": [
+    "uk"
+   ],
+   "sector": "automotive",
+   "slugs": [
+    "bentley",
+    "bentleymotors"
+   ]
+  },
+  "hits": []
+ },
+ "GCHQ": {
+  "seed": {
+   "name": "GCHQ",
+   "tier": "B",
+   "hubs": [
+    "manchester",
+    "uk"
+   ],
+   "sector": "gov",
+   "clearance": true
+  },
+  "hits": []
+ },
+ "MI5": {
+  "seed": {
+   "name": "MI5",
+   "tier": "B",
+   "hubs": [
+    "london",
+    "manchester"
+   ],
+   "sector": "gov",
+   "clearance": true
+  },
+  "hits": []
+ },
+ "Government Digital Service": {
+  "seed": {
+   "name": "Government Digital Service",
+   "tier": "B",
+   "hubs": [
+    "manchester",
+    "london"
+   ],
+   "sector": "gov",
+   "slugs": [
+    "gds"
+   ],
+   "reject": [
+    "greenhouse:gds"
+   ]
+  },
+  "hits": [
+   {
+    "type": "greenhouse",
+    "slug": "gds",
+    "region": "us",
+    "board_name": "Garage Door Specialist",
+    "total": 1,
+    "uk": 0,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "General Application"
+    ]
+   }
+  ]
+ },
+ "DWP Digital": {
+  "seed": {
+   "name": "DWP Digital",
+   "tier": "B",
+   "hubs": [
+    "manchester",
+    "uk"
+   ],
+   "sector": "gov",
+   "slugs": [
+    "dwp",
+    "dwpdigital"
+   ]
+  },
+  "hits": []
+ },
+ "HMRC": {
+  "seed": {
+   "name": "HMRC",
+   "tier": "B",
+   "hubs": [
+    "manchester",
+    "uk"
+   ],
+   "sector": "gov"
+  },
+  "hits": []
+ },
+ "Met Office": {
+  "seed": {
+   "name": "Met Office",
+   "tier": "B",
+   "hubs": [
+    "uk"
+   ],
+   "sector": "gov",
+   "slugs": [
+    "metoffice"
+   ]
+  },
+  "hits": []
+ },
+ "NHS England": {
+  "seed": {
+   "name": "NHS England",
+   "tier": "B",
+   "hubs": [
+    "uk"
+   ],
+   "sector": "health",
+   "slugs": [
+    "nhsengland",
+    "nhsdigital"
+   ]
+  },
+  "hits": []
+ },
+ "BAE Systems": {
+  "seed": {
+   "name": "BAE Systems",
+   "tier": "B",
+   "hubs": [
+    "manchester",
+    "uk"
+   ],
+   "sector": "defence",
+   "slugs": [
+    "baesystems"
+   ],
+   "clearance": true
+  },
+  "hits": []
+ },
+ "Thales UK": {
+  "seed": {
+   "name": "Thales UK",
+   "tier": "B",
+   "hubs": [
+    "uk"
+   ],
+   "sector": "defence",
+   "slugs": [
+    "thales"
+   ],
+   "clearance": true
+  },
+  "hits": [
+   {
+    "type": "smartrecruiters",
+    "slug": "thales",
+    "board_name": "Thales",
+    "total": 2,
+    "uk": 0,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "THALES DEFENCE TALENT PROGRAMME 2019/20",
+     "THALES RAILWAY TALENT PROGRAMME 2019/20"
+    ]
+   }
+  ]
+ },
+ "Leonardo UK": {
+  "seed": {
+   "name": "Leonardo UK",
+   "tier": "B",
+   "hubs": [
+    "uk"
+   ],
+   "sector": "defence",
+   "slugs": [
+    "leonardo"
+   ],
+   "clearance": true
+  },
+  "hits": []
+ },
+ "QinetiQ": {
+  "seed": {
+   "name": "QinetiQ",
+   "tier": "B",
+   "hubs": [
+    "uk"
+   ],
+   "sector": "defence",
+   "clearance": true
+  },
+  "hits": []
+ },
+ "Rolls-Royce": {
+  "seed": {
+   "name": "Rolls-Royce",
+   "tier": "B",
+   "hubs": [
+    "uk"
+   ],
+   "sector": "engineering",
+   "slugs": [
+    "rollsroyce"
+   ]
+  },
+  "hits": []
+ },
+ "Airbus UK": {
+  "seed": {
+   "name": "Airbus UK",
+   "tier": "B",
+   "hubs": [
+    "uk"
+   ],
+   "sector": "aerospace",
+   "slugs": [
+    "airbus"
+   ]
+  },
+  "hits": []
+ },
+ "Siemens": {
+  "seed": {
+   "name": "Siemens",
+   "tier": "B",
+   "hubs": [
+    "manchester",
+    "uk"
+   ],
+   "sector": "engineering"
+  },
+  "hits": []
+ },
+ "AstraZeneca": {
+  "seed": {
+   "name": "AstraZeneca",
+   "tier": "B",
+   "hubs": [
+    "uk"
+   ],
+   "sector": "pharma"
+  },
+  "hits": []
+ },
+ "Unilever": {
+  "seed": {
+   "name": "Unilever",
+   "tier": "B",
+   "hubs": [
+    "uk",
+    "london"
+   ],
+   "sector": "fmcg"
+  },
+  "hits": [
+   {
+    "type": "greenhouse",
+    "slug": "unilever",
+    "region": "us",
+    "board_name": "Unilever",
+    "total": 0,
+    "uk": 0,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": []
+   }
+  ]
+ },
+ "Dyson": {
+  "seed": {
+   "name": "Dyson",
+   "tier": "B",
+   "hubs": [
+    "uk"
+   ],
+   "sector": "hardware"
+  },
+  "hits": []
+ },
+ "Arm": {
+  "seed": {
+   "name": "Arm",
+   "tier": "B",
+   "hubs": [
+    "manchester",
+    "uk"
+   ],
+   "sector": "semiconductors",
+   "slugs": [
+    "arm",
+    "armltd"
+   ]
+  },
+  "hits": []
+ },
+ "Lloyds Banking Group": {
+  "seed": {
+   "name": "Lloyds Banking Group",
+   "tier": "B",
+   "hubs": [
+    "manchester",
+    "london",
+    "uk"
+   ],
+   "sector": "bank",
+   "slugs": [
+    "lloyds",
+    "lloydsbankinggroup"
+   ]
+  },
+  "hits": []
+ },
+ "Barclays": {
+  "seed": {
+   "name": "Barclays",
+   "tier": "B",
+   "hubs": [
+    "manchester",
+    "london",
+    "uk"
+   ],
+   "sector": "bank"
+  },
+  "hits": []
+ },
+ "NatWest Group": {
+  "seed": {
+   "name": "NatWest Group",
+   "tier": "B",
+   "hubs": [
+    "manchester",
+    "london",
+    "uk"
+   ],
+   "sector": "bank",
+   "slugs": [
+    "natwest",
+    "natwestgroup"
+   ]
+  },
+  "hits": []
+ },
+ "HSBC": {
+  "seed": {
+   "name": "HSBC",
+   "tier": "B",
+   "hubs": [
+    "london",
+    "uk"
+   ],
+   "sector": "bank"
+  },
+  "hits": []
+ },
+ "Santander UK": {
+  "seed": {
+   "name": "Santander UK",
+   "tier": "B",
+   "hubs": [
+    "uk",
+    "london"
+   ],
+   "sector": "bank",
+   "slugs": [
+    "santander"
+   ]
+  },
+  "hits": []
+ },
+ "BNY": {
+  "seed": {
+   "name": "BNY",
+   "tier": "B",
+   "hubs": [
+    "manchester",
+    "london"
+   ],
+   "sector": "bank",
+   "slugs": [
+    "bny",
+    "bnymellon"
+   ]
+  },
+  "hits": []
+ },
+ "Nationwide Building Society": {
+  "seed": {
+   "name": "Nationwide Building Society",
+   "tier": "B",
+   "hubs": [
+    "uk"
+   ],
+   "sector": "bank",
+   "slugs": [
+    "nationwide"
+   ]
+  },
+  "hits": []
+ },
+ "Royal London": {
+  "seed": {
+   "name": "Royal London",
+   "tier": "B",
+   "hubs": [
+    "uk"
+   ],
+   "sector": "insurance",
+   "slugs": [
+    "royallondon"
+   ]
+  },
+  "hits": []
+ },
+ "Aviva": {
+  "seed": {
+   "name": "Aviva",
+   "tier": "B",
+   "hubs": [
+    "uk",
+    "london"
+   ],
+   "sector": "insurance"
+  },
+  "hits": []
+ },
+ "Legal & General": {
+  "seed": {
+   "name": "Legal & General",
+   "tier": "B",
+   "hubs": [
+    "uk",
+    "london"
+   ],
+   "sector": "insurance",
+   "slugs": [
+    "legalandgeneral",
+    "lgim"
+   ]
+  },
+  "hits": [
+   {
+    "type": "smartrecruiters",
+    "slug": "legalandgeneral",
+    "board_name": "LegalAndGeneral",
+    "total": 37,
+    "uk": 24,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "Customer Experience Representative",
+     "Data & Analytics Lead ",
+     "Information Security Analyst (6 month FTC)"
+    ]
+   }
+  ]
+ },
+ "Admiral Group": {
+  "seed": {
+   "name": "Admiral Group",
+   "tier": "B",
+   "hubs": [
+    "uk"
+   ],
+   "sector": "insurance",
+   "slugs": [
+    "admiral"
+   ]
+  },
+  "hits": []
+ },
+ "Direct Line Group": {
+  "seed": {
+   "name": "Direct Line Group",
+   "tier": "B",
+   "hubs": [
+    "uk",
+    "london"
+   ],
+   "sector": "insurance",
+   "slugs": [
+    "directline"
+   ]
+  },
+  "hits": []
+ },
+ "Experian": {
+  "seed": {
+   "name": "Experian",
+   "tier": "B",
+   "hubs": [
+    "uk",
+    "london"
+   ],
+   "sector": "data"
+  },
+  "hits": [
+   {
+    "type": "smartrecruiters",
+    "slug": "experian",
+    "board_name": "Experian",
+    "total": 383,
+    "uk": 12,
+    "manchester": 0,
+    "intern": 2,
+    "intern_uk": 0,
+    "sample": [
+     "AI Developer Intern",
+     "Operations Assistance Internship "
+    ]
+   }
+  ]
+ },
+ "Sage": {
+  "seed": {
+   "name": "Sage",
+   "tier": "B",
+   "hubs": [
+    "uk"
+   ],
+   "sector": "software",
+   "slugs": [
+    "sage",
+    "sagegroup"
+   ]
+  },
+  "hits": []
+ },
+ "Capital One UK": {
+  "seed": {
+   "name": "Capital One UK",
+   "tier": "B",
+   "hubs": [
+    "uk",
+    "london"
+   ],
+   "sector": "bank",
+   "slugs": [
+    "capitalone"
+   ]
+  },
+  "hits": []
+ },
+ "London Stock Exchange Group": {
+  "seed": {
+   "name": "London Stock Exchange Group",
+   "tier": "B",
+   "hubs": [
+    "london",
+    "uk"
+   ],
+   "sector": "finance",
+   "slugs": [
+    "lseg"
+   ]
+  },
+  "hits": []
+ },
+ "Hargreaves Lansdown": {
+  "seed": {
+   "name": "Hargreaves Lansdown",
+   "tier": "B",
+   "hubs": [
+    "uk"
+   ],
+   "sector": "fintech",
+   "slugs": [
+    "hargreaveslansdown"
+   ]
+  },
+  "hits": []
+ },
+ "Monzo": {
+  "seed": {
+   "name": "Monzo",
+   "tier": "B",
+   "hubs": [
+    "london",
+    "remote"
+   ],
+   "sector": "fintech"
+  },
+  "hits": [
+   {
+    "type": "greenhouse",
+    "slug": "monzo",
+    "region": "us",
+    "board_name": "Monzo",
+    "total": 72,
+    "uk": 59,
+    "manchester": 0,
+    "intern": 2,
+    "intern_uk": 2,
+    "sample": [
+     "Associate Data Scientist - Intern",
+     "Associate Software Engineer - Intern"
+    ]
+   }
+  ]
+ },
+ "Revolut": {
+  "seed": {
+   "name": "Revolut",
+   "tier": "B",
+   "hubs": [
+    "london"
+   ],
+   "sector": "fintech"
+  },
+  "hits": []
+ },
+ "Wise": {
+  "seed": {
+   "name": "Wise",
+   "tier": "B",
+   "hubs": [
+    "london"
+   ],
+   "sector": "fintech",
+   "slugs": [
+    "wise",
+    "transferwise"
+   ]
+  },
+  "hits": [
+   {
+    "type": "greenhouse",
+    "slug": "wise",
+    "region": "us",
+    "board_name": "Wise Worksite Field Sales ",
+    "total": 21,
+    "uk": 0,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "Area Sales Leader  - Memphis, TN",
+     "Supplemental Sales Agent - Brooklyn, NY",
+     "Supplemental Sales Agent - Chicago, IL"
+    ]
+   },
+   {
+    "type": "smartrecruiters",
+    "slug": "wise",
+    "board_name": "Wise",
+    "total": 430,
+    "uk": 47,
+    "manchester": 0,
+    "intern": 3,
+    "intern_uk": 3,
+    "sample": [
+     "Analytics Intern",
+     "Software Engineering Intern",
+     "Data Science Intern"
+    ]
+   }
+  ]
+ },
+ "Checkout.com": {
+  "seed": {
+   "name": "Checkout.com",
+   "tier": "B",
+   "hubs": [
+    "london"
+   ],
+   "sector": "fintech",
+   "slugs": [
+    "checkoutcom",
+    "checkout"
+   ]
+  },
+  "hits": []
+ },
+ "Accenture": {
+  "seed": {
+   "name": "Accenture",
+   "tier": "B",
+   "hubs": [
+    "manchester",
+    "london"
+   ],
+   "sector": "consulting"
+  },
+  "hits": []
+ },
+ "Deloitte": {
+  "seed": {
+   "name": "Deloitte",
+   "tier": "B",
+   "hubs": [
+    "manchester",
+    "london"
+   ],
+   "sector": "consulting"
+  },
+  "hits": []
+ },
+ "PwC": {
+  "seed": {
+   "name": "PwC",
+   "tier": "B",
+   "hubs": [
+    "manchester",
+    "london"
+   ],
+   "sector": "consulting"
+  },
+  "hits": []
+ },
+ "KPMG": {
+  "seed": {
+   "name": "KPMG",
+   "tier": "B",
+   "hubs": [
+    "manchester",
+    "london"
+   ],
+   "sector": "consulting"
+  },
+  "hits": [
+   {
+    "type": "lever",
+    "slug": "kpmg",
+    "region": "us",
+    "total": 0,
+    "uk": 0,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": []
+   }
+  ]
+ },
+ "EY": {
+  "seed": {
+   "name": "EY",
+   "tier": "B",
+   "hubs": [
+    "manchester",
+    "london"
+   ],
+   "sector": "consulting",
+   "slugs": [
+    "ey",
+    "ernstyoung"
+   ]
+  },
+  "hits": []
+ },
+ "Capgemini": {
+  "seed": {
+   "name": "Capgemini",
+   "tier": "B",
+   "hubs": [
+    "manchester",
+    "uk"
+   ],
+   "sector": "consulting"
+  },
+  "hits": []
+ },
+ "IBM": {
+  "seed": {
+   "name": "IBM",
+   "tier": "B",
+   "hubs": [
+    "uk",
+    "london"
+   ],
+   "sector": "tech"
+  },
+  "hits": []
+ },
+ "CGI": {
+  "seed": {
+   "name": "CGI",
+   "tier": "B",
+   "hubs": [
+    "uk"
+   ],
+   "sector": "consulting"
+  },
+  "hits": []
+ },
+ "Endava": {
+  "seed": {
+   "name": "Endava",
+   "tier": "B",
+   "hubs": [
+    "uk"
+   ],
+   "sector": "consulting"
+  },
+  "hits": [
+   {
+    "type": "smartrecruiters",
+    "slug": "endava",
+    "board_name": "Endava",
+    "total": 114,
+    "uk": 8,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "Junior C/C++ Software Engineer",
+     "Regional Microsoft Partner Manager",
+     "Senior DevOps Engineer"
+    ]
+   }
+  ]
+ },
+ "Fujitsu UK": {
+  "seed": {
+   "name": "Fujitsu UK",
+   "tier": "B",
+   "hubs": [
+    "manchester",
+    "uk"
+   ],
+   "sector": "tech",
+   "slugs": [
+    "fujitsu"
+   ]
+  },
+  "hits": []
+ },
+ "Sopra Steria": {
+  "seed": {
+   "name": "Sopra Steria",
+   "tier": "B",
+   "hubs": [
+    "uk"
+   ],
+   "sector": "consulting",
+   "slugs": [
+    "soprasteria"
+   ]
+  },
+  "hits": []
+ },
+ "Sky": {
+  "seed": {
+   "name": "Sky",
+   "tier": "B",
+   "hubs": [
+    "uk",
+    "london"
+   ],
+   "sector": "media"
+  },
+  "hits": []
+ },
+ "BT Group": {
+  "seed": {
+   "name": "BT Group",
+   "tier": "B",
+   "hubs": [
+    "manchester",
+    "uk"
+   ],
+   "sector": "telecom",
+   "slugs": [
+    "bt",
+    "btgroup"
+   ]
+  },
+  "hits": []
+ },
+ "Virgin Media O2": {
+  "seed": {
+   "name": "Virgin Media O2",
+   "tier": "B",
+   "hubs": [
+    "uk"
+   ],
+   "sector": "telecom",
+   "slugs": [
+    "virginmediao2",
+    "vmo2"
+   ]
+  },
+  "hits": []
+ },
+ "Vodafone": {
+  "seed": {
+   "name": "Vodafone",
+   "tier": "B",
+   "hubs": [
+    "uk"
+   ],
+   "sector": "telecom"
+  },
+  "hits": []
+ },
+ "Ocado Technology": {
+  "seed": {
+   "name": "Ocado Technology",
+   "tier": "B",
+   "hubs": [
+    "uk"
+   ],
+   "sector": "ecommerce",
+   "slugs": [
+    "ocado",
+    "ocadogroup"
+   ]
+  },
+  "hits": [
+   {
+    "type": "greenhouse",
+    "slug": "ocadogroup",
+    "region": "us",
+    "board_name": "Ocado Group",
+    "total": 49,
+    "uk": 21,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "\uc5d4\uc9c0\ub2c8\uc5b4\ub9c1 \ud14c\ud06c\ub2c8\uc158",
+     "Commercial Partnerships Manager",
+     "Data Engineer "
+    ]
+   }
+  ]
+ },
+ "Tesco": {
+  "seed": {
+   "name": "Tesco",
+   "tier": "B",
+   "hubs": [
+    "london",
+    "uk"
+   ],
+   "sector": "retail"
+  },
+  "hits": []
+ },
+ "Sainsbury's": {
+  "seed": {
+   "name": "Sainsbury's",
+   "tier": "B",
+   "hubs": [
+    "london",
+    "manchester",
+    "uk"
+   ],
+   "sector": "retail",
+   "slugs": [
+    "sainsburys"
+   ]
+  },
+  "hits": []
+ },
+ "Marks & Spencer": {
+  "seed": {
+   "name": "Marks & Spencer",
+   "tier": "B",
+   "hubs": [
+    "london",
+    "manchester"
+   ],
+   "sector": "retail",
+   "slugs": [
+    "marksandspencer",
+    "mands"
+   ]
+  },
+  "hits": []
+ },
+ "ASOS": {
+  "seed": {
+   "name": "ASOS",
+   "tier": "B",
+   "hubs": [
+    "london",
+    "uk"
+   ],
+   "sector": "ecommerce"
+  },
+  "hits": [
+   {
+    "type": "smartrecruiters",
+    "slug": "asos",
+    "board_name": "ASOS",
+    "total": 69,
+    "uk": 69,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "Finance Manager - Supply Chain",
+     "Senior Data Engineer",
+     "Principal Machine Learning Engineer"
+    ]
+   }
+  ]
+ },
+ "John Lewis Partnership": {
+  "seed": {
+   "name": "John Lewis Partnership",
+   "tier": "B",
+   "hubs": [
+    "london",
+    "uk"
+   ],
+   "sector": "retail",
+   "slugs": [
+    "johnlewis",
+    "johnlewispartnership"
+   ]
+  },
+  "hits": [
+   {
+    "type": "smartrecruiters",
+    "slug": "johnlewispartnership",
+    "board_name": "John Lewis Partnership",
+    "total": 1,
+    "uk": 0,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "Administrative Manager"
+    ]
+   }
+  ]
+ },
+ "Just Eat Takeaway": {
+  "seed": {
+   "name": "Just Eat Takeaway",
+   "tier": "B",
+   "hubs": [
+    "london",
+    "uk"
+   ],
+   "sector": "ecommerce",
+   "slugs": [
+    "justeattakeaway",
+    "justeat"
+   ]
+  },
+  "hits": []
+ },
+ "Deliveroo": {
+  "seed": {
+   "name": "Deliveroo",
+   "tier": "B",
+   "hubs": [
+    "london"
+   ],
+   "sector": "ecommerce"
+  },
+  "hits": [
+   {
+    "type": "greenhouse",
+    "slug": "deliveroo",
+    "region": "us",
+    "board_name": "Deliveroo ",
+    "total": 228,
+    "uk": 149,
+    "manchester": 15,
+    "intern": 2,
+    "intern_uk": 0,
+    "sample": [
+     "Local Marketing Intern",
+     "Marketing Associate Intern"
+    ]
+   },
+   {
+    "type": "ashby",
+    "slug": "deliveroo",
+    "total": 8,
+    "uk": 5,
+    "manchester": 1,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "Warehouse Supervisor",
+     "Warehouse Supervisor - Manchester",
+     "Warehouse Associate (PT)"
+    ]
+   }
+  ]
+ },
+ "Skyscanner": {
+  "seed": {
+   "name": "Skyscanner",
+   "tier": "B",
+   "hubs": [
+    "uk",
+    "london"
+   ],
+   "sector": "travel"
+  },
+  "hits": []
+ },
+ "Expedia Group": {
+  "seed": {
+   "name": "Expedia Group",
+   "tier": "B",
+   "hubs": [
+    "london"
+   ],
+   "sector": "travel",
+   "slugs": [
+    "expedia",
+    "expediagroup"
+   ]
+  },
+  "hits": []
+ },
+ "Yelp": {
+  "seed": {
+   "name": "Yelp",
+   "tier": "B",
+   "hubs": [
+    "london"
+   ],
+   "sector": "tech"
+  },
+  "hits": []
+ },
+ "King": {
+  "seed": {
+   "name": "King",
+   "tier": "B",
+   "hubs": [
+    "london"
+   ],
+   "sector": "gaming",
+   "slugs": [
+    "king",
+    "kingcom"
+   ]
+  },
+  "hits": []
+ },
+ "Rockstar Games": {
+  "seed": {
+   "name": "Rockstar Games",
+   "tier": "B",
+   "hubs": [
+    "uk"
+   ],
+   "sector": "gaming",
+   "slugs": [
+    "rockstargames"
+   ]
+  },
+  "hits": [
+   {
+    "type": "greenhouse",
+    "slug": "rockstargames",
+    "region": "us",
+    "board_name": "Rockstar Games",
+    "total": 25,
+    "uk": 11,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "Admin Coordinator",
+     "Cloud Platform Engineer",
+     "Director: Workplace Services North America"
+    ]
+   }
+  ]
+ },
+ "Sumo Digital": {
+  "seed": {
+   "name": "Sumo Digital",
+   "tier": "B",
+   "hubs": [
+    "uk"
+   ],
+   "sector": "gaming",
+   "slugs": [
+    "sumodigital",
+    "sumogroup"
+   ]
+  },
+  "hits": []
+ },
+ "Jagex": {
+  "seed": {
+   "name": "Jagex",
+   "tier": "B",
+   "hubs": [
+    "uk"
+   ],
+   "sector": "gaming"
+  },
+  "hits": [
+   {
+    "type": "lever",
+    "slug": "jagex",
+    "region": "us",
+    "total": 0,
+    "uk": 0,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": []
+   }
+  ]
+ },
+ "Frontier Developments": {
+  "seed": {
+   "name": "Frontier Developments",
+   "tier": "B",
+   "hubs": [
+    "uk"
+   ],
+   "sector": "gaming",
+   "slugs": [
+    "frontier",
+    "frontierdevelopments"
+   ]
+  },
+  "hits": [
+   {
+    "type": "lever",
+    "slug": "frontier",
+    "region": "eu",
+    "total": 6,
+    "uk": 6,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "Animator",
+     "Experienced Character Artist",
+     "Lead Artist"
+    ]
+   },
+   {
+    "type": "ashby",
+    "slug": "frontier",
+    "total": 0,
+    "uk": 0,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": []
+   }
+  ]
+ },
+ "Ubisoft Reflections": {
+  "seed": {
+   "name": "Ubisoft Reflections",
+   "tier": "B",
+   "hubs": [
+    "uk"
+   ],
+   "sector": "gaming",
+   "slugs": [
+    "ubisoft"
+   ]
+  },
+  "hits": []
+ },
+ "Playground Games": {
+  "seed": {
+   "name": "Playground Games",
+   "tier": "B",
+   "hubs": [
+    "uk"
+   ],
+   "sector": "gaming",
+   "slugs": [
+    "playgroundgames"
+   ]
+  },
+  "hits": []
+ },
+ "Gymshark": {
+  "seed": {
+   "name": "Gymshark",
+   "tier": "B",
+   "hubs": [
+    "uk"
+   ],
+   "sector": "ecommerce"
+  },
+  "hits": [
+   {
+    "type": "greenhouse",
+    "slug": "gymshark",
+    "region": "us",
+    "board_name": "Gymshark",
+    "total": 10,
+    "uk": 6,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "Automation Engineer",
+     "Department Manager - Bond Street, New York",
+     "Designer \u2013 Menswear"
+    ]
+   }
+  ]
+ },
+ "Darktrace": {
+  "seed": {
+   "name": "Darktrace",
+   "tier": "B",
+   "hubs": [
+    "uk",
+    "london"
+   ],
+   "sector": "security"
+  },
+  "hits": []
+ },
+ "Cambridge Consultants": {
+  "seed": {
+   "name": "Cambridge Consultants",
+   "tier": "B",
+   "hubs": [
+    "uk"
+   ],
+   "sector": "engineering",
+   "slugs": [
+    "cambridgeconsultants"
+   ]
+  },
+  "hits": []
+ },
+ "Imagination Technologies": {
+  "seed": {
+   "name": "Imagination Technologies",
+   "tier": "B",
+   "hubs": [
+    "uk"
+   ],
+   "sector": "semiconductors",
+   "slugs": [
+    "imagination",
+    "imaginationtech"
+   ]
+  },
+  "hits": []
+ },
+ "Graphcore": {
+  "seed": {
+   "name": "Graphcore",
+   "tier": "B",
+   "hubs": [
+    "uk",
+    "london"
+   ],
+   "sector": "ai"
+  },
+  "hits": [
+   {
+    "type": "greenhouse",
+    "slug": "graphcore",
+    "region": "us",
+    "board_name": "Graphcore",
+    "total": 177,
+    "uk": 85,
+    "manchester": 0,
+    "intern": 1,
+    "intern_uk": 0,
+    "sample": [
+     "Knowledge Management and Training Project Intern"
+    ]
+   }
+  ]
+ },
+ "Synthesia": {
+  "seed": {
+   "name": "Synthesia",
+   "tier": "B",
+   "hubs": [
+    "london"
+   ],
+   "sector": "ai"
+  },
+  "hits": [
+   {
+    "type": "ashby",
+    "slug": "synthesia",
+    "total": 44,
+    "uk": 30,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "SecOps Security Engineer (Staff-level, L6) ",
+     "Enterprise Account Executive",
+     "Strategic Account Executive (German Speaking)"
+    ]
+   }
+  ]
+ },
+ "Stability AI": {
+  "seed": {
+   "name": "Stability AI",
+   "tier": "B",
+   "hubs": [
+    "london"
+   ],
+   "sector": "ai",
+   "slugs": [
+    "stabilityai",
+    "stability"
+   ]
+  },
+  "hits": [
+   {
+    "type": "greenhouse",
+    "slug": "stabilityai",
+    "region": "us",
+    "board_name": "Stability AI",
+    "total": 6,
+    "uk": 0,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "Forward Deployed Engineer ",
+     "IT Support Engineer",
+     "Junior IT Support Engineer"
+    ]
+   }
+  ]
+ },
+ "Canonical": {
+  "seed": {
+   "name": "Canonical",
+   "tier": "B",
+   "hubs": [
+    "remote",
+    "london"
+   ],
+   "sector": "software"
+  },
+  "hits": [
+   {
+    "type": "greenhouse",
+    "slug": "canonical",
+    "region": "us",
+    "board_name": "Canonical",
+    "total": 309,
+    "uk": 15,
+    "manchester": 0,
+    "intern": 2,
+    "intern_uk": 0,
+    "sample": [
+     "Software Engineer, Automotive and Industrial Architecture",
+     "Technical Manager - Automotive and Industrial"
+    ]
+   }
+  ]
+ },
+ "Red Hat": {
+  "seed": {
+   "name": "Red Hat",
+   "tier": "B",
+   "hubs": [
+    "uk",
+    "remote"
+   ],
+   "sector": "software",
+   "slugs": [
+    "redhat"
+   ]
+  },
+  "hits": []
+ },
+ "Oracle": {
+  "seed": {
+   "name": "Oracle",
+   "tier": "B",
+   "hubs": [
+    "uk",
+    "london"
+   ],
+   "sector": "software"
+  },
+  "hits": []
+ },
+ "SAP": {
+  "seed": {
+   "name": "SAP",
+   "tier": "B",
+   "hubs": [
+    "uk",
+    "london"
+   ],
+   "sector": "software"
+  },
+  "hits": []
+ },
+ "Cisco": {
+  "seed": {
+   "name": "Cisco",
+   "tier": "B",
+   "hubs": [
+    "uk",
+    "london"
+   ],
+   "sector": "networking"
+  },
+  "hits": []
+ },
+ "Autodesk": {
+  "seed": {
+   "name": "Autodesk",
+   "tier": "B",
+   "hubs": [
+    "london"
+   ],
+   "sector": "software"
+  },
+  "hits": []
+ },
+ "AMD": {
+  "seed": {
+   "name": "AMD",
+   "tier": "B",
+   "hubs": [
+    "uk"
+   ],
+   "sector": "semiconductors"
+  },
+  "hits": []
+ },
+ "Qualcomm": {
+  "seed": {
+   "name": "Qualcomm",
+   "tier": "B",
+   "hubs": [
+    "uk"
+   ],
+   "sector": "semiconductors"
+  },
+  "hits": []
+ },
+ "Google": {
+  "seed": {
+   "name": "Google",
+   "tier": "C",
+   "hubs": [
+    "london",
+    "manchester"
+   ],
+   "sector": "bigtech"
+  },
+  "hits": []
+ },
+ "Microsoft": {
+  "seed": {
+   "name": "Microsoft",
+   "tier": "C",
+   "hubs": [
+    "london",
+    "uk"
+   ],
+   "sector": "bigtech"
+  },
+  "hits": []
+ },
+ "Amazon": {
+  "seed": {
+   "name": "Amazon",
+   "tier": "C",
+   "hubs": [
+    "london",
+    "manchester",
+    "uk"
+   ],
+   "sector": "bigtech"
+  },
+  "hits": []
+ },
+ "Meta": {
+  "seed": {
+   "name": "Meta",
+   "tier": "C",
+   "hubs": [
+    "london"
+   ],
+   "sector": "bigtech"
+  },
+  "hits": []
+ },
+ "Apple": {
+  "seed": {
+   "name": "Apple",
+   "tier": "C",
+   "hubs": [
+    "london",
+    "uk"
+   ],
+   "sector": "bigtech"
+  },
+  "hits": []
+ },
+ "NVIDIA": {
+  "seed": {
+   "name": "NVIDIA",
+   "tier": "C",
+   "hubs": [
+    "uk"
+   ],
+   "sector": "semiconductors"
+  },
+  "hits": []
+ },
+ "TikTok": {
+  "seed": {
+   "name": "TikTok",
+   "tier": "C",
+   "hubs": [
+    "london"
+   ],
+   "sector": "bigtech",
+   "slugs": [
+    "tiktok",
+    "bytedance"
+   ],
+   "reject": [
+    "smartrecruiters:bytedance"
+   ]
+  },
+  "hits": [
+   {
+    "type": "smartrecruiters",
+    "slug": "bytedance",
+    "board_name": "bytedance",
+    "total": 2,
+    "uk": 0,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "Global HR Operation - Malaysia",
+     "Community Content Management Specialist"
+    ]
+   }
+  ]
+ },
+ "Bloomberg": {
+  "seed": {
+   "name": "Bloomberg",
+   "tier": "C",
+   "hubs": [
+    "london"
+   ],
+   "sector": "finance"
+  },
+  "hits": []
+ },
+ "Salesforce": {
+  "seed": {
+   "name": "Salesforce",
+   "tier": "C",
+   "hubs": [
+    "london"
+   ],
+   "sector": "software"
+  },
+  "hits": []
+ },
+ "Adobe": {
+  "seed": {
+   "name": "Adobe",
+   "tier": "C",
+   "hubs": [
+    "london"
+   ],
+   "sector": "software"
+  },
+  "hits": []
+ },
+ "Workday": {
+  "seed": {
+   "name": "Workday",
+   "tier": "C",
+   "hubs": [
+    "eu"
+   ],
+   "sector": "software"
+  },
+  "hits": []
+ },
+ "Spotify": {
+  "seed": {
+   "name": "Spotify",
+   "tier": "C",
+   "hubs": [
+    "london",
+    "eu"
+   ],
+   "sector": "tech"
+  },
+  "hits": [
+   {
+    "type": "lever",
+    "slug": "spotify",
+    "region": "us",
+    "total": 82,
+    "uk": 35,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "Art Director - Mexico",
+     "Artist & Label Partnerships Contractor, Vietnam",
+     "Artist Label Partnerships Manager, Taiwan"
+    ]
+   }
+  ]
+ },
+ "Uber": {
+  "seed": {
+   "name": "Uber",
+   "tier": "C",
+   "hubs": [
+    "london",
+    "eu"
+   ],
+   "sector": "tech",
+   "reject": [
+    "smartrecruiters:uber"
+   ]
+  },
+  "hits": [
+   {
+    "type": "smartrecruiters",
+    "slug": "uber",
+    "board_name": "Uber",
+    "total": 1,
+    "uk": 0,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "Test UAT"
+    ]
+   }
+  ]
+ },
+ "Shopify": {
+  "seed": {
+   "name": "Shopify",
+   "tier": "C",
+   "hubs": [
+    "remote",
+    "london"
+   ],
+   "sector": "ecommerce"
+  },
+  "hits": []
+ },
+ "Palantir": {
+  "seed": {
+   "name": "Palantir",
+   "tier": "C",
+   "hubs": [
+    "london"
+   ],
+   "sector": "data"
+  },
+  "hits": [
+   {
+    "type": "lever",
+    "slug": "palantir",
+    "region": "us",
+    "total": 306,
+    "uk": 42,
+    "manchester": 0,
+    "intern": 41,
+    "intern_uk": 5,
+    "sample": [
+     "Deployment Strategist, Internship",
+     "Deployment Strategist, Internship - US Government",
+     "Forward Deployed Infrastructure Engineer, Internship - US Government"
+    ]
+   },
+   {
+    "type": "smartrecruiters",
+    "slug": "palantir",
+    "board_name": "Palantir",
+    "total": 10,
+    "uk": 7,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "Lead QA",
+     "Intermediate C# Full Stack Developer",
+     "Intermediate C# Full Stack Developer"
+    ]
+   }
+  ]
+ },
+ "Stripe": {
+  "seed": {
+   "name": "Stripe",
+   "tier": "C",
+   "hubs": [
+    "london",
+    "eu"
+   ],
+   "sector": "fintech"
+  },
+  "hits": [
+   {
+    "type": "greenhouse",
+    "slug": "stripe",
+    "region": "us",
+    "board_name": "Stripe",
+    "total": 726,
+    "uk": 52,
+    "manchester": 0,
+    "intern": 15,
+    "intern_uk": 1,
+    "sample": [
+     "Data Analyst, Intern",
+     "Data Analyst, Intern",
+     "Financial Data Analyst Intern, Technical Operations"
+    ]
+   }
+  ]
+ },
+ "Cloudflare": {
+  "seed": {
+   "name": "Cloudflare",
+   "tier": "C",
+   "hubs": [
+    "london",
+    "eu"
+   ],
+   "sector": "infra"
+  },
+  "hits": [
+   {
+    "type": "greenhouse",
+    "slug": "cloudflare",
+    "region": "us",
+    "board_name": "Cloudflare",
+    "total": 436,
+    "uk": 0,
+    "manchester": 0,
+    "intern": 3,
+    "intern_uk": 0,
+    "sample": [
+     "Software Engineer Intern (2027)",
+     "Software Engineer Intern (2027)",
+     "Software Engineer Intern (2027) - Austin, TX"
+    ]
+   }
+  ]
+ },
+ "Databricks": {
+  "seed": {
+   "name": "Databricks",
+   "tier": "C",
+   "hubs": [
+    "london",
+    "eu"
+   ],
+   "sector": "data"
+  },
+  "hits": [
+   {
+    "type": "greenhouse",
+    "slug": "databricks",
+    "region": "us",
+    "board_name": "Databricks",
+    "total": 901,
+    "uk": 50,
+    "manchester": 0,
+    "intern": 16,
+    "intern_uk": 1,
+    "sample": [
+     "Delivery Solutions Architect - Public Sector (Defense Industrial Base) ",
+     "PhD GenAI Research Scientist Intern",
+     "Product Design Intern (2027 Start)"
+    ]
+   }
+  ]
+ },
+ "Snowflake": {
+  "seed": {
+   "name": "Snowflake",
+   "tier": "C",
+   "hubs": [
+    "london"
+   ],
+   "sector": "data"
+  },
+  "hits": [
+   {
+    "type": "ashby",
+    "slug": "snowflake",
+    "total": 360,
+    "uk": 28,
+    "manchester": 0,
+    "intern": 6,
+    "intern_uk": 1,
+    "sample": [
+     "Software Engineer Intern - Berlin (2026)",
+     "Software Engineer Intern - Zurich (2026)",
+     "SDR Intern - Munich "
+    ]
+   }
+  ]
+ },
+ "Datadog": {
+  "seed": {
+   "name": "Datadog",
+   "tier": "C",
+   "hubs": [
+    "london",
+    "eu"
+   ],
+   "sector": "infra"
+  },
+  "hits": [
+   {
+    "type": "greenhouse",
+    "slug": "datadog",
+    "region": "us",
+    "board_name": "Datadog",
+    "total": 429,
+    "uk": 20,
+    "manchester": 0,
+    "intern": 8,
+    "intern_uk": 0,
+    "sample": [
+     "Applied Science Intern",
+     "IT Support Technician Intern",
+     "Product Management Intern"
+    ]
+   }
+  ]
+ },
+ "MongoDB": {
+  "seed": {
+   "name": "MongoDB",
+   "tier": "C",
+   "hubs": [
+    "london",
+    "eu"
+   ],
+   "sector": "data"
+  },
+  "hits": [
+   {
+    "type": "greenhouse",
+    "slug": "mongodb",
+    "region": "us",
+    "board_name": "MongoDB",
+    "total": 396,
+    "uk": 13,
+    "manchester": 0,
+    "intern": 1,
+    "intern_uk": 0,
+    "sample": [
+     "2027 - Software Engineer Intern, Dublin - 6 Month Internship"
+    ]
+   }
+  ]
+ },
+ "Elastic": {
+  "seed": {
+   "name": "Elastic",
+   "tier": "C",
+   "hubs": [
+    "remote"
+   ],
+   "sector": "data"
+  },
+  "hits": [
+   {
+    "type": "greenhouse",
+    "slug": "elastic",
+    "region": "us",
+    "board_name": "Elastic",
+    "total": 377,
+    "uk": 24,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "ABM Manager, Global Public Sector",
+     "ABM Regional Manager, AMER",
+     "Account Executive"
+    ]
+   }
+  ]
+ },
+ "GitLab": {
+  "seed": {
+   "name": "GitLab",
+   "tier": "C",
+   "hubs": [
+    "remote"
+   ],
+   "sector": "devtools"
+  },
+  "hits": [
+   {
+    "type": "greenhouse",
+    "slug": "gitlab",
+    "region": "us",
+    "board_name": "GitLab",
+    "total": 228,
+    "uk": 49,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "Account Executive - France",
+     "AI Transformation Owner, CRO",
+     "AI Transformation Owner, Product & Design"
+    ]
+   }
+  ]
+ },
+ "Grafana Labs": {
+  "seed": {
+   "name": "Grafana Labs",
+   "tier": "C",
+   "hubs": [
+    "remote"
+   ],
+   "sector": "infra",
+   "slugs": [
+    "grafanalabs"
+   ]
+  },
+  "hits": [
+   {
+    "type": "greenhouse",
+    "slug": "grafanalabs",
+    "region": "us",
+    "board_name": "Grafana Labs",
+    "total": 137,
+    "uk": 13,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "Commercial Account Executive, Acquisition | Remote | Netherlands",
+     "Commercial Account Executive, Acquisition | Remote | Sweden",
+     " Demand Generation Program Manager | Canada | Remote"
+    ]
+   }
+  ]
+ },
+ "Google DeepMind": {
+  "seed": {
+   "name": "Google DeepMind",
+   "tier": "C",
+   "hubs": [
+    "london"
+   ],
+   "sector": "ai",
+   "slugs": [
+    "deepmind"
+   ]
+  },
+  "hits": []
+ },
+ "Isomorphic Labs": {
+  "seed": {
+   "name": "Isomorphic Labs",
+   "tier": "C",
+   "hubs": [
+    "london"
+   ],
+   "sector": "ai",
+   "slugs": [
+    "isomorphiclabs"
+   ]
+  },
+  "hits": [
+   {
+    "type": "greenhouse",
+    "slug": "isomorphiclabs",
+    "region": "us",
+    "board_name": "Isomorphic Labs",
+    "total": 29,
+    "uk": 29,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "Application Support Engineer (Third Party Systems), London",
+     "Associate Director, Clinical Supply Chain, Cambridge, MA",
+     "Associate Director, Translational Medicine, Oncology, Cambridge, MA "
+    ]
+   }
+  ]
+ },
+ "Wayve": {
+  "seed": {
+   "name": "Wayve",
+   "tier": "C",
+   "hubs": [
+    "london"
+   ],
+   "sector": "ai"
+  },
+  "hits": [
+   {
+    "type": "ashby",
+    "slug": "wayve",
+    "total": 175,
+    "uk": 64,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "Technical Lead Manager, Synthetic Data ",
+     "System Integration Engineer",
+     "Senior Software Engineer - Runtime Platform, Robot Software"
+    ]
+   }
+  ]
+ },
+ "ElevenLabs": {
+  "seed": {
+   "name": "ElevenLabs",
+   "tier": "C",
+   "hubs": [
+    "london",
+    "remote"
+   ],
+   "sector": "ai"
+  },
+  "hits": [
+   {
+    "type": "ashby",
+    "slug": "elevenlabs",
+    "total": 154,
+    "uk": 53,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "Account Manager - India ",
+     "Enterprise Solutions Engineer - USA",
+     "Account Executive - Japan"
+    ]
+   }
+  ]
+ },
+ "Helsing": {
+  "seed": {
+   "name": "Helsing",
+   "tier": "C",
+   "hubs": [
+    "london",
+    "eu"
+   ],
+   "sector": "defence",
+   "clearance": true
+  },
+  "hits": [
+   {
+    "type": "greenhouse",
+    "slug": "helsing",
+    "region": "us",
+    "board_name": "Helsing",
+    "total": 155,
+    "uk": 34,
+    "manchester": 0,
+    "intern": 3,
+    "intern_uk": 1,
+    "sample": [
+     "AI Research Intern (PhD) \u2013 3D Computer Vision",
+     "Communications Intern",
+     "Helsing \u2013 Formula Student Programme "
+    ]
+   }
+  ]
+ },
+ "Cohere": {
+  "seed": {
+   "name": "Cohere",
+   "tier": "C",
+   "hubs": [
+    "london"
+   ],
+   "sector": "ai"
+  },
+  "hits": [
+   {
+    "type": "ashby",
+    "slug": "cohere",
+    "total": 115,
+    "uk": 36,
+    "manchester": 0,
+    "intern": 3,
+    "intern_uk": 3,
+    "sample": [
+     "Software Engineer Intern (Winter 2027)",
+     "Research Internship (Winter 2027)",
+     "Machine Learning Intern/Co-op  (Winter 2027)"
+    ]
+   }
+  ]
+ },
+ "Hugging Face": {
+  "seed": {
+   "name": "Hugging Face",
+   "tier": "C",
+   "hubs": [
+    "remote",
+    "eu"
+   ],
+   "sector": "ai",
+   "slugs": [
+    "huggingface"
+   ]
+  },
+  "hits": []
+ },
+ "Mistral AI": {
+  "seed": {
+   "name": "Mistral AI",
+   "tier": "C",
+   "hubs": [
+    "eu",
+    "london"
+   ],
+   "sector": "ai",
+   "slugs": [
+    "mistral",
+    "mistralai"
+   ]
+  },
+  "hits": [
+   {
+    "type": "lever",
+    "slug": "mistral",
+    "region": "us",
+    "total": 0,
+    "uk": 0,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": []
+   }
+  ]
+ },
+ "Goldman Sachs": {
+  "seed": {
+   "name": "Goldman Sachs",
+   "tier": "C",
+   "hubs": [
+    "london",
+    "uk"
+   ],
+   "sector": "bank"
+  },
+  "hits": []
+ },
+ "JPMorgan Chase": {
+  "seed": {
+   "name": "JPMorgan Chase",
+   "tier": "C",
+   "hubs": [
+    "london",
+    "uk"
+   ],
+   "sector": "bank",
+   "slugs": [
+    "jpmorgan",
+    "jpmc"
+   ]
+  },
+  "hits": []
+ },
+ "Morgan Stanley": {
+  "seed": {
+   "name": "Morgan Stanley",
+   "tier": "C",
+   "hubs": [
+    "london",
+    "uk"
+   ],
+   "sector": "bank"
+  },
+  "hits": []
+ },
+ "Bank of America": {
+  "seed": {
+   "name": "Bank of America",
+   "tier": "C",
+   "hubs": [
+    "london"
+   ],
+   "sector": "bank"
+  },
+  "hits": []
+ },
+ "Citi": {
+  "seed": {
+   "name": "Citi",
+   "tier": "C",
+   "hubs": [
+    "london",
+    "uk"
+   ],
+   "sector": "bank"
+  },
+  "hits": []
+ },
+ "Deutsche Bank": {
+  "seed": {
+   "name": "Deutsche Bank",
+   "tier": "C",
+   "hubs": [
+    "london",
+    "uk"
+   ],
+   "sector": "bank"
+  },
+  "hits": []
+ },
+ "UBS": {
+  "seed": {
+   "name": "UBS",
+   "tier": "C",
+   "hubs": [
+    "london"
+   ],
+   "sector": "bank"
+  },
+  "hits": []
+ },
+ "Jane Street": {
+  "seed": {
+   "name": "Jane Street",
+   "tier": "C",
+   "hubs": [
+    "london"
+   ],
+   "sector": "quant"
+  },
+  "hits": [
+   {
+    "type": "greenhouse",
+    "slug": "janestreet",
+    "region": "us",
+    "board_name": "Jane Street",
+    "total": 221,
+    "uk": 57,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "Accounting Coordinator",
+     "\ua4dfachine \ua4e1earning \ua4e3esearcher",
+     "Architect "
+    ]
+   }
+  ]
+ },
+ "Citadel": {
+  "seed": {
+   "name": "Citadel",
+   "tier": "C",
+   "hubs": [
+    "london"
+   ],
+   "sector": "quant"
+  },
+  "hits": []
+ },
+ "Citadel Securities": {
+  "seed": {
+   "name": "Citadel Securities",
+   "tier": "C",
+   "hubs": [
+    "london"
+   ],
+   "sector": "quant"
+  },
+  "hits": []
+ },
+ "Hudson River Trading": {
+  "seed": {
+   "name": "Hudson River Trading",
+   "tier": "C",
+   "hubs": [
+    "london"
+   ],
+   "sector": "quant",
+   "slugs": [
+    "wehrtyou",
+    "hrt"
+   ]
+  },
+  "hits": [
+   {
+    "type": "greenhouse",
+    "slug": "wehrtyou",
+    "region": "us",
+    "board_name": "Hudson River Trading",
+    "total": 86,
+    "uk": 30,
+    "manchester": 0,
+    "intern": 6,
+    "intern_uk": 4,
+    "sample": [
+     "Algorithm Development (Quant Research & Trading) Internship \u2013 Summer 2027",
+     "Algorithm Development (Quant Research & Trading) PhD Internship \u2013 Summer 2027",
+     "Data Scientist Intern - 2027"
+    ]
+   },
+   {
+    "type": "ashby",
+    "slug": "hrt",
+    "total": 0,
+    "uk": 0,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": []
+   }
+  ]
+ },
+ "Jump Trading": {
+  "seed": {
+   "name": "Jump Trading",
+   "tier": "C",
+   "hubs": [
+    "london"
+   ],
+   "sector": "quant"
+  },
+  "hits": [
+   {
+    "type": "greenhouse",
+    "slug": "jumptrading",
+    "region": "us",
+    "board_name": "Jump Trading",
+    "total": 101,
+    "uk": 28,
+    "manchester": 0,
+    "intern": 31,
+    "intern_uk": 10,
+    "sample": [
+     "Campus AI/ML Researcher (Intern)",
+     "Campus AI Research Engineer - Deep Learning (Intern)",
+     "Campus AI Research Engineer (Intern)"
+    ]
+   }
+  ]
+ },
+ "Optiver": {
+  "seed": {
+   "name": "Optiver",
+   "tier": "C",
+   "hubs": [
+    "london",
+    "eu"
+   ],
+   "sector": "quant"
+  },
+  "hits": [
+   {
+    "type": "greenhouse",
+    "slug": "optiver",
+    "region": "us",
+    "board_name": "Optiver",
+    "total": 0,
+    "uk": 0,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": []
+   }
+  ]
+ },
+ "IMC Trading": {
+  "seed": {
+   "name": "IMC Trading",
+   "tier": "C",
+   "hubs": [
+    "london",
+    "eu"
+   ],
+   "sector": "quant",
+   "slugs": [
+    "imc",
+    "imctrading"
+   ]
+  },
+  "hits": [
+   {
+    "type": "greenhouse",
+    "slug": "imc",
+    "region": "us",
+    "board_name": "IMC",
+    "total": 171,
+    "uk": 10,
+    "manchester": 0,
+    "intern": 19,
+    "intern_uk": 0,
+    "sample": [
+     "Deep Learning Research Intern - 2027 - Sydney",
+     "Deep Learning Research Intern - Summer 2027 - Amsterdam",
+     "Deep Learning Research Intern - Summer 2027 - New York"
+    ]
+   }
+  ]
+ },
+ "Flow Traders": {
+  "seed": {
+   "name": "Flow Traders",
+   "tier": "C",
+   "hubs": [
+    "london",
+    "eu"
+   ],
+   "sector": "quant"
+  },
+  "hits": [
+   {
+    "type": "greenhouse",
+    "slug": "flowtraders",
+    "region": "us",
+    "board_name": "Flow Traders",
+    "total": 45,
+    "uk": 4,
+    "manchester": 0,
+    "intern": 2,
+    "intern_uk": 0,
+    "sample": [
+     "Quantitative Trading Intern Summer 2027",
+     "Trading Intern "
+    ]
+   }
+  ]
+ },
+ "DRW": {
+  "seed": {
+   "name": "DRW",
+   "tier": "C",
+   "hubs": [
+    "london"
+   ],
+   "sector": "quant"
+  },
+  "hits": []
+ },
+ "Five Rings": {
+  "seed": {
+   "name": "Five Rings",
+   "tier": "C",
+   "hubs": [
+    "london"
+   ],
+   "sector": "quant",
+   "slugs": [
+    "fiverings",
+    "fiveringscap"
+   ]
+  },
+  "hits": []
+ },
+ "G-Research": {
+  "seed": {
+   "name": "G-Research",
+   "tier": "C",
+   "hubs": [
+    "london"
+   ],
+   "sector": "quant",
+   "slugs": [
+    "gresearch"
+   ]
+  },
+  "hits": []
+ },
+ "XTX Markets": {
+  "seed": {
+   "name": "XTX Markets",
+   "tier": "C",
+   "hubs": [
+    "london"
+   ],
+   "sector": "quant",
+   "slugs": [
+    "xtxmarkets",
+    "xtxmarketstechnologies"
+   ]
+  },
+  "hits": [
+   {
+    "type": "greenhouse",
+    "slug": "xtxmarketstechnologies",
+    "region": "us",
+    "board_name": "XTX Markets",
+    "total": 7,
+    "uk": 3,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "C++ Software Engineer",
+     "Datacentre Operations Engineer",
+     "Datacentre Operations Specialist"
+    ]
+   }
+  ]
+ },
+ "Qube Research & Technologies": {
+  "seed": {
+   "name": "Qube Research & Technologies",
+   "tier": "C",
+   "hubs": [
+    "london"
+   ],
+   "sector": "quant",
+   "slugs": [
+    "qube",
+    "qubert",
+    "qube-rt"
+   ]
+  },
+  "hits": [
+   {
+    "type": "greenhouse",
+    "slug": "quberesearchandtechnologies",
+    "region": "us",
+    "board_name": "Qube Research & Technologies",
+    "total": 202,
+    "uk": 69,
+    "manchester": 0,
+    "intern": 12,
+    "intern_uk": 6,
+    "sample": [
+     "2027 \u2013 Graduate or Internship, Infrastructure Engineer\u00a0",
+     "2027 - Internship, Data Engineering",
+     "2027 \u2013 Internship, Data Engineering"
+    ]
+   }
+  ]
+ },
+ "Squarepoint Capital": {
+  "seed": {
+   "name": "Squarepoint Capital",
+   "tier": "C",
+   "hubs": [
+    "london"
+   ],
+   "sector": "quant",
+   "slugs": [
+    "squarepoint",
+    "squarepointcapital"
+   ]
+  },
+  "hits": [
+   {
+    "type": "greenhouse",
+    "slug": "squarepointcapital",
+    "region": "us",
+    "board_name": "Squarepoint Capital",
+    "total": 91,
+    "uk": 69,
+    "manchester": 0,
+    "intern": 5,
+    "intern_uk": 2,
+    "sample": [
+     "Intern Quant Researcher",
+     "Intern Software Developer - London - 2027",
+     "Intern Software Developer - Montreal - 2027"
+    ]
+   }
+  ]
+ },
+ "Man Group": {
+  "seed": {
+   "name": "Man Group",
+   "tier": "C",
+   "hubs": [
+    "london"
+   ],
+   "sector": "quant"
+  },
+  "hits": [
+   {
+    "type": "greenhouse",
+    "slug": "mangroup",
+    "region": "us",
+    "board_name": "Man Group",
+    "total": 58,
+    "uk": 24,
+    "manchester": 0,
+    "intern": 2,
+    "intern_uk": 0,
+    "sample": [
+     "Quant Research Analyst Intern",
+     "Technology Summer Internship "
+    ]
+   }
+  ]
+ },
+ "Marshall Wace": {
+  "seed": {
+   "name": "Marshall Wace",
+   "tier": "C",
+   "hubs": [
+    "london"
+   ],
+   "sector": "quant"
+  },
+  "hits": [
+   {
+    "type": "greenhouse",
+    "slug": "marshallwace",
+    "region": "us",
+    "board_name": "Marshall Wace",
+    "total": 1,
+    "uk": 0,
+    "manchester": 0,
+    "intern": 1,
+    "intern_uk": 0,
+    "sample": [
+     "2027 Summer Operations Intern"
+    ]
+   }
+  ]
+ },
+ "Millennium": {
+  "seed": {
+   "name": "Millennium",
+   "tier": "C",
+   "hubs": [
+    "london"
+   ],
+   "sector": "quant",
+   "slugs": [
+    "mlp",
+    "millenniumadvisors"
+   ]
+  },
+  "hits": []
+ },
+ "Point72": {
+  "seed": {
+   "name": "Point72",
+   "tier": "C",
+   "hubs": [
+    "london"
+   ],
+   "sector": "quant"
+  },
+  "hits": [
+   {
+    "type": "greenhouse",
+    "slug": "point72",
+    "region": "us",
+    "board_name": "Point72 ",
+    "total": 215,
+    "uk": 25,
+    "manchester": 0,
+    "intern": 19,
+    "intern_uk": 3,
+    "sample": [
+     "2027 Point72 Academy Investment Analyst Summer Internship Program - Hong Kong",
+     "2027 Point72 Academy Investment Analyst Summer Internship Program - Japan",
+     "2027 Point72 Academy Investment Analyst Summer Internship Program - Japan (BCF)"
+    ]
+   }
+  ]
+ },
+ "Two Sigma": {
+  "seed": {
+   "name": "Two Sigma",
+   "tier": "C",
+   "hubs": [
+    "london"
+   ],
+   "sector": "quant"
+  },
+  "hits": []
+ },
+ "D. E. Shaw": {
+  "seed": {
+   "name": "D. E. Shaw",
+   "tier": "C",
+   "hubs": [
+    "london"
+   ],
+   "sector": "quant",
+   "slugs": [
+    "deshaw"
+   ]
+  },
+  "hits": []
+ },
+ "Tower Research Capital": {
+  "seed": {
+   "name": "Tower Research Capital",
+   "tier": "C",
+   "hubs": [
+    "london"
+   ],
+   "sector": "quant",
+   "slugs": [
+    "towerresearch",
+    "towerresearchcapital"
+   ]
+  },
+  "hits": [
+   {
+    "type": "greenhouse",
+    "slug": "towerresearchcapital",
+    "region": "us",
+    "board_name": "Tower Research Capital",
+    "total": 97,
+    "uk": 9,
+    "manchester": 0,
+    "intern": 16,
+    "intern_uk": 2,
+    "sample": [
+     "HR Intern",
+     "Intern",
+     "Intern - AI/ML"
+    ]
+   }
+  ]
+ },
+ "Susquehanna (SIG)": {
+  "seed": {
+   "name": "Susquehanna (SIG)",
+   "tier": "C",
+   "hubs": [
+    "london",
+    "eu"
+   ],
+   "sector": "quant",
+   "slugs": [
+    "sig",
+    "susquehanna"
+   ]
+  },
+  "hits": []
+ },
+ "Maven Securities": {
+  "seed": {
+   "name": "Maven Securities",
+   "tier": "C",
+   "hubs": [
+    "london"
+   ],
+   "sector": "quant",
+   "slugs": [
+    "maven",
+    "mavensecurities"
+   ],
+   "reject": [
+    "ashby:maven"
+   ]
+  },
+  "hits": [
+   {
+    "type": "ashby",
+    "slug": "maven",
+    "total": 3,
+    "uk": 0,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "Partnerships Lead, Maven for Business",
+     "Senior Software Engineer",
+     "Growth Lead"
+    ]
+   }
+  ]
+ },
+ "Quadrature Capital": {
+  "seed": {
+   "name": "Quadrature Capital",
+   "tier": "C",
+   "hubs": [
+    "london"
+   ],
+   "sector": "quant",
+   "slugs": [
+    "quadrature"
+   ]
+  },
+  "hits": [
+   {
+    "type": "ashby",
+    "slug": "quadrature",
+    "total": 1,
+    "uk": 1,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "Quantitative Developer"
+    ]
+   },
+   {
+    "type": "greenhouse",
+    "slug": "quadraturecapital",
+    "region": "us",
+    "board_name": "Quadrature Capital",
+    "total": 3,
+    "uk": 3,
+    "manchester": 0,
+    "intern": 1,
+    "intern_uk": 1,
+    "sample": [
+     "Internships"
+    ]
+   }
+  ]
+ },
+ "Balyasny": {
+  "seed": {
+   "name": "Balyasny",
+   "tier": "C",
+   "hubs": [
+    "london"
+   ],
+   "sector": "quant",
+   "slugs": [
+    "bam",
+    "balyasny"
+   ]
+  },
+  "hits": []
+ },
+ "Adyen": {
+  "seed": {
+   "name": "Adyen",
+   "tier": "C",
+   "hubs": [
+    "eu",
+    "london"
+   ],
+   "sector": "fintech"
+  },
+  "hits": [
+   {
+    "type": "greenhouse",
+    "slug": "adyen",
+    "region": "us",
+    "board_name": "Adyen",
+    "total": 249,
+    "uk": 9,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     " Account Manager",
+     "Account Manager",
+     "Account Manager"
+    ]
+   }
+  ]
+ },
+ "Klarna": {
+  "seed": {
+   "name": "Klarna",
+   "tier": "B",
+   "hubs": [
+    "eu",
+    "london"
+   ],
+   "sector": "fintech"
+  },
+  "hits": []
+ },
+ "Picnic": {
+  "seed": {
+   "name": "Picnic",
+   "tier": "B",
+   "hubs": [
+    "eu"
+   ],
+   "sector": "ecommerce"
+  },
+  "hits": [
+   {
+    "type": "smartrecruiters",
+    "slug": "picnic",
+    "board_name": "Picnic",
+    "total": 2,
+    "uk": 0,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "HR adviseur (junior)",
+     "HR People Partner"
+    ]
+   }
+  ]
+ },
+ "Zalando": {
+  "seed": {
+   "name": "Zalando",
+   "tier": "B",
+   "hubs": [
+    "eu"
+   ],
+   "sector": "ecommerce"
+  },
+  "hits": []
+ },
+ "N26": {
+  "seed": {
+   "name": "N26",
+   "tier": "B",
+   "hubs": [
+    "eu"
+   ],
+   "sector": "fintech"
+  },
+  "hits": [
+   {
+    "type": "greenhouse",
+    "slug": "n26",
+    "region": "us",
+    "board_name": "N26",
+    "total": 34,
+    "uk": 0,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "AFC Associate - SAR Delegate (D\u00e9clarant Tracfin)",
+     "AFC Operations Team Lead - French Team",
+     "AFC Operations Team Lead Italy (1year Fixed-Term Contract)"
+    ]
+   }
+  ]
+ },
+ "Delivery Hero": {
+  "seed": {
+   "name": "Delivery Hero",
+   "tier": "B",
+   "hubs": [
+    "eu"
+   ],
+   "sector": "ecommerce",
+   "slugs": [
+    "deliveryhero"
+   ]
+  },
+  "hits": [
+   {
+    "type": "smartrecruiters",
+    "slug": "deliveryhero",
+    "board_name": "Delivery Hero",
+    "total": 914,
+    "uk": 0,
+    "manchester": 0,
+    "intern": 3,
+    "intern_uk": 0,
+    "sample": [
+     "Intern Retail Global HQ",
+     "Intern, Marketing (Campaigns) - Academic Internship",
+     "Intern Brands Ads Global HQ"
+    ]
+   }
+  ]
+ },
+ "Mollie": {
+  "seed": {
+   "name": "Mollie",
+   "tier": "B",
+   "hubs": [
+    "eu"
+   ],
+   "sector": "fintech"
+  },
+  "hits": [
+   {
+    "type": "ashby",
+    "slug": "mollie",
+    "total": 45,
+    "uk": 4,
+    "manchester": 0,
+    "intern": 1,
+    "intern_uk": 0,
+    "sample": [
+     "Working Student - Workplace Experience"
+    ]
+   }
+  ]
+ },
+ "bunq": {
+  "seed": {
+   "name": "bunq",
+   "tier": "B",
+   "hubs": [
+    "eu"
+   ],
+   "sector": "fintech"
+  },
+  "hits": []
+ },
+ "Celonis": {
+  "seed": {
+   "name": "Celonis",
+   "tier": "B",
+   "hubs": [
+    "eu",
+    "london"
+   ],
+   "sector": "data"
+  },
+  "hits": [
+   {
+    "type": "greenhouse",
+    "slug": "celonis",
+    "region": "us",
+    "board_name": "Celonis",
+    "total": 201,
+    "uk": 18,
+    "manchester": 0,
+    "intern": 5,
+    "intern_uk": 2,
+    "sample": [
+     "AI & Management Consulting Intern (Value Engineering - UKI Market)",
+     "Intern AI & Management Consulting (Value Engineering)",
+     "Intern Applied AI Solution Consulting (Italy)"
+    ]
+   }
+  ]
+ },
+ "JetBrains": {
+  "seed": {
+   "name": "JetBrains",
+   "tier": "B",
+   "hubs": [
+    "eu"
+   ],
+   "sector": "devtools"
+  },
+  "hits": [
+   {
+    "type": "greenhouse",
+    "slug": "jetbrains",
+    "region": "us",
+    "board_name": "JetBrains",
+    "total": 54,
+    "uk": 14,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": [
+     "Accounts Payable Specialist",
+     "Campus Ambassador ",
+     "Campus Ambassador (Universities in Europe)"
+    ]
+   },
+   {
+    "type": "lever",
+    "slug": "jetbrains",
+    "region": "us",
+    "total": 0,
+    "uk": 0,
+    "manchester": 0,
+    "intern": 0,
+    "intern_uk": 0,
+    "sample": []
+   }
+  ]
+ },
+ "Criteo": {
+  "seed": {
+   "name": "Criteo",
+   "tier": "B",
+   "hubs": [
+    "eu"
+   ],
+   "sector": "adtech"
+  },
+  "hits": []
+ }
+}

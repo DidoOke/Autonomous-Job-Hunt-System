@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jobhunt"
+version = "0.1.0"
+description = "Job Hunt Service"
+requires-python = ">=3.12"
+dependencies = [
+    "httpx",
+    "sqlalchemy>=2",
+    "greenlet",
+    "asyncpg",
+    "psycopg2-binary",
+    "alembic",
+    "pydantic>=2",
+    "pydantic-settings",
+    "apscheduler",
+    "typer",
+    "structlog",
+    "uvicorn[standard]",
+    "fastapi",
+    "python-dotenv",
+    "selectolax",
+    "python-jobspy",
+    "playwright>=1.48.0",
+]
+
+[project.scripts]
+jobhunt = "jobhunt.cli:app"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["jobhunt*"]

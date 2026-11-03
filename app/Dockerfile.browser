@@ -1,0 +1,9 @@
+FROM mcr.microsoft.com/playwright/python:v1.48.0-noble
+RUN pip install --no-cache-dir uv
+WORKDIR /app
+COPY pyproject.toml .
+COPY jobhunt ./jobhunt
+RUN uv pip install --system .
+RUN playwright install chromium
+COPY alembic ./alembic
+COPY alembic.ini .

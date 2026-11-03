@@ -1,0 +1,291 @@
+# =============================================================================
+# SEED COMPANY LIST: human-curated. Edit freely.
+#
+# tier:   A = sweet spot (mid-size / scaleup, realistic odds)
+#         B = strong (large UK employers, structured intern/placement schemes)
+#         C = top / stretch (big tech, AI labs, quant, top fintech)
+#         Every tier is polled equally. Tier only sets alert priority.
+# hubs:   where I *believe* they hire. probe_ats.py measures the actual job
+#         locations, so treat this as a hint, not a fact.
+# slugs:  optional extra slug guesses for the ATS probe (name-based guesses
+#         are generated automatically).
+# clearance: true = roles often need SC/DV vetting (usually British nationality
+#         + UK residency). Kept in the list, but flagged on alerts.
+# reject: ["type:slug", ...] = feeds the probe matched that belong to a DIFFERENT
+#         company with the same slug (e.g. greenhouse:peak is a US physio clinic).
+# =============================================================================
+
+companies:
+  # ---------------------------------------------------------------- A: Manchester / North West sweet spot
+  - {name: Auto Trader, tier: A, hubs: [manchester, london], sector: marketplace, slugs: [autotrader, autotraderuk]}
+  - {name: Matillion, tier: A, hubs: [manchester], sector: data}
+  - {name: THG, tier: A, hubs: [manchester], sector: ecommerce, slugs: [thg, thehutgroup, thgingenuity]}
+  - {name: Peak AI, tier: A, hubs: [manchester], sector: ai, slugs: [peak, peakai, peak-ai], reject: ["greenhouse:peak"]}
+  - {name: On the Beach, tier: A, hubs: [manchester], sector: travel, slugs: [onthebeach]}
+  - {name: Softwire, tier: A, hubs: [manchester, london], sector: consultancy}
+  - {name: Thoughtworks, tier: A, hubs: [manchester, london], sector: consultancy}
+  - {name: Made Tech, tier: A, hubs: [manchester, london, remote], sector: govtech, slugs: [madetech]}
+  - {name: BJSS, tier: A, hubs: [manchester, uk], sector: consultancy}
+  - {name: Kin + Carta, tier: A, hubs: [manchester, london], sector: consultancy, slugs: [kincarta]}
+  - {name: Hippo Digital, tier: A, hubs: [manchester, uk], sector: govtech, slugs: [hippodigital, hippo]}
+  - {name: NCC Group, tier: A, hubs: [manchester], sector: security, slugs: [nccgroup], reject: ["smartrecruiters:ncc"]}
+  - {name: ANS Group, tier: A, hubs: [manchester], sector: cloud, slugs: [ansgroup, ans]}
+  - {name: Cloud Imperium Games, tier: A, hubs: [manchester], sector: gaming, slugs: [cloudimperiumgames, cig]}
+  - {name: The Very Group, tier: A, hubs: [uk], sector: ecommerce, slugs: [theverygroup, verygroup]}
+  - {name: N Brown, tier: A, hubs: [manchester], sector: ecommerce, slugs: [nbrown, nbrowngroup]}
+  - {name: boohoo, tier: A, hubs: [manchester], sector: ecommerce, slugs: [boohoo, boohoogroup]}
+  - {name: MONY Group, tier: A, hubs: [uk], sector: fintech, slugs: [monygroup, moneysupermarket]}
+  - {name: Zuto, tier: A, hubs: [uk], sector: fintech}
+  - {name: bet365, tier: A, hubs: [manchester, uk], sector: gaming, slugs: [bet365]}
+  - {name: Flutter UK&I, tier: A, hubs: [uk], sector: gaming, slugs: [flutter, flutteruki, skybettingandgaming]}
+  - {name: Zen Internet, tier: A, hubs: [manchester], sector: telecom, slugs: [zeninternet]}
+  - {name: Apadmi, tier: A, hubs: [manchester], sector: mobile}
+  - {name: Code Computerlove, tier: A, hubs: [manchester], sector: agency, slugs: [codecomputerlove]}
+  - {name: Farfetch, tier: A, hubs: [manchester, london], sector: ecommerce}
+  - {name: Depop, tier: A, hubs: [manchester, london], sector: marketplace}
+  - {name: Starling Bank, tier: A, hubs: [manchester, london, uk], sector: fintech, slugs: [starlingbank, starling]}
+  - {name: Moneybox, tier: A, hubs: [london, manchester], sector: fintech}
+  - {name: Equal Experts, tier: A, hubs: [manchester, london], sector: consultancy, slugs: [equalexperts]}
+  - {name: Netcompany UK, tier: A, hubs: [manchester, london], sector: consultancy, slugs: [netcompany]}
+
+  # ---------------------------------------------------------------- A: UK scaleups (London / elsewhere)
+  - {name: Kainos, tier: A, hubs: [uk, london], sector: consultancy}
+  - {name: Liberty IT, tier: A, hubs: [uk], sector: tech, slugs: [libertyit]}
+  - {name: Scott Logic, tier: A, hubs: [london, uk], sector: consultancy, slugs: [scottlogic]}
+  - {name: Trainline, tier: A, hubs: [london, uk], sector: travel}
+  - {name: Gousto, tier: A, hubs: [london], sector: ecommerce}
+  - {name: Bloom & Wild, tier: A, hubs: [london], sector: ecommerce, slugs: [bloomandwild]}
+  - {name: Zoopla, tier: A, hubs: [london, manchester], sector: marketplace}
+  - {name: Rightmove, tier: A, hubs: [london, uk], sector: marketplace}
+  - {name: Onfido, tier: A, hubs: [london], sector: security}
+  - {name: Tide, tier: A, hubs: [london], sector: fintech}
+  - {name: Zopa, tier: A, hubs: [london], sector: fintech}
+  - {name: OakNorth, tier: A, hubs: [london, manchester], sector: fintech}
+  - {name: Cleo, tier: A, hubs: [london], sector: fintech, slugs: [cleo, meetcleo, cleoai]}
+  - {name: GoCardless, tier: A, hubs: [london], sector: fintech}
+  - {name: Thought Machine, tier: A, hubs: [london], sector: fintech, slugs: [thoughtmachine]}
+  - {name: TrueLayer, tier: A, hubs: [london], sector: fintech}
+  - {name: Paddle, tier: A, hubs: [london, manchester], sector: fintech}
+  - {name: Curve, tier: A, hubs: [london], sector: fintech, slugs: [curve, imaginecurve]}
+  - {name: Marshmallow, tier: A, hubs: [london], sector: fintech}
+  - {name: Lendable, tier: A, hubs: [london], sector: fintech}
+  - {name: Ebury, tier: A, hubs: [london], sector: fintech}
+  - {name: Primer, tier: A, hubs: [london], sector: fintech, slugs: [primer, primerapi]}
+  - {name: Yapily, tier: A, hubs: [london], sector: fintech}
+  - {name: Chip, tier: A, hubs: [london], sector: fintech, slugs: [chip, getchip]}
+  - {name: Plum, tier: A, hubs: [london], sector: fintech, slugs: [plum, withplum]}
+  - {name: Freetrade, tier: A, hubs: [london], sector: fintech}
+  - {name: Trading 212, tier: A, hubs: [london], sector: fintech, slugs: [trading212]}
+  - {name: Dojo, tier: A, hubs: [london], sector: fintech, slugs: [dojo, dojotech]}
+  - {name: Snyk, tier: A, hubs: [london], sector: security}
+  - {name: Quantexa, tier: A, hubs: [london], sector: data}
+  - {name: Featurespace, tier: A, hubs: [uk], sector: ai}
+  - {name: Raspberry Pi, tier: A, hubs: [uk], sector: hardware, slugs: [raspberrypi, raspberrypifoundation]}
+  - {name: Ultraleap, tier: A, hubs: [uk], sector: hardware}
+  - {name: Improbable, tier: A, hubs: [london], sector: tech}
+  - {name: Multiverse, tier: A, hubs: [london], sector: edtech, slugs: [multiverse, wearemultiverse]}
+  - {name: Beamery, tier: A, hubs: [london], sector: hrtech}
+  - {name: Signal AI, tier: A, hubs: [london], sector: ai, slugs: [signalai]}
+  - {name: Tractable, tier: A, hubs: [london], sector: ai}
+  - {name: Cera, tier: A, hubs: [london], sector: health, slugs: [cera, ceracare]}
+  - {name: Huma, tier: A, hubs: [london], sector: health}
+  - {name: Zego, tier: A, hubs: [london], sector: insurtech}
+  - {name: Cuvva, tier: A, hubs: [london], sector: insurtech}
+  - {name: Lindus Health, tier: A, hubs: [london], sector: health, slugs: [lindushealth]}
+  - {name: Faculty, tier: A, hubs: [london], sector: ai, slugs: [faculty, facultyai]}
+  - {name: causaLens, tier: A, hubs: [london], sector: ai, slugs: [causalens]}
+  - {name: Robin AI, tier: A, hubs: [london], sector: ai, slugs: [robinai]}
+  - {name: V7, tier: A, hubs: [london], sector: ai, slugs: [v7, v7labs]}
+  - {name: Encord, tier: A, hubs: [london], sector: ai}
+  - {name: PhysicsX, tier: A, hubs: [london], sector: ai}
+  - {name: Unitary, tier: A, hubs: [london], sector: ai, slugs: [unitary, unitaryai]}
+  - {name: PolyAI, tier: A, hubs: [london], sector: ai}
+  - {name: Luminance, tier: A, hubs: [uk, london], sector: ai}
+
+  # ---------------------------------------------------------------- B: Manchester big employers / public sector
+  - {name: BBC, tier: B, hubs: [manchester, london], sector: media, reject: ["recruitee:bbc"]}
+  - {name: ITV, tier: B, hubs: [manchester, london], sector: media}
+  - {name: Channel 4, tier: B, hubs: [uk, london], sector: media, slugs: [channel4]}
+  - {name: Co-op, tier: B, hubs: [manchester], sector: retail, slugs: [coop, cooperative, coopdigital]}
+  - {name: TalkTalk, tier: B, hubs: [manchester], sector: telecom}
+  - {name: Booking.com, tier: B, hubs: [manchester, eu], sector: travel, slugs: [bookingcom, booking]}
+  - {name: Jaguar Land Rover, tier: B, hubs: [manchester, uk], sector: automotive, slugs: [jlr, jaguarlandrover]}
+  - {name: Bentley Motors, tier: B, hubs: [uk], sector: automotive, slugs: [bentley, bentleymotors]}
+  - {name: GCHQ, tier: B, hubs: [manchester, uk], sector: gov, clearance: true}
+  - {name: MI5, tier: B, hubs: [london, manchester], sector: gov, clearance: true}
+  - {name: Government Digital Service, tier: B, hubs: [manchester, london], sector: gov, slugs: [gds], reject: ["greenhouse:gds"]}
+  - {name: DWP Digital, tier: B, hubs: [manchester, uk], sector: gov, slugs: [dwp, dwpdigital]}
+  - {name: HMRC, tier: B, hubs: [manchester, uk], sector: gov}
+  - {name: Met Office, tier: B, hubs: [uk], sector: gov, slugs: [metoffice]}
+  - {name: NHS England, tier: B, hubs: [uk], sector: health, slugs: [nhsengland, nhsdigital]}
+  - {name: BAE Systems, tier: B, hubs: [manchester, uk], sector: defence, slugs: [baesystems], clearance: true}
+  - {name: Thales UK, tier: B, hubs: [uk], sector: defence, slugs: [thales], clearance: true}
+  - {name: Leonardo UK, tier: B, hubs: [uk], sector: defence, slugs: [leonardo], clearance: true}
+  - {name: QinetiQ, tier: B, hubs: [uk], sector: defence, clearance: true}
+  - {name: Rolls-Royce, tier: B, hubs: [uk], sector: engineering, slugs: [rollsroyce]}
+  - {name: Airbus UK, tier: B, hubs: [uk], sector: aerospace, slugs: [airbus]}
+  - {name: Siemens, tier: B, hubs: [manchester, uk], sector: engineering}
+  - {name: AstraZeneca, tier: B, hubs: [uk], sector: pharma}
+  - {name: Unilever, tier: B, hubs: [uk, london], sector: fmcg}
+  - {name: Dyson, tier: B, hubs: [uk], sector: hardware}
+  - {name: Arm, tier: B, hubs: [manchester, uk], sector: semiconductors, slugs: [arm, armltd]}
+
+  # ---------------------------------------------------------------- B: Banks / insurance / finance (UK tech hubs)
+  - {name: Lloyds Banking Group, tier: B, hubs: [manchester, london, uk], sector: bank, slugs: [lloyds, lloydsbankinggroup]}
+  - {name: Barclays, tier: B, hubs: [manchester, london, uk], sector: bank}
+  - {name: NatWest Group, tier: B, hubs: [manchester, london, uk], sector: bank, slugs: [natwest, natwestgroup]}
+  - {name: HSBC, tier: B, hubs: [london, uk], sector: bank}
+  - {name: Santander UK, tier: B, hubs: [uk, london], sector: bank, slugs: [santander]}
+  - {name: BNY, tier: B, hubs: [manchester, london], sector: bank, slugs: [bny, bnymellon]}
+  - {name: Nationwide Building Society, tier: B, hubs: [uk], sector: bank, slugs: [nationwide]}
+  - {name: Royal London, tier: B, hubs: [uk], sector: insurance, slugs: [royallondon]}
+  - {name: Aviva, tier: B, hubs: [uk, london], sector: insurance}
+  - {name: Legal & General, tier: B, hubs: [uk, london], sector: insurance, slugs: [legalandgeneral, lgim]}
+  - {name: Admiral Group, tier: B, hubs: [uk], sector: insurance, slugs: [admiral]}
+  - {name: Direct Line Group, tier: B, hubs: [uk, london], sector: insurance, slugs: [directline]}
+  - {name: Experian, tier: B, hubs: [uk, london], sector: data}
+  - {name: Sage, tier: B, hubs: [uk], sector: software, slugs: [sage, sagegroup]}
+  - {name: Capital One UK, tier: B, hubs: [uk, london], sector: bank, slugs: [capitalone]}
+  - {name: London Stock Exchange Group, tier: B, hubs: [london, uk], sector: finance, slugs: [lseg]}
+  - {name: Hargreaves Lansdown, tier: B, hubs: [uk], sector: fintech, slugs: [hargreaveslansdown]}
+  - {name: Monzo, tier: B, hubs: [london, remote], sector: fintech}
+  - {name: Revolut, tier: B, hubs: [london], sector: fintech}
+  - {name: Wise, tier: B, hubs: [london], sector: fintech, slugs: [wise, transferwise]}
+  - {name: Checkout.com, tier: B, hubs: [london], sector: fintech, slugs: [checkoutcom, checkout]}
+
+  # ---------------------------------------------------------------- B: Consulting / IT services (big intern intakes)
+  - {name: Accenture, tier: B, hubs: [manchester, london], sector: consulting}
+  - {name: Deloitte, tier: B, hubs: [manchester, london], sector: consulting}
+  - {name: PwC, tier: B, hubs: [manchester, london], sector: consulting}
+  - {name: KPMG, tier: B, hubs: [manchester, london], sector: consulting}
+  - {name: EY, tier: B, hubs: [manchester, london], sector: consulting, slugs: [ey, ernstyoung]}
+  - {name: Capgemini, tier: B, hubs: [manchester, uk], sector: consulting}
+  - {name: IBM, tier: B, hubs: [uk, london], sector: tech}
+  - {name: CGI, tier: B, hubs: [uk], sector: consulting}
+  - {name: Endava, tier: B, hubs: [uk], sector: consulting}
+  - {name: Fujitsu UK, tier: B, hubs: [manchester, uk], sector: tech, slugs: [fujitsu]}
+  - {name: Sopra Steria, tier: B, hubs: [uk], sector: consulting, slugs: [soprasteria]}
+
+  # ---------------------------------------------------------------- B: Consumer / retail / telecom tech
+  - {name: Sky, tier: B, hubs: [uk, london], sector: media}
+  - {name: BT Group, tier: B, hubs: [manchester, uk], sector: telecom, slugs: [bt, btgroup]}
+  - {name: Virgin Media O2, tier: B, hubs: [uk], sector: telecom, slugs: [virginmediao2, vmo2]}
+  - {name: Vodafone, tier: B, hubs: [uk], sector: telecom}
+  - {name: Ocado Technology, tier: B, hubs: [uk], sector: ecommerce, slugs: [ocado, ocadogroup]}
+  - {name: Tesco, tier: B, hubs: [london, uk], sector: retail}
+  - {name: Sainsbury's, tier: B, hubs: [london, manchester, uk], sector: retail, slugs: [sainsburys]}
+  - {name: Marks & Spencer, tier: B, hubs: [london, manchester], sector: retail, slugs: [marksandspencer, mands]}
+  - {name: ASOS, tier: B, hubs: [london, uk], sector: ecommerce}
+  - {name: John Lewis Partnership, tier: B, hubs: [london, uk], sector: retail, slugs: [johnlewis, johnlewispartnership]}
+  - {name: Just Eat Takeaway, tier: B, hubs: [london, uk], sector: ecommerce, slugs: [justeattakeaway, justeat]}
+  - {name: Deliveroo, tier: B, hubs: [london], sector: ecommerce}
+  - {name: Skyscanner, tier: B, hubs: [uk, london], sector: travel}
+  - {name: Expedia Group, tier: B, hubs: [london], sector: travel, slugs: [expedia, expediagroup]}
+  - {name: Yelp, tier: B, hubs: [london], sector: tech}
+  - {name: King, tier: B, hubs: [london], sector: gaming, slugs: [king, kingcom]}
+  - {name: Rockstar Games, tier: B, hubs: [uk], sector: gaming, slugs: [rockstargames]}
+  - {name: Sumo Digital, tier: B, hubs: [uk], sector: gaming, slugs: [sumodigital, sumogroup]}
+  - {name: Jagex, tier: B, hubs: [uk], sector: gaming}
+  - {name: Frontier Developments, tier: B, hubs: [uk], sector: gaming, slugs: [frontier, frontierdevelopments]}
+  - {name: Ubisoft Reflections, tier: B, hubs: [uk], sector: gaming, slugs: [ubisoft]}
+  - {name: Playground Games, tier: B, hubs: [uk], sector: gaming, slugs: [playgroundgames]}
+  - {name: Gymshark, tier: B, hubs: [uk], sector: ecommerce}
+  - {name: Darktrace, tier: B, hubs: [uk, london], sector: security}
+  - {name: Cambridge Consultants, tier: B, hubs: [uk], sector: engineering, slugs: [cambridgeconsultants]}
+  - {name: Imagination Technologies, tier: B, hubs: [uk], sector: semiconductors, slugs: [imagination, imaginationtech]}
+  - {name: Graphcore, tier: B, hubs: [uk, london], sector: ai}
+  - {name: Synthesia, tier: B, hubs: [london], sector: ai}
+  - {name: Stability AI, tier: B, hubs: [london], sector: ai, slugs: [stabilityai, stability]}
+  - {name: Canonical, tier: B, hubs: [remote, london], sector: software}
+  - {name: Red Hat, tier: B, hubs: [uk, remote], sector: software, slugs: [redhat]}
+  - {name: Oracle, tier: B, hubs: [uk, london], sector: software}
+  - {name: SAP, tier: B, hubs: [uk, london], sector: software}
+  - {name: Cisco, tier: B, hubs: [uk, london], sector: networking}
+  - {name: Autodesk, tier: B, hubs: [london], sector: software}
+  - {name: AMD, tier: B, hubs: [uk], sector: semiconductors}
+  - {name: Qualcomm, tier: B, hubs: [uk], sector: semiconductors}
+
+  # ---------------------------------------------------------------- C: Big tech
+  - {name: Google, tier: C, hubs: [london, manchester], sector: bigtech}
+  - {name: Microsoft, tier: C, hubs: [london, uk], sector: bigtech}
+  - {name: Amazon, tier: C, hubs: [london, manchester, uk], sector: bigtech}
+  - {name: Meta, tier: C, hubs: [london], sector: bigtech}
+  - {name: Apple, tier: C, hubs: [london, uk], sector: bigtech}
+  - {name: NVIDIA, tier: C, hubs: [uk], sector: semiconductors}
+  - {name: TikTok, tier: C, hubs: [london], sector: bigtech, slugs: [tiktok, bytedance], reject: ["smartrecruiters:bytedance"]}
+  - {name: Bloomberg, tier: C, hubs: [london], sector: finance}
+  - {name: Salesforce, tier: C, hubs: [london], sector: software}
+  - {name: Adobe, tier: C, hubs: [london], sector: software}
+  - {name: Workday, tier: C, hubs: [eu], sector: software}
+  - {name: Spotify, tier: C, hubs: [london, eu], sector: tech}
+  - {name: Uber, tier: C, hubs: [london, eu], sector: tech, reject: ["smartrecruiters:uber"]}
+  - {name: Shopify, tier: C, hubs: [remote, london], sector: ecommerce}
+  - {name: Palantir, tier: C, hubs: [london], sector: data}
+  - {name: Stripe, tier: C, hubs: [london, eu], sector: fintech}
+  - {name: Cloudflare, tier: C, hubs: [london, eu], sector: infra}
+  - {name: Databricks, tier: C, hubs: [london, eu], sector: data}
+  - {name: Snowflake, tier: C, hubs: [london], sector: data}
+  - {name: Datadog, tier: C, hubs: [london, eu], sector: infra}
+  - {name: MongoDB, tier: C, hubs: [london, eu], sector: data}
+  - {name: Elastic, tier: C, hubs: [remote], sector: data}
+  - {name: GitLab, tier: C, hubs: [remote], sector: devtools}
+  - {name: Grafana Labs, tier: C, hubs: [remote], sector: infra, slugs: [grafanalabs]}
+
+  # ---------------------------------------------------------------- C: AI labs / top AI startups
+  - {name: Google DeepMind, tier: C, hubs: [london], sector: ai, slugs: [deepmind]}
+  - {name: Isomorphic Labs, tier: C, hubs: [london], sector: ai, slugs: [isomorphiclabs]}
+  - {name: Wayve, tier: C, hubs: [london], sector: ai}
+  - {name: ElevenLabs, tier: C, hubs: [london, remote], sector: ai}
+  - {name: Helsing, tier: C, hubs: [london, eu], sector: defence, clearance: true}
+  - {name: Cohere, tier: C, hubs: [london], sector: ai}
+  - {name: Hugging Face, tier: C, hubs: [remote, eu], sector: ai, slugs: [huggingface]}
+  - {name: Mistral AI, tier: C, hubs: [eu, london], sector: ai, slugs: [mistral, mistralai]}
+
+  # ---------------------------------------------------------------- C: Investment banks
+  - {name: Goldman Sachs, tier: C, hubs: [london, uk], sector: bank}
+  - {name: JPMorgan Chase, tier: C, hubs: [london, uk], sector: bank, slugs: [jpmorgan, jpmc]}
+  - {name: Morgan Stanley, tier: C, hubs: [london, uk], sector: bank}
+  - {name: Bank of America, tier: C, hubs: [london], sector: bank}
+  - {name: Citi, tier: C, hubs: [london, uk], sector: bank}
+  - {name: Deutsche Bank, tier: C, hubs: [london, uk], sector: bank}
+  - {name: UBS, tier: C, hubs: [london], sector: bank}
+
+  # ---------------------------------------------------------------- C: Quant / trading
+  - {name: Jane Street, tier: C, hubs: [london], sector: quant}
+  - {name: Citadel, tier: C, hubs: [london], sector: quant}
+  - {name: Citadel Securities, tier: C, hubs: [london], sector: quant}
+  - {name: Hudson River Trading, tier: C, hubs: [london], sector: quant, slugs: [wehrtyou, hrt]}
+  - {name: Jump Trading, tier: C, hubs: [london], sector: quant}
+  - {name: Optiver, tier: C, hubs: [london, eu], sector: quant}
+  - {name: IMC Trading, tier: C, hubs: [london, eu], sector: quant, slugs: [imc, imctrading]}
+  - {name: Flow Traders, tier: C, hubs: [london, eu], sector: quant}
+  - {name: DRW, tier: C, hubs: [london], sector: quant}
+  - {name: Five Rings, tier: C, hubs: [london], sector: quant, slugs: [fiverings, fiveringscap]}
+  - {name: G-Research, tier: C, hubs: [london], sector: quant, slugs: [gresearch]}
+  - {name: XTX Markets, tier: C, hubs: [london], sector: quant, slugs: [xtxmarkets, xtxmarketstechnologies]}
+  - {name: Qube Research & Technologies, tier: C, hubs: [london], sector: quant, slugs: [qube, qubert, qube-rt]}
+  - {name: Squarepoint Capital, tier: C, hubs: [london], sector: quant, slugs: [squarepoint, squarepointcapital]}
+  - {name: Man Group, tier: C, hubs: [london], sector: quant}
+  - {name: Marshall Wace, tier: C, hubs: [london], sector: quant}
+  - {name: Millennium, tier: C, hubs: [london], sector: quant, slugs: [mlp, millenniumadvisors]}
+  - {name: Point72, tier: C, hubs: [london], sector: quant}
+  - {name: Two Sigma, tier: C, hubs: [london], sector: quant}
+  - {name: D. E. Shaw, tier: C, hubs: [london], sector: quant, slugs: [deshaw]}
+  - {name: Tower Research Capital, tier: C, hubs: [london], sector: quant, slugs: [towerresearch, towerresearchcapital]}
+  - {name: Susquehanna (SIG), tier: C, hubs: [london, eu], sector: quant, slugs: [sig, susquehanna]}
+  - {name: Maven Securities, tier: C, hubs: [london], sector: quant, slugs: [maven, mavensecurities], reject: ["ashby:maven"]}
+  - {name: Quadrature Capital, tier: C, hubs: [london], sector: quant, slugs: [quadrature]}
+  - {name: Balyasny, tier: C, hubs: [london], sector: quant, slugs: [bam, balyasny]}
+
+  # ---------------------------------------------------------------- C/B: EU (lowest location priority)
+  - {name: Adyen, tier: C, hubs: [eu, london], sector: fintech}
+  - {name: Klarna, tier: B, hubs: [eu, london], sector: fintech}
+  - {name: Picnic, tier: B, hubs: [eu], sector: ecommerce}
+  - {name: Zalando, tier: B, hubs: [eu], sector: ecommerce}
+  - {name: N26, tier: B, hubs: [eu], sector: fintech}
+  - {name: Delivery Hero, tier: B, hubs: [eu], sector: ecommerce, slugs: [deliveryhero]}
+  - {name: Mollie, tier: B, hubs: [eu], sector: fintech}
+  - {name: bunq, tier: B, hubs: [eu], sector: fintech}
+  - {name: Celonis, tier: B, hubs: [eu, london], sector: data}
+  - {name: JetBrains, tier: B, hubs: [eu], sector: devtools}
+  - {name: Criteo, tier: B, hubs: [eu], sector: adtech}
